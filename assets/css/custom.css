@@ -1,0 +1,26 @@
+.header .navbar-brand span:first-child{
+    color: white;
+}
+
+
+#showcase {
+  background-color: #3b060f;
+}
+#about {
+  background-color: #3b060f;
+}
+#education {
+  background-color: #3b060f;
+}
+#experience {
+  background-color: #3b060f;
+}
+#portfolio {
+  background-color: #3b060f;
+}
+#testimonial {
+  background-color: #3b060f;
+}
+#contact {
+  background-color: #3b060f;
+}

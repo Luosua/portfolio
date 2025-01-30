@@ -29,7 +29,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
   # to enable, just set to true
   vercelPageInsights = false
   vercelAnalytics = false
-  
+
   # google analytics and tag manager. to enable, set "enabled" to true
   # and add the tracking code (UA-something for analytics, GTM-something for tag manager)
   [params.analytics.googleAnalytics]
@@ -67,15 +67,6 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         name = 'Portfolio'
         URL = '#portfolio'
         weight = 3
-      #  [[languages.en.menus.header]]
-      #  name = "Experience"
-      #  URL = "#experience"
-      #  weight = 4
-
-      [[languages.en.menus.header]]
-        name = "Blog"
-        URL = "/blog"
-        weight = 5
 
       [[languages.en.menus.header]]
         name = "Contact"
@@ -114,16 +105,6 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         URL = '/es/#portfolio'
         weight = 3
 
-      #  [[languages.es.menus.header]]
-      #  name = "Experiencia"
-      #  URL = "/es/#experience"
-      #  weight = 4
-
-      [[languages.es.menus.header]]
-        name = "Blog"
-        URL = "/es/blog"
-        weight = 5
-
       [[languages.es.menus.header]]
         name = "Contacto"
         URL = "/es/#contact"
@@ -161,15 +142,6 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         name = 'Portfolio'
         URL = '#portfolio'
         weight = 3
-      #  [[languages.fr.menus.header]]
-      #  name = "Experience"
-      #  URL = "#experience"
-      #  weight = 4
-
-      [[languages.fr.menus.header]]
-        name = "Blog"
-        URL = "/blog"
-        weight = 5
 
       [[languages.fr.menus.header]]
         name = "Contact"
@@ -190,8 +162,8 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         name = "Contact"
         URL = "#contact"
         weight = 4
-  
-  
+
+
 
 # Plugins
 [params.plugins]
@@ -201,7 +173,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
   URL = "css/custom.css"
   [[params.plugins.css]]
   URL = "css/adritian-icons.css"
-  
+
   # JS Plugins
   [[params.plugins.js]]
   URL = "js/rad-animations.js"
@@ -215,7 +187,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
   URL = "scss/adritian.scss"
 
 
-# theme/color style 
+# theme/color style
 [params.colorTheme]
 
 ## the following configuration would disable automatic theme selection

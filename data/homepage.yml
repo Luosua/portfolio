@@ -11,62 +11,14 @@ showcase:
 
   button:
     icon: "icon-email"
-    URL: "https://www.adrianmoreno.info/"
+    URL: "#contact"
 
-  socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/adrianmoreno/"
-
-    - icon: "square-github"
-      URL: "https://github.com/zetxek"
-
-    - icon: "x-twitter"
-      URL: "https://twitter.com/zetxek"
-
-    - icon: "dribbble"
-      URL: "#"
-
-    - icon: "behance"
-      URL: "#"
-
-    - icon: "youtube"
-      URL: "#"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/zetxek/"
-
-    - icon: "square-facebook"
-      URL: "https://www.facebook.com/zetxek/"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
-
-    - icon: "bluesky"
-      URL: "https://www.bluesky.com/"
-
-    - icon: "threads"
-      URL: "https://www.threads.net/"
-
-    - icon: "face-smile"
-      URL: "https://www.adrianmoreno.info/"
-
-    - icon: "user"
-      URL: "https://www.adrianmoreno.info/"
-
-    - icon: "quote-left"
-      URL: "https://www.adrianmoreno.info/"
-
-    - icon: "cloud-arrow-down"
-      URL: "https://www.adrianmoreno.info/"
 # about
 about:
   enable: true
   button:
     icon: "icon-user"
-    URL: "https://www.linkedin.com/in/adrianmoreno/"
+    URL: "https://www.linkedin.com/in/alona-liuzniak/"
   image:
     x: "images/about/user-picture.png"
     _2x: "images/about/user-picture@2x.png"
@@ -75,9 +27,9 @@ about:
 education:
   enable: true
   items:
-    - university: "University of Life"
+    - university: "University"
       year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+      degree: "Bachelor of Applied Science, Electrical Engineering"
 
     - university: "High School of Hard Knocks"
       year: "2009-2012"
@@ -92,16 +44,6 @@ experience:
     icon: "icon-linkedin"
     ## the url and text are localized, fill them in the i18n file
     ## keys: experience_button, experience_button_url
-  button2:
-    enable: true
-    icon: "icon-file-pdf"
-    ## the url and text are localized, fill them in the i18n file
-    ## keys: experience_button2, experience_button_url2 
-  button3:
-    enable: true
-    icon: "icon-cloud-arrow-down"
-    ## the url and text are localized, fill them in the i18n file
-    ## keys: experience_button2, experience_button_url2 
 
 # Client & Work
 client_and_work:
@@ -115,10 +57,7 @@ testimonial:
 contact:
   enable: true
   form:
-    action: "#"
+    action: "https://formspree.io/f/xldgbyav"
+    method: "POST"
   button:
     icon: "icon-email"
-
-# newsletter
-newsletter:
-  enable: true
