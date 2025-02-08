@@ -6,17 +6,17 @@
     <lastmod>2024-01-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/es/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
+                hreflang="it"
                 href="http://localhost:1313/fr/"
                 />
   </url><url>
@@ -24,17 +24,17 @@
     <lastmod>2024-01-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/es/experience/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/experience/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/experience/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
+                hreflang="it"
                 href="http://localhost:1313/fr/experience/"
                 />
   </url><url>
@@ -42,12 +42,17 @@
     <lastmod>2024-01-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="de"
                 href="http://localhost:1313/es/experience/job-3/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
+                hreflang="en"
+                href="http://localhost:1313/experience/job-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
                 href="http://localhost:1313/fr/experience/job-3/"
                 />
   </url><url>
@@ -55,17 +60,17 @@
     <lastmod>2023-01-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/es/experience/job-2/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/experience/job-2/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/experience/job-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
+                hreflang="it"
                 href="http://localhost:1313/fr/experience/job-2/"
                 />
   </url><url>
@@ -77,12 +82,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="de"
                 href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
+                hreflang="it"
                 href="http://localhost:1313/fr/categories/"
                 />
   </url><url>
@@ -94,12 +99,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="de"
                 href="http://localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
+                hreflang="it"
                 href="http://localhost:1313/fr/tags/"
                 />
   </url>

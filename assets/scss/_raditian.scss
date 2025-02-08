@@ -412,6 +412,31 @@ input[type="email"]::placeholder {
     -webkit-transform: skew(-13deg);
     transform: skew(-13deg);
 }
+.certifications {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    min-height: 131px;
+}
+.certifications::before {
+    content: "";
+    position: absolute;
+    left: 90px;
+    top: 0;
+    width: 75px;
+    height: 100%;
+    z-index: 1;
+    background-color: #edf1f4;
+    -webkit-transform: skew(-13deg);
+    transform: skew(-13deg);
+}
 .education__date {
     position: relative;
     font-size: 14px;
@@ -636,8 +661,8 @@ textarea:focus {
         padding-bottom: 80px;
     }
     .section .row.row--padded {
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 30px;
+        margin-bottom: 0px;
     }
     .section div[class*="col-"].rad-col-text h2 {
         text-align: left;
@@ -1021,8 +1046,8 @@ textarea:focus {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
 }
 .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #000;
 }
 .footer .container {

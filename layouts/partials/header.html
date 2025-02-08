@@ -47,18 +47,13 @@
               >
             </li>
             {{ end }}
-            {{ .Scratch.Set "selectorPlacement" "mobile-header" }}
 
             {{- if hugo.IsMultilingual }}
-            {{- if not .Site.Params.languages.selector.disable.footer }}
-            <li class="nav-item">
+            {{ .Scratch.Set "selectorPlacement" "header" }}
+            <li class="nav-item dropdown">
             {{ partial "selector-language.html" . }}
             </li>
             {{- end }}
-            {{- end }}
-            <li class="nav-item">
-            {{ partial "selector-theme.html" . }}
-            </li>
           </ul>
         </div>
 

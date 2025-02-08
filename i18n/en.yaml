@@ -29,20 +29,10 @@
 
 ## Footer
 - id: "footer_notice"
-  translation: "© Alona Liuzniak"
-
-- id: "language"
-  translation: "Language"
+  translation: "© Alona Liuzniak, 2025"
 
 - id: "toggle_theme"
   translation: "Toggle theme"
-
-- id: "theme_light"
-  translation: "☀️ Light"
-- id: "theme_dark"
-  translation: "🌑 Dark"
-- id: "theme_auto"
-  translation: "✨ Auto"
 
 ## Homepage head title
 - id: "head_title"
@@ -59,7 +49,7 @@
   translation: "AI Developer"
 
 - id: "showcase_description"
-  translation: "Add a short summary of my experience in the i18n folder."
+  translation: "Based in Frankfurt 🌍, I am an experienced AI developer specializing in creating modular and innovative chatbot solutions powered by Explainable AI (XAI). With a strong background in AI-driven automation, fraud prevention, and multimodal systems, I’m passionate about applying cutting-edge AI technologies to solve real-world problems and empower businesses across diverse industries."
 
 - id: "showcase_button"
   translation: "Contact"
@@ -74,10 +64,13 @@
 
 - id: "about_content"
   translation:  <p class="lead">
-      Change description in the i18n folder.
+      As an AI developer with over five years of experience, I am passionate about leveraging technology to solve real-world problems across diverse industries, including financial services, customer support, and industrial automation. I specialize in designing advanced AI-powered solutions that combine technical excellence with practical business impact, with a focus on chatbots and fraud prevention systems. My approach emphasizes Responsible and Explainable AI to ensure transparency, reliability, and trust in the systems I build.
       </p>
       <p class="lead">
-      Another dummy paragraph.
+      I thrive in cross-functional teams, combining technical expertise with analytical problem-solving to tackle complex challenges. From leading the development of AI components in KYC processes to building retrieval-augmented chatbots for customer support, I have consistently driven innovation and efficiency in every project.
+    </p>
+    <p class="lead">
+    I’m known for my ability to lead projects end-to-end—from designing AI architectures to implementing scalable, production-ready solutions. I bring a holistic approach to AI development, combining deep technical expertise in Generative AI (GenAI) and Natural Language Processing (NLP) with a commitment to Responsible AI principles. Whether designing fraud prevention pipelines or building multimodal question-answering systems, I am dedicated to creating impactful, user-centric AI solutions.
     </p>
 
 - id: "about_button"
@@ -87,12 +80,15 @@
 - id: "education_title"
   translation: "Education"
 
+- id: "certifications_title"
+  translation: "Certifications & Courses"
+
 ## Homepage experience
 - id: "experience_title"
   translation: "Experience"
 
 - id: "experience_description"
-  translation: "This is where you can highlight a bit over your experience. Years of total experience, specialization, etc."
+  translation: "With over five years of experience, I have designed and implemented AI-powered solutions across industries, specializing in retrieval-augmented generation (RAG) chatbot development and Responsible AI (RAI). My contributions range from improving fraud prevention strategies to creating multimodal AI pipelines,  delivering reliable, explainable, and impactful systems."
 
 - id: "experience_button"
   translation: "LinkedIn"
