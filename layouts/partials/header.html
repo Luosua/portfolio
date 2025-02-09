@@ -50,7 +50,7 @@
 
             {{- if hugo.IsMultilingual }}
             {{ .Scratch.Set "selectorPlacement" "header" }}
-            <li class="nav-item dropdown">
+            <li class="dropdown">
             {{ partial "selector-language.html" . }}
             </li>
             {{- end }}
