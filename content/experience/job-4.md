@@ -15,4 +15,6 @@ duration: "2019-2021"
 - Developed an object detection solution in Python that performed real-time inference on the Movidius Stick, enabling efficient image capture and decision-making processes in manufacturing environments.
 
 ##### Key Technologies & Skills
-Python · C++ · Blender · Reinforcement Learning · Machine Learning · Computer Vision · Robotics · Algorithms and Data Structures · TensorFlow · OpenCV · Analytical Skills
+Python · TensorFlow · OpenCV · NumPy · Pytesseract · Pandas · Scikit-Learn · Pytest · Blender
+
+Computer Vision · Machine Learning · Reinforcement Learning

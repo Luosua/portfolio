@@ -16,14 +16,14 @@
     padding-top: 20px;
 }
 
-.col-12.col-md-5 {
+#portfolio .col-12.col-md-5 {
     flex: 0 0 60%; /* Increase the width of the text column */
     max-width: 60%;
     padding-right: 30px;/* Ensure it doesn’t exceed this width */
     text-align: justify;
 }
 
-.col-12.col-md-7 {
+#portfolio .col-12.col-md-7 {
     flex: 0 0 40%; /* Reduce the width of the image column */
     max-width: 40%;
     padding-right: 30px;
@@ -32,16 +32,27 @@
 
 #showcase {
   background-color: #2c061a;
+  text-align: justify;
 }
 #about {
   background-color: #2c061a;
+  text-align: justify;
 }
 #education {
   background-color: #2c061a;
 }
-#experience {
+#experience .lead {
   background-color: #2c061a;
+  text-align: justify;
 }
+
+#main-content p {
+  text-align: justify;
+}
+#main-content ul li {
+  text-align: justify;
+}
+
 #portfolio {
   background-color: #2c061a;
 }

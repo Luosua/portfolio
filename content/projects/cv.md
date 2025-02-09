@@ -1,6 +1,6 @@
 ---
 date: '2022-08-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
-title: 'Customer Support Chatbot for the Chemistry Industry'
+title: 'AI-Powered KYC Automation & Fraud Prevention in Financial Services'
 draft: false # set to "true" if you want to hide the content
 
 params:
@@ -12,8 +12,8 @@ params:
 ## The content is used for the description of the project
 ---
 
-In this project, I led the development of an intelligent chatbot solution tailored for customer support and product recommendations in the chemistry industry. The chatbot leveraged state-of-the-art Retrieval-Augmented Generation (RAG) to process vast amounts of product information sourced from the company's website and internal documents. Within just three months, I successfully delivered a fully functional, end-to-end solution that seamlessly integrated with the company’s workflows.
+In the world of financial services, ensuring compliance while providing a seamless user experience is a delicate balance. The Know Your Customer (KYC) process, a critical requirement for bank account openings, often suffers from manual inefficiencies and fraud risks. My goal was to automate and optimize KYC verification, leveraging the power of deep learning and computer vision.
 
-By employing advanced techniques such as prompt engineering, text summarization, and a two-layer search system, I significantly improved the chatbot's ability to deliver precise and contextually relevant responses. The innovative search mechanism combined product name filtering with relation matching, enabling the chatbot to handle complex multi-hop questions effectively. To ensure transparency and user trust, I incorporated Responsible AI mechanisms, providing clear justifications for product recommendations and aligning the solution with the company’s ethical standards.
+I led the development of an AI-driven KYC solution, which streamlined identity verification, ensuring that customers could onboard faster, safer and with minimal friction. A major milestone was improving the recognition accuracy of German ID security features by 60%, thanks to advanced deep learning models and computer vision techniques.
 
-This modular chatbot system not only addressed the company's immediate needs but also offered flexibility for future customizations and scalability. By combining technical expertise in NLP, machine learning, and Explainable AI with a deep understanding of user needs, I created a robust and impactful tool that enhanced customer support capabilities and streamlined operations.
+This project highlighted my ability to bridge AI innovation with real-world business challenges, applying expertise in machine learning, neural networks and advanced data analysis to build a highly effective, fraud-resistant KYC automation system. By combining technical excellence with a deep understanding of financial security needs, I helped financial institutions enhance trust, security and efficiency in their customer verification processes.

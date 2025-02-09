@@ -15,4 +15,7 @@ duration: "2018-2019"
 - Applied analytical skills and data-driven insights to assist decision-making in a fast-paced startup environment.
 
 ##### Key Technologies & Skills
-Cryptocurrency Market Analysis · Blockchain Technology · Analytical Skills · Telegram Bot Development · Real-Time Alert Systems · TypeScript · APIs · Algorithms & Data Structures
+
+TypeScript
+
+Cryptocurrency Market Analysis · Blockchain Technology · Analytical Skills · Telegram Bot Development · Real-Time Alert Systems

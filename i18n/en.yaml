@@ -49,8 +49,17 @@
   translation: "AI Developer"
 
 - id: "showcase_description"
-  translation: "Based in Frankfurt 🌍, I am an experienced AI developer specializing in creating modular and innovative chatbot solutions powered by Explainable AI (XAI). With a strong background in AI-driven automation, fraud prevention, and multimodal systems, I’m passionate about applying cutting-edge AI technologies to solve real-world problems and empower businesses across diverse industries."
-
+  translation: <p class="lead">
+      Based in Frankfurt, I am an AI developer driven by a passion for solving business challenges and
+      optimizing processes through AI-driven automation, with a strong specialization in Generative AI
+      and tailored chatbot solutions, that enhance efficiency and reduce costs.
+      My work is built upon Responsible and Explainable AI, ensuring ethical and transparent AI adoption.
+      </p>
+      <p class="lead">
+      I prioritize reliability and efficiency, delivering high-quality, adaptable solutions that seamlessly
+      integrate into real-world workflows. With a strong focus on clear communication, I ensure smooth collaboration,
+      enabling AI-driven innovations to create lasting impact across industries such as finance, customer support
+       and industrial automation.</p>
 - id: "showcase_button"
   translation: "Contact"
 
@@ -64,14 +73,29 @@
 
 - id: "about_content"
   translation:  <p class="lead">
-      As an AI developer with over five years of experience, I am passionate about leveraging technology to solve real-world problems across diverse industries, including financial services, customer support, and industrial automation. I specialize in designing advanced AI-powered solutions that combine technical excellence with practical business impact, with a focus on chatbots and fraud prevention systems. My approach emphasizes Responsible and Explainable AI to ensure transparency, reliability, and trust in the systems I build.
+      As an AI developer with over 5 years of experience, I am fascinated by the transformative potential
+      of artificial intelligence to improve lives and drive groundbreaking innovations that shape the future.
+      With extensive experience in Generative AI (GenAI) and Natural Language Processing (NLP),
+      I specialize in designing scalable, user-centric solutions — from retrieval-augmented chatbots to
+      fraud prevention systems. My passion lies in applying Responsible and Explainable AI (RAI & XAI)
+       to ensure transparency, trust and ethical AI deployment.
       </p>
       <p class="lead">
-      I thrive in cross-functional teams, combining technical expertise with analytical problem-solving to tackle complex challenges. From leading the development of AI components in KYC processes to building retrieval-augmented chatbots for customer support, I have consistently driven innovation and efficiency in every project.
-    </p>
+      Beyond technical expertise, I am committed to clear communication, reliability and flexibility—principles
+       that not only drive the development of high-quality AI systems but also foster strong, trust-based
+       relationships with clients. Reliability ensures both the technical excellence of my solutions and the
+       trust that clients can place in my work. Clear communication streamlines collaboration, saving time for
+        all parties and accelerating the creation of successful AI products. Flexibility allows me to adapt
+        solutions to evolving client needs while continuously learning and integrating cutting-edge technologies
+         to ensure that every AI system I build is both state-of-the-art and tailored to its specific use case.
+          My approach combines business-driven AI development with cutting-edge research, ensuring that
+           each solution is both technologically advanced and impactful in the real world.</p>
     <p class="lead">
-    I’m known for my ability to lead projects end-to-end—from designing AI architectures to implementing scalable, production-ready solutions. I bring a holistic approach to AI development, combining deep technical expertise in Generative AI (GenAI) and Natural Language Processing (NLP) with a commitment to Responsible AI principles. Whether designing fraud prevention pipelines or building multimodal question-answering systems, I am dedicated to creating impactful, user-centric AI solutions.
-    </p>
+    What I find most rewarding is seeing AI solutions I develop drive real impact—whether by streamlining
+    KYC processes, improving customer support automation or enhancing efficiency in industrial workflows.
+    I believe adaptability is key; by staying receptive to client needs and continuously refining solutions,
+     I ensure that every AI project I undertake is not just technically sophisticated, but also practical,
+     scalable and transformative.</p>
 
 - id: "about_button"
   translation: "About Me"
@@ -88,7 +112,10 @@
   translation: "Experience"
 
 - id: "experience_description"
-  translation: "With over five years of experience, I have designed and implemented AI-powered solutions across industries, specializing in retrieval-augmented generation (RAG) chatbot development and Responsible AI (RAI). My contributions range from improving fraud prevention strategies to creating multimodal AI pipelines,  delivering reliable, explainable, and impactful systems."
+  translation: "With over five years of experience, I have designed and implemented AI-powered solutions
+  across industries, specializing in retrieval-augmented generation (RAG) chatbot development and Responsible
+   AI (RAI). My contributions range from improving fraud prevention strategies to creating multimodal AI
+   pipelines, delivering reliable, explainable and impactful systems."
 
 - id: "experience_button"
   translation: "LinkedIn"
@@ -112,25 +139,6 @@
 - id: "client_work_title"
   translation: "Projects"
 
-## Homepage newsletter
-- id: "newsletter_title"
-  translation: "Newsletter"
-
-- id: "newsletter_button"
-  translation: "Subscribe"
-
-- id: "newsletter_placeholder"
-  translation: "Your email"
-
-- id: "newsletter_success_message"
-  translation: "Thank you for subscribing to my newsletter!"
-
-- id: "newsletter_error_message"
-  translation: "An error occurred. Please try again."
-
-- id: "newsletter_note"
-  translation: "We'll never share your email with anyone else."
-
 ## Homepage testimonials
 - id: "testimonials_title"
   translation: "Testimonials"
@@ -151,17 +159,11 @@
 - id: "contact_form_message"
   translation: "Type Your Message Here"
 
-- id: "contact_phone_title"
-  translation: "Phone Number"
-
-- id: "contact_phone_number"
-  translation: "+555 (11) 123 44 55"
-
 - id: "contact_email_title"
   translation: "Email"
 
 - id: "contact_email_email"
-  translation: '<a href="mailto:mail@example.com">mail@example.com</a>'
+  translation: '<a href="mailto:mail@example.com">alona.liuzniak@gmail.com</a>'
 
 - id: "contact_address_title"
   translation: "Address"

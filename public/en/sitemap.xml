@@ -26,17 +26,17 @@
     <loc>http://localhost:1313/testimonial/</loc>
     <lastmod>2024-11-25T21:50:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2024-08-25T09:53:42+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/fraud_prevention/</loc>
-    <lastmod>2024-08-25T09:53:42+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/projects/chemistry/</loc>
+    <lastmod>2024-05-01T09:53:42+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-05-01T09:53:42+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/chatbot_images/</loc>
     <lastmod>2024-04-01T09:53:42+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/fraud_prevention/</loc>
+    <lastmod>2022-10-25T09:53:42+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/cv/</loc>
     <lastmod>2022-08-25T09:53:42+02:00</lastmod>

@@ -15,4 +15,6 @@ duration: "2021-2022"
 - Solved complex business problems and implemented fraud prevention algorithms using deep learning and computer vision algorithms, delivering tailored solutions for financial service needs.
 
 ##### Key Technologies & Skills
-Python · Deep Learning · KYC Automation · Computer Vision · Fraud Prevention · TensorFlow · OpenCV · Machine Learning · Tesseract · Data Analysis · Neural Networks · Pandas · Analytical Skills  · Neural Networks · NumPy · Tesseract
+Python · TensorFlow · OpenCV · Pytesseract · Pandas · NumPy · Scikit-Learn · Pytest
+
+Deep Learning · KYC Automation · Neural Networks · Computer Vision · Data Analysis · Machine Learning · Fraud Prevention

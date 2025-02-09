@@ -1,6 +1,6 @@
 ---
 date: '2021-08-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
-title: 'Customer Support Chatbot for the Chemistry Industry'
+title: 'AI-Powered Robotics: Smarter Motion Planning with Reinforcement Learning'
 draft: false # set to "true" if you want to hide the content
 
 params:
@@ -12,8 +12,10 @@ params:
 ## The content is used for the description of the project
 ---
 
-In this project, I led the development of an intelligent chatbot solution tailored for customer support and product recommendations in the chemistry industry. The chatbot leveraged state-of-the-art Retrieval-Augmented Generation (RAG) to process vast amounts of product information sourced from the company's website and internal documents. Within just three months, I successfully delivered a fully functional, end-to-end solution that seamlessly integrated with the company’s workflows.
+In modern robotics, efficiency and adaptability are key to automating complex tasks, especially in manufacturing and logistics. My mission was to develop intelligent robotic systems that could perceive, learn and act autonomously, leveraging reinforcement learning, synthetic data and real-time inference.
 
-By employing advanced techniques such as prompt engineering, text summarization, and a two-layer search system, I significantly improved the chatbot's ability to deliver precise and contextually relevant responses. The innovative search mechanism combined product name filtering with relation matching, enabling the chatbot to handle complex multi-hop questions effectively. To ensure transparency and user trust, I incorporated Responsible AI mechanisms, providing clear justifications for product recommendations and aligning the solution with the company’s ethical standards.
+To train AI models for robotic object picking, I designed and generated synthetic training data, creating artificial 3D environments that simulated real-world tasks. This approach eliminated the need for expensive real-world data collection, making the system scalable and highly adaptable.
 
-This modular chatbot system not only addressed the company's immediate needs but also offered flexibility for future customizations and scalability. By combining technical expertise in NLP, machine learning, and Explainable AI with a deep understanding of user needs, I created a robust and impactful tool that enhanced customer support capabilities and streamlined operations.
+The real challenge, however, lay in optimizing motion planning—ensuring the robot could pick objects quickly, accurately and in dynamic environments. By applying reinforcement learning, I trained the system to adapt its movements based on feedback, enhancing both efficiency and decision-making.
+
+This project combined my expertise in computer vision, reinforcement learning and machine learning, demonstrating how AI can enhance real-world automation. By integrating synthetic data and adaptive learning, I built a solution that makes robotics smarter, faster and more efficient, setting the stage for the next generation of intelligent automation.

@@ -15,4 +15,6 @@ duration: "2019"
 - Developed and executed unit and integration tests using Apache JMeter, ensuring the correctness and reliability of core banking system functionalities.
 
 ##### Key Technologies & Skills
-Java · Apache Kafka · Microservices Architecture · Analytical Skills · Apache JMeter · Banking Systems · Scalable Backend Development · Algorithms & Data Structures
+Java · Apache Kafka · Apache JMeter
+
+Microservices Architecture · Banking Systems
