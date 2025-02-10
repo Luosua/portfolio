@@ -18,7 +18,6 @@
     <img
   src="img/flags/{{ .LanguageName }}.png"
   alt="{{ .LanguageName }} flag"
-  class="me-2"
   width="24"
   height="20"
 />
@@ -32,7 +31,6 @@
         <span>✔️</span> <img
     src="img/flags/{{ .LanguageName }}.png"
     alt="{{ .LanguageName }} flag"
-    class="me-2"
     width="24"
     height="20"
   />
@@ -41,12 +39,12 @@
       {{ end }}
       {{ range $.Translations }}
       <li class="dropdown-item choice">
-        <a
-          class="dropdown-item translation btn-link d-flex align-items-center show"
-          title="{{ .Language.LanguageName }}"
-          href="{{ .Permalink }}"
-          >{{ .Language.LanguageName }}</a
-        >
+        <img
+      src="img/flags/{{ .Language.LanguageName }}.png"
+      alt="{{ .Language.LanguageName }} flag"
+      width="24"
+      height="20"
+    />
       </li>
       {{ end }}
     </ul>
