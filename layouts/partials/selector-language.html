@@ -16,9 +16,9 @@
       aria-label='{{ i18n "language" }}'
     >
     <img
-  src="/img/flags/{{ .LanguageName }}.png"
+  src="img/language.png"
   alt="{{ .LanguageName }} flag"
-  width="24"
+  width="20"
   height="20"
 />
     </button>
@@ -28,23 +28,18 @@
       data-bs-popper="static"
     >
       <li class="dropdown-item current selected">
-        <span>✔️</span> <img
-    src="/img/flags/{{ .LanguageName }}.png"
-    alt="{{ .LanguageName }} flag"
-    width="24"
-    height="20"
-  />
+        <span>✔️ {{ .LanguageName }}</span>
       </li>
       {{ end }}
       {{ end }}
       {{ range $.Translations }}
       <li class="dropdown-item choice">
-        <img
-      src="/img/flags/{{ .Language.LanguageName }}.png"
-      alt="{{ .Language.LanguageName }} flag"
-      width="24"
-      height="20"
-    />
+        <a
+          class="dropdown-item translation btn-link d-flex align-items-center show"
+          title="{{ .Language.LanguageName }}"
+          href="{{ .Permalink }}"
+          >{{ .Language.LanguageName }}</a
+        >
       </li>
       {{ end }}
     </ul>
