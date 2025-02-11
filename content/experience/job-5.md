@@ -12,7 +12,7 @@ duration: "2021-2022"
 
 - Led the development and optimization of the AI component for a KYC (Know Your Customer) process, ensuring seamless integration into the application for bank account openings.
 - Improved the recognition accuracy of German ID security features by 60% on average through deep learning and computer vision techniques.
-- Solved complex business problems and implemented fraud prevention algorithms using deep learning and computer vision algorithms, delivering tailored solutions for financial service needs.
+- Solved complex business problems and implemented fraud prevention algorithms using deep learning and computer vision, delivering tailored solutions for financial service needs.
 
 ##### Key Technologies & Skills
 Python · TensorFlow · OpenCV · Pytesseract · Pandas · NumPy · Scikit-Learn · Pytest
