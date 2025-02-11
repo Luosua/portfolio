@@ -1,5 +1,10 @@
 .header .navbar-brand span:first-child{
     color: white;
+    margin-right: .2em !important;
+}
+.header .navbar-brand span:nth-child(2){
+    position: relative;
+    top: 2px;
 }
 
 .img-right {
