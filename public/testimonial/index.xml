@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testimonials on </title>
-    <link>https://luosua.github.io/portfolio/testimonial/</link>
+    <link>http://localhost:1313/portfolio/testimonial/</link>
     <description>Recent content in Testimonials on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Nov 2024 21:50:45 +0100</lastBuildDate>
-    <atom:link href="https://luosua.github.io/portfolio/testimonial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portfolio/testimonial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dana Oneal</title>
-      <link>https://luosua.github.io/portfolio/testimonial/dana-oneal/</link>
+      <link>http://localhost:1313/portfolio/testimonial/dana-oneal/</link>
       <pubDate>Mon, 25 Nov 2024 21:50:45 +0100</pubDate>
-      <guid>https://luosua.github.io/portfolio/testimonial/dana-oneal/</guid>
+      <guid>http://localhost:1313/portfolio/testimonial/dana-oneal/</guid>
       <description>&lt;p&gt;Add LinkedIn recommendations here&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

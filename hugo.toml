@@ -205,3 +205,5 @@ showCategories = true
 showRecentPosts = true
 recentPostCount = 5
 listStyle = "summary" # options: simple, summary
+relativeURLs = true
+canonifyURLs = true
