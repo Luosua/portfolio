@@ -16,7 +16,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
   title = 'Adritian - a high performance hugo theme by Adrián Moreno'
   description = 'This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.'
   images = ['/img/og-img.png']
-  sections = ["showcase", "about", "experience", "client-and-work", "education", "certifications", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "experience", "client-and-work", "education", "certifications", "publications", "testimonial", "contact", "newsletter"]
 
   homepageExperienceCount = 2
 
@@ -59,24 +59,25 @@ path="github.com/zetxek/adritian-free-hugo-theme"
     weight = 0
 
     [languages.en.menus]
-      [[languages.en.menus.header]]
-        name = 'About'
-        URL = '#about'
-        weight = 2
 
       [[languages.en.menus.header]]
         name = "Experience"
         URL = "#experience"
-        weight = 3
+        weight = 2
       [[languages.en.menus.header]]
         name = 'Portfolio'
         URL = '#portfolio'
-        weight = 4
+        weight = 3
 
       [[languages.en.menus.header]]
         name = 'Education'
         URL = '#education'
+        weight = 4
+      [[languages.en.menus.header]]
+        name = 'Publications'
+        URL = '#education'
         weight = 5
+
       [[languages.en.menus.header]]
         name = "Testimonials"
         URL = "#testimonial"

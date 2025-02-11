@@ -137,7 +137,6 @@
       "mb-lg-0",
       "mb-md-0",
       "mb-sm-0",
-      "me-2",
       "ml-lg-auto",
       "mt-4",
       "mt-5",
@@ -197,7 +196,6 @@
       "text-lg-end",
       "text-lg-start",
       "text-right",
-      "translation",
       "uneven-row",
       "w-100"
     ],
@@ -227,6 +225,7 @@
       "microservices-optimization--automated-testing-in-banking-systems",
       "navbarSupportedContent",
       "portfolio",
+      "publications",
       "réparer-le-monde-un-octet-à-la-fois",
       "showcase",
       "testimonial"

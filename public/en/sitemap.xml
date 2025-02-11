@@ -26,6 +26,15 @@
     <loc>http://localhost:1313/testimonial/</loc>
     <lastmod>2024-11-25T21:50:45+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/publications/webinar/</loc>
+    <lastmod>2024-11-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publications/</loc>
+    <lastmod>2024-11-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publications/whitepaper/</loc>
+    <lastmod>2024-08-01T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/chemistry/</loc>
     <lastmod>2024-05-01T09:53:42+02:00</lastmod>
   </url><url>
@@ -61,6 +70,9 @@
                 hreflang="en"
                 href="http://localhost:1313/experience/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/publications/thesis/</loc>
+    <lastmod>2022-02-01T00:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/experience/job-5/</loc>
     <lastmod>2021-11-01T00:00:00+01:00</lastmod>

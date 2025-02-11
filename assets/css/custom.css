@@ -56,6 +56,16 @@
 #portfolio {
   background-color: #2c061a;
 }
+
+#publications ul {
+  padding-top: 20px;
+  color: white;
+}
+
+#publications a {
+  color: white;
+}
+
 #testimonial {
   background-color: #2c061a;
 }

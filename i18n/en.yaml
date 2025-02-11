@@ -111,6 +111,9 @@
 - id: "experience_title"
   translation: "Experience"
 
+- id: "publications_title"
+  translation: "Publications"
+
 - id: "experience_description"
   translation: "With over five years of experience, I have designed and implemented AI-powered solutions
   across industries, specializing in retrieval-augmented generation (RAG) chatbot development and Responsible

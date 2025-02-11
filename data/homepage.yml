@@ -40,30 +40,37 @@ certifications:
     - university: "Databricks Certified Machine Learning Professional"
       year: 2024
       degree: "Databricks"
+      link: "https://credentials.databricks.com/cb61aff1-4532-42a6-ad67-a29ab08119e3#acc.Sj1gaQ3T"
 
     - university: "Databricks Certified Machine Learning Associate"
       year: 2024
       degree: "Databricks"
+      link: "https://credentials.databricks.com/9bfb78e6-d604-471f-b936-11b5b88c5f55#acc.migZc53z"
 
     - university: "Academy Accreditation - Databricks Lakehouse Fundamentals"
       year: 2024
       degree: "Databricks"
+      link: "https://credentials.databricks.com/511b1072-8899-4035-96b1-d5b0f7b0ede0#acc.95eAXgxn"
 
     - university: "Microsoft Certified: Azure AI Fundamentals"
       year: 2023
       degree: "Microsoft"
+      link: "https://learn.microsoft.com/en-us/users/alonaliuzniak-7290/credentials/40d8948292f4baad?ref=https%3A%2F%2Fwww.linkedin.com%2F"
 
     - university: "Data Visualization with Python"
       year: 2023
       degree: "Coursera"
+      link: "https://www.credly.com/badges/947bb599-1653-4db7-b4c4-105cdac02e02/linked_in_profile"
 
     - university: "Microsoft Certified: Azure Data Scientist Associate"
       year: 2023
       degree: "Microsoft"
+      link: "https://learn.microsoft.com/en-us/users/alonaliuzniak-7290/credentials/de3952de397d3c9?ref=https%3A%2F%2Fwww.linkedin.com%2F"
 
     - university: "Databricks Certified Associate Developer for Apache Spark 3.0"
       year: 2022
       degree: "Databricks"
+      link: "https://credentials.databricks.com/58ca573d-e786-4403-aa5b-ced63b1fbf35#acc.7JTekFs3"
 
 # experience
 ## to hiden a button, set the icon to an empty string
@@ -77,6 +84,9 @@ experience:
 
 # Client & Work
 client_and_work:
+  enable: true
+
+publications:
   enable: true
 
 # testimonial

@@ -16,6 +16,20 @@
       <description>&lt;p&gt;Add LinkedIn recommendations here&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Building Responsible Generative AI Products: From Concepts to Implementation</title>
+      <link>http://localhost:1313/publications/webinar/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/publications/webinar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>4 AI &#43; 2 GenAI Use Cases That Bring Early Value</title>
+      <link>http://localhost:1313/publications/whitepaper/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/publications/whitepaper/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Customer Support Chatbot for the Chemistry Industry</title>
       <link>http://localhost:1313/projects/chemistry/</link>
       <pubDate>Wed, 01 May 2024 09:53:42 +0200</pubDate>
@@ -49,6 +63,13 @@
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0100</pubDate>
       <guid>http://localhost:1313/experience/job-6/</guid>
       <description>&lt;h3 id=&#34;ai-driven-solutions-enhancing-finance-chemistry--customer-support&#34;&gt;AI-Driven Solutions: Enhancing Finance, Chemistry &amp;amp; Customer Support&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed and implemented AI-powered solutions across multiple industries, including financial services, chemistry and customer support, driving innovation and operational efficiency.&lt;/li&gt;&#xA;&lt;li&gt;Led end-to-end chatbot development for customer support, implementing retrieval-augmented generation (RAG) pipelines, prompt engineering and Responsible AI mechanisms to ensure transparency and high-quality recommendations.&lt;/li&gt;&#xA;&lt;li&gt;Optimized fraud prevention strategies by simplifying model pipelines, reducing the number of required models through effective customer segmentation and improving performance with enhanced feature engineering.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h5 id=&#34;key-technologies--skills&#34;&gt;Key Technologies &amp;amp; Skills&lt;/h5&gt;&#xA;&lt;p&gt;Python · Microsoft Azure · Java · Docker · OpenSearch · TensorFlow · XGBoost · Spring Boot · PySpark  · MLflow · Pandas · NumPy · Scikit-Network · Pyplot · JUnit · Pytest · FitNesse · HDFS · Apache HBase · Apache Kafka&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How users attend to online comments: an eye-tracking approach</title>
+      <link>http://localhost:1313/publications/thesis/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/publications/thesis/</guid>
+      <description></description>
     </item>
     <item>
       <title>AI Developer</title>
