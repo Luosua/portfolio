@@ -2,123 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/es/</loc>
+    <loc>https://luosua.github.io/portfolio/es/</loc>
     <lastmod>2024-12-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://luosua.github.io/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/fr/"
+                href="https://luosua.github.io/portfolio/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/es/"
+                href="https://luosua.github.io/portfolio/es/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/experience/</loc>
+    <loc>https://luosua.github.io/portfolio/es/experience/</loc>
     <lastmod>2024-12-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/fr/experience/"
+                href="https://luosua.github.io/portfolio/fr/experience/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/experience/"
+                href="https://luosua.github.io/portfolio/experience/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/es/experience/"
+                href="https://luosua.github.io/portfolio/es/experience/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/experience/job-3/</loc>
+    <loc>https://luosua.github.io/portfolio/es/experience/job-3/</loc>
     <lastmod>2024-12-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/fr/experience/job-3/"
+                href="https://luosua.github.io/portfolio/fr/experience/job-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/experience/job-3/"
+                href="https://luosua.github.io/portfolio/experience/job-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/es/experience/job-3/"
+                href="https://luosua.github.io/portfolio/es/experience/job-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/experience/job-2/</loc>
+    <loc>https://luosua.github.io/portfolio/es/experience/job-2/</loc>
     <lastmod>2023-01-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/fr/experience/job-2/"
+                href="https://luosua.github.io/portfolio/fr/experience/job-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/experience/job-2/"
+                href="https://luosua.github.io/portfolio/experience/job-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/es/experience/job-2/"
+                href="https://luosua.github.io/portfolio/es/experience/job-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/experience/job-1/</loc>
+    <loc>https://luosua.github.io/portfolio/es/experience/job-1/</loc>
     <lastmod>2022-01-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/experience/job-1/"
+                href="https://luosua.github.io/portfolio/experience/job-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/es/experience/job-1/"
+                href="https://luosua.github.io/portfolio/es/experience/job-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/categories/</loc>
+    <loc>https://luosua.github.io/portfolio/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://luosua.github.io/portfolio/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/fr/categories/"
+                href="https://luosua.github.io/portfolio/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/es/categories/"
+                href="https://luosua.github.io/portfolio/es/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
+    <loc>https://luosua.github.io/portfolio/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://luosua.github.io/portfolio/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/fr/tags/"
+                href="https://luosua.github.io/portfolio/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/es/tags/"
+                href="https://luosua.github.io/portfolio/es/tags/"
                 />
   </url>
 </urlset>

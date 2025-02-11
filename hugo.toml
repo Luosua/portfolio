@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://luosua.github.io/portfolio/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Alona Liuzniak Portfolio'
 
 
 [module]
@@ -13,8 +13,8 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
 [params]
 
-  title = 'Adritian - a high performance hugo theme by Adrián Moreno'
-  description = 'This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.'
+  title = 'Alona Liuzniak AI Developer Portfolio'
+  description = ''
   images = ['/img/og-img.png']
   sections = ["showcase", "about", "experience", "client-and-work", "education", "certifications", "publications", "testimonial", "contact", "newsletter"]
 
