@@ -98,6 +98,11 @@
   margin-bottom: 20px;
   margin-top: 40px;
 }
+
+.section--contact .container {
+    border: solid 2px white;
+    border-radius: 5px;
+}
 @font-face {
   font-family: 'adritian-icons';
   src: url('../fonts/adritian-icons.eot?16548302');

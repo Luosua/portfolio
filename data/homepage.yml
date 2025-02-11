@@ -91,7 +91,7 @@ publications:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
 
 # contact
 contact:
