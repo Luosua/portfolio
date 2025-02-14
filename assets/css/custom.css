@@ -108,3 +108,14 @@
     border: solid 2px white;
     border-radius: 5px;
 }
+
+.datenschutz-content ul li {
+  text-align: justify;
+}
+
+.datenschutz-content p {
+  text-align: justify;
+}
+.impressum-content p {
+  text-align: justify;
+}

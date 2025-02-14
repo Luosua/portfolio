@@ -75,13 +75,25 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         weight = 4
       [[languages.en.menus.header]]
         name = 'Publications'
-        URL = '#education'
+        URL = '#publications'
         weight = 5
-
+      [[languages.en.menus.header]]
+        name = 'Testimonials'
+        URL = '#testimonial'
+        weight = 6
       [[languages.en.menus.header]]
         name = "Contact"
         URL = "#contact"
         weight = 7
+
+      [[languages.en.menus.footer]]
+        name = "Impressum"
+        URL = "/impressum/"
+        weight = 1
+      [[languages.en.menus.footer]]
+        name = "Datenschutz"
+        URL = "/datenschutz/"
+        weight = 2
 
 
   [languages.es]

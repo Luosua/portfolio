@@ -9,7 +9,7 @@
             {{ $testimonials = $testimonials | lang.Merge (where $baseLangSite.RegularPages.ByDate "Type" "testimonial") }}
             {{ range $testimonials }}
 
-            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial container">
+            <div class="col-12 col-md-6 mb-5 mb-md-0 testimonial container">
                 <i class="icon-quote-left"></i>
                 <p>
                     {{ .Content }}
