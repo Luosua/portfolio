@@ -115,7 +115,9 @@
 .datenschutz-content ul li {
   text-align: justify;
 }
-
+.testimonial p {
+  text-align: justify;
+}
 .datenschutz-content p {
   text-align: justify;
 }
