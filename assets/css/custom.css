@@ -1,3 +1,7 @@
+#main-content{
+  margin-top: 100px;
+}
+
 .header .navbar-brand span:first-child{
     color: white;
     margin-right: .2em !important;
