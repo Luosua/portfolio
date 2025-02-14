@@ -4,8 +4,8 @@
 showcase:
   enable: true
   image:
-    x: "images/about/1.png"
-    _2x: "images/about/1.png"
+    x: "images/about/11.png"
+    _2x: "images/about/11.png"
   imageMobile:
     x: "images/showcase/showcase-mobile.jpg"
 
@@ -20,8 +20,8 @@ about:
     icon: "icon-user"
     URL: "https://www.linkedin.com/in/alona-liuzniak/"
   image:
-    x: "images/about/2.png"
-    _2x: "images/about/2.png"
+    x: "images/about/22.png"
+    _2x: "images/about/22.png"
 
 # education
 education:

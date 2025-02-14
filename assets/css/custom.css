@@ -74,7 +74,6 @@
 #publications a {
   color: white;
 }
-
 #testimonial {
   background-color: #2c061a;
 }
@@ -122,4 +121,8 @@
 }
 .impressum-content p {
   text-align: justify;
+}
+
+#about .btn-primary {
+    margin-bottom: 10%;  // Adjust for spacing
 }
