@@ -458,6 +458,9 @@ input[type="email"]::placeholder {
     z-index: 2;
     position: relative;
 }
+#about{
+  margin-top:20px;
+}
 .about__profile-picture {
     -webkit-box-flex: 0;
     flex: 0 0 calc(100% + 80px);
@@ -470,6 +473,8 @@ input[type="email"]::placeholder {
 .about__profile-picture img {
     min-width: 200px;
     min-height: 200px;
+    margin-top: -45%;
+    margin-bottom: -30%;
 }
 html,
 html body {
@@ -484,6 +489,20 @@ html body {
         width: 50%;
         margin-left: 0;
         margin-right: 0;
+    }
+}
+@media (max-width: 576px) { /* Small screens and up */
+  .about__profile-picture img {
+      min-width: 200px;
+      min-height: 200px;
+      margin-top: -105%;
+      margin-bottom: -88%;
+      padding-left: 9%;
+      padding-right: 9%;
+    }
+    #showcase img {
+      margin-top: -30%;
+      margin-bottom: 5%;
     }
 }
 .experience__title {

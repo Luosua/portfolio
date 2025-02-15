@@ -1,8 +1,8 @@
 {{ if .Site.Data.homepage.about.enable }}
 <section id="about" class="section rad-animation-group pb-0 section--border-bottom" >
   <div class="container rad-fade-down">
-    <div class="row d-flex flex-column-reverse flex-md-row">
-      <div class="about__profile-picture col-12 col-md-5">
+    <div class="row d-flex flex-column-reverse flex-md-row align-items-center">
+      <div class="about__profile-picture col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         {{ $img := resources.Get .Site.Data.homepage.about.image.x }}
         {{ $img2x := resources.Get .Site.Data.homepage.about.image._2x }}
 
@@ -19,7 +19,7 @@
           <img
             width="{{ $img.Width }}"
             height="{{ $img.Height }}"
-            class="lozad img-responsive image-left-overflow"
+            class="lozad img-responsive"
             src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
             srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
             data-src="{{ $img.RelPermalink }}"
@@ -30,7 +30,7 @@
         {{ end }}
         {{ end }}
       </div>
-      <div class="col-12 col-md-6 my-auto my-auto">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto my-auto">
         <h2>{{ i18n "about_title" }}</h2>
         {{ i18n "about_content" | safeHTML }}
         <a
