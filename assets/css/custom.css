@@ -95,13 +95,14 @@
     #portfolio h3 {
         margin-top: 30px !important; /* Adds space to every <h3> except the first one */
     }
+    .all-experience-container{
+      margin-left: 14%;
+    }
 }
 #portfolio h3 {
   text-align:center;
 }
-.all-experience-container{
-  margin-left: 14%;
-}
+
 #portfolio .col-12.col-md-5 {
     flex: 0 0 60%; /* Increase the width of the text column */
     max-width: 60%;
