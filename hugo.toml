@@ -134,7 +134,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
 
   [languages.es]
-    disabled = false
+    disabled = true
     languageCode = 'de'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
@@ -170,7 +170,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         weight = 4
 
   [languages.fr]
-    disabled = false
+    disabled = true
     languageCode = 'it'
     languageDirection = 'ltr'
     languageName = 'Italiano'
