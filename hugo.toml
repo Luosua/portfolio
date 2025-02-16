@@ -27,7 +27,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
     target = "i18n"
 
   [[module.mounts]]
-    source = "layouts" 
+    source = "layouts"
     target = "layouts"
 
   [[module.mounts]]
@@ -50,7 +50,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
 [params]
 
-  title = 'Alona Liuzniak AI Developer Portfolio'
+  title = 'Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert'
   description = ''
   images = ['/img/og-img.png']
   sections = ["showcase", "about", "experience", "client-and-work", "education", "certifications", "publications", "testimonial", "contact", "newsletter"]

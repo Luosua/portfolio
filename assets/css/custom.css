@@ -2,15 +2,6 @@
   margin-top: 100px;
 }
 
-.header .navbar-brand span:first-child{
-    color: white;
-    margin-right: .2em !important;
-}
-.header .navbar-brand span:nth-child(2){
-    position: relative;
-    top: 2px;
-}
-
 .img-right {
     float: right;
     margin-left: auto;
@@ -32,8 +23,26 @@
         padding-right: 0 !important; /* Remove extra spacing */
         text-align: center; /* Center align for better appearance */
     }
-
+    #showcase_subtitle, #showcase h1, h2 {
+      text-align: center;
+    }
+    #portfolio h2 {
+      margin-bottom: -15%;
+    }
+    #portfolio .row > * {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .education__date, .education__title, .education__degree, .education a {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    #publications ul li{
+      text-align: justify;
+    }
 }
+
 @media (min-width: 768px) { /* Only for medium and large screens */
     #portfolio h3 {
         margin-top: 30px !important; /* Adds space to every <h3> except the first one */
@@ -132,5 +141,5 @@
 }
 
 #about .btn-primary {
-    margin-bottom: 10%;  // Adjust for spacing
+    margin-bottom: 10%;
 }

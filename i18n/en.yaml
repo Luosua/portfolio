@@ -1,21 +1,21 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Adritian - a high performance hugo theme by Adrián Moreno"
+  translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
 - id: "meta_description"
-  translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+  translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions, and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical, and cost-effective AI solutions for industries like finance, customer support, and industrial automation."
 - id: "meta_keywords"
-  translation: "hugo, theme, bootstrap, adritian, adrian moreno, personal site, portfolio, single page application"
+  translation: "AI developer, Generative AI, chatbot solutions, AI automation, Explainable AI, Responsible AI, AI ethics, Frankfurt AI expert, AI-driven automation, AI in finance, AI in customer support, industrial automation AI, business process optimization, AI efficiency, AI transparency"
 - id: "meta_author"
-  translation: "Adrián Moreno Peña"
+  translation: "Alona Liuzniak"
 - id: "meta_image"
   translation: "/img/general/og-image.jpg"
 
 ## Header
 - id: "logo_text1"
-  translation: "Alona"
+  translation: ""
 
 - id: "logo_text2"
-  translation: "Liuzniak"
+  translation: "Alona Liuzniak"
 
 - id: "nav_home"
   translation: "HOME"
@@ -36,17 +36,17 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
+  translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
 
 - id: "head_description"
-  translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+  translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions, and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical, and cost-effective AI solutions for industries like finance, customer support, and industrial automation."
 
 ## Homepage showcase
 - id: "showcase_title"
   translation: "Hello, I'm Alona"
 
 - id: "showcase_subtitle"
-  translation: "AI Developer"
+  translation: "AI Developer | Generative AI Solutions | Responsible AI Expert"
 
 - id: "showcase_description"
   translation: <p class="lead">

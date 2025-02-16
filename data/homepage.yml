@@ -27,10 +27,12 @@ about:
 education:
   enable: true
   items:
-    - university: "Master of Science, Computer Science"
+    - year: "Master of Science"
+      university: "Computer Science"
       degree: "University of Stuttgart"
 
-    - university: "Bachelor's degree, Software Engineering"
+    - year: "Bachelor's degree"
+      university: "Software Engineering"
       degree: "Taras Shevchenko National University of Kyiv"
 
 certifications:
