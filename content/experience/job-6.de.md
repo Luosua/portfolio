@@ -8,7 +8,7 @@ location: "Frankfurt am Main, Germany"
 duration: "2022-2025"
 
 ---
-### AI-Driven Solutions: Enhancing Finance, Chemistry & Customer Support
+### KI-gestützte Lösungen: Optimierung von Finanzen, Chemie & Kundenservice
 
 - Konzeption und Umsetzung KI-gestützter Lösungen in den Bereichen Finanzdienstleistungen, Chemie und Kundenservice zur Förderung von Innovation und betrieblicher Effizienz.
 - Leitung der End-to-End-Entwicklung von Chatbots für den Kundenservice, einschließlich Implementierung von Retrieval-Augmented-Generation-(RAG)-Pipelines, Prompt-Engineering- und Responsible-AI-Mechanismen zur Sicherstellung von Transparenz und hochwertigen Empfehlungen.
