@@ -1,8 +1,8 @@
 ---
 date: 2018-02-01T00:00:00+01:00
 draft: false
-title: "Computer Vision Engineer"
-jobTitle: "Computer Vision Engineer"
+title: "AI Developer"
+jobTitle: "AI Developer"
 company: "Robert Bosch GmbH"
 location: "Renningen, Germany"
 duration: "2018"

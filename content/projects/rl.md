@@ -18,4 +18,4 @@ To train AI models for robotic object picking, I designed and generated syntheti
 
 The real challenge, however, lay in optimizing motion planning—ensuring the robot could pick objects quickly, accurately and in dynamic environments. By applying reinforcement learning, I trained the system to adapt its movements based on feedback, enhancing both efficiency and decision-making.
 
-This project combined my expertise in computer vision, reinforcement learning and machine learning, demonstrating how AI can enhance real-world automation. By integrating synthetic data and adaptive learning, I built a solution that makes robotics smarter, faster and more efficient, setting the stage for the next generation of intelligent automation.
+This project combined my expertise in computer vision, reinforcement learning and machine learning, demonstrating how AI can enhance real-world automation. By integrating synthetic data and adaptive learning, I built a solution that made robotics smarter, faster and more efficient, setting the stage for the next generation of intelligent automation.

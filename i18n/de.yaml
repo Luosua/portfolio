@@ -1,0 +1,196 @@
+## Meta tags
+- id: "meta_title"
+  translation: "Alona Liuzniak | KI-Entwicklerin | Generative KI & Chatbot-Lösungen | Expertin für Explainable KI"
+- id: "meta_description"
+  translation: "Alona Liuzniak ist eine KI-Entwicklerin mit Sitz in Frankfurt spezialisiert auf Generative KI, maßgeschneiderte Chatbot-Lösungen und KI-gestützte Automatisierung. Mit einem starken Fokus auf Responsible & Explainable AI entwickelt sie effiziente, ethische und kosteneffektive KI-Lösungen für Branchen wie Finanzen, Kundenservice und industrielle Automatisierung."
+- id: "meta_keywords"
+  translation: "KI-Entwicklerin, Generative KI, Chatbot-Lösungen, KI-Automatisierung, Explainable AI, Responsible AI, KI-Ethik, Frankfurt KI-Expertin, KI-gestützte Automatisierung, KI in der Finanzbranche, KI im Kundenservice, industrielle Automatisierung mit KI, Geschäftsprozessoptimierung, KI-Effizienz, KI-Transparenz"
+- id: "meta_author"
+  translation: "Alona Liuzniak"
+- id: "meta_image"
+  translation: "/img/general/og-image.jpg"
+
+## Header
+- id: "logo_text1"
+  translation: ""
+
+- id: "logo_text2"
+  translation: "Alona Liuzniak"
+
+- id: "nav_home"
+  translation: "HOME"
+
+## General
+- id: "skipToMainContent"
+  translation: "Skip to main content"
+
+- id: "toggle_navigation"
+  translation: "Toggle navigation"
+
+## Footer
+- id: "footer_notice"
+  translation: "© Alona Liuzniak, 2025"
+
+- id: "toggle_theme"
+  translation: "Toggle theme"
+
+## Homepage head title
+- id: "head_title"
+  translation: "Alona Liuzniak | KI-Entwicklerin | Generative KI & Chatbot-Lösungen | Expertin für Explainable KI"
+
+- id: "head_description"
+  translation: "Alona Liuzniak ist eine KI-Entwicklerin mit Sitz in Frankfurt spezialisiert auf Generative KI, maßgeschneiderte Chatbot-Lösungen und KI-gestützte Automatisierung. Mit einem starken Fokus auf Responsible & Explainable AI entwickelt sie effiziente, ethische und kosteneffektive KI-Lösungen für Branchen wie Finanzen, Kundenservice und industrielle Automatisierung."
+
+## Homepage showcase
+- id: "showcase_title"
+  translation: "Hallo, ich bin Alona"
+
+- id: "showcase_subtitle"
+  translation: "KI-Entwicklerin | Generative KI & Chatbot-Lösungen | Expertin für Explainable KI"
+
+- id: "showcase_description"
+  translation: <p class="lead">
+      Ich bin eine KI-Entwicklerin aus Frankfurt mit einer Leidenschaft dafür, Geschäftsherausforderungen zu lösen und Prozesse durch
+      KI-gestützte Automatisierung zu optimieren. Mein Schwerpunkt liegt auf Generativer KI und individuell angepassten Chatbot-Lösungen,
+      die Effizienz steigern und Kosten senken. Meine Arbeit basiert auf Verantwortungsbewusster und Erklärbarer KI, um eine ethische und
+      transparente KI-Nutzung zu gewährleisten.
+      </p>
+      <p class="lead">
+      Zuverlässigkeit und Effizienz stehen für mich an erster Stelle. Ich entwickle hochwertige, anpassungsfähige Lösungen,
+      die sich nahtlos in bestehende Arbeitsabläufe integrieren. Durch klare Kommunikation sorge ich für eine reibungslose Zusammenarbeit,
+       sodass KI-gestützte Innovationen nachhaltige Wirkung in Branchen wie Finanzen, Kundenservice und industrieller
+        Automatisierung entfalten können.</p>
+- id: "showcase_button"
+  translation: "Kontakt"
+
+## Homepage about
+- id: "about_title"
+  translation: "Wer bin ich?"
+
+- id: "about_content"
+  translation:  <p class="lead">
+      Mit über fünf Jahren Erfahrung in der KI-Entwicklung fasziniert mich das transformative Potenzial künstlicher Intelligenz,
+      das Leben zu verbessern und bahnbrechende Innovationen voranzutreiben. Meine Expertise liegt insbesondere in Generativer KI (GenAI)
+      und Natural Language Processing (NLP), mit Fokus auf skalierbare, nutzerzentrierte Lösungen – von Retrieval-Augmented-Chatbots bis
+      hin zu Betrugserkennungssystemen. Mein besonderes Interesse gilt der Anwendung von Responsible und Explainable AI (RAI & XAI),
+      um Transparenz, Vertrauen und ethische KI-Implementierung sicherzustellen.
+      </p>
+      <p class="lead">
+      Neben technischer Expertise lege ich großen Wert auf klare Kommunikation, Zuverlässigkeit und Flexibilität – Prinzipien,
+      die nicht nur die Entwicklung hochwertiger KI-Systeme vorantreiben, sondern auch vertrauensvolle Beziehungen zu meinen Kunden fördern.
+       Zuverlässigkeit garantiert sowohl die technische Exzellenz meiner Lösungen als auch das Vertrauen,
+       das meine Kunden in meine Arbeit setzen können. Klare Kommunikation sorgt für effiziente Zusammenarbeit und spart allen Beteiligten Zeit,
+       während Flexibilität es mir ermöglicht, Lösungen an sich verändernde Anforderungen anzupassen und stets die neuesten Technologien zu integrieren.
+        Mein Ansatz verbindet praxisnahe KI-Entwicklung mit modernster Forschung, um sicherzustellen, dass jede Lösung sowohl technologisch
+        fortschrittlich als auch wirkungsvoll ist.</p>
+    <p class="lead">
+    Das Schönste an meiner Arbeit ist es zu sehen, wie meine KI-Lösungen echte Veränderungen bewirken – sei es durch die Optimierung von KYC-Prozessen,
+    die Verbesserung der Kundenservice-Automatisierung oder die Steigerung der Effizienz in industriellen Arbeitsabläufen. Ich bin überzeugt,
+    dass Anpassungsfähigkeit der Schlüssel ist':' Indem ich offen für Kundenbedürfnisse bleibe und Lösungen kontinuierlich verfeinere, stelle ich sicher,
+     dass jedes KI-Projekt nicht nur technisch ausgereift, sondern auch praxisnah, skalierbar und transformativ ist.</p>
+
+- id: "about_button"
+  translation: "Über mich"
+
+## Homepage education
+- id: "education_title"
+  translation: "Bildungsweg"
+
+- id: "bachelor_spec"
+  translation: "Softwareentwicklung"
+- id: "bachelor_uni"
+  translation: "Nationale Taras-Shevchenko-Universität Kyjiw"
+- id: "bachelor_degree"
+  translation: "Bachelor of Science"
+
+- id: "master_spec"
+  translation: "Informatik"
+- id: "master_uni"
+  translation: "Universität Stuttgart"
+- id: "master_degree"
+  translation: "Master of Science"
+
+- id: "certifications_title"
+  translation: "Zertifizierungen & Kurse"
+
+## Homepage experience
+- id: "experience_title"
+  translation: "Erfahrung"
+- id: "experience_more_1"
+  translation: "Und"
+- id: "experience_more_2"
+  translation: "mehr"
+- id: "experience_extra_1"
+  translation: "Siehe weitere"
+- id: "experience_extra_2"
+  translation: "Erfahrungen"
+
+- id: "publications_title"
+  translation: "Publikationen"
+
+- id: "experience_description"
+  translation: "Mit über fünf Jahren Erfahrung habe ich KI-gestützte Lösungen in verschiedenen Branchen
+  konzipiert und implementiert, insbesondere in den Bereichen Retrieval-Augmented-Generation (RAG) für
+  Chatbots und Responsible AI (RAI). Meine Arbeit reicht von der Optimierung von Betrugspräventionsstrategien
+  bis hin zur Entwicklung multimodaler KI-Pipelines – mit dem Ziel, zuverlässige, erklärbare und wirkungsvolle Systeme
+   zu schaffen."
+
+- id: "experience_button"
+  translation: "LinkedIn"
+
+- id: "experience_button_url"
+  translation: "https://www.linkedin.com/in/alona-liuzniak/"
+
+
+- id: "experience_button2_url"
+  translation: "/img/general/user-smile-fill.svg"
+
+- id: "experience_button3"
+  translation: "Alle anzeigen"
+
+- id: "experience_button3_url"
+  translation: "/experience"
+
+## Homepage client & work
+- id: "client_work_title"
+  translation: "Projekte"
+
+## Homepage testimonials
+- id: "testimonials_title"
+  translation: "Empfehlungen"
+
+## Homepage contact
+- id: "contact_title"
+  translation: "Kontakt"
+
+- id: "contact_button"
+  translation: "Nachricht senden"
+
+- id: "contact_form_name"
+  translation: "Name"
+
+- id: "contact_form_email"
+  translation: "E-Mail-Adresse"
+
+- id: "contact_form_message"
+  translation: "Geben Sie hier Ihre Nachricht ein"
+
+- id: "contact_email_title"
+  translation: "E-Mail"
+
+- id: "contact_email_email"
+  translation: '<a href="mailto:mail@example.com">alona.liuzniak@gmail.com</a>'
+
+- id: "contact_address_title"
+  translation: "Adresse"
+
+- id: "contact_address_address"
+  translation: "60486 Frankfurt am Main"
+
+## 404 Page
+- id: "404_title"
+  translation: "Seite nicht gefunden"
+- id: "404_description"
+  translation: "Die gesuchte Seite konnte leider nicht gefunden werden."
+- id: "404_button"
+  translation: "Zurück zur Startseite"

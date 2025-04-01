@@ -2,7 +2,7 @@
 - id: "meta_title"
   translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
 - id: "meta_description"
-  translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions, and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical, and cost-effective AI solutions for industries like finance, customer support, and industrial automation."
+  translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical and cost-effective AI solutions for industries like finance, customer support and industrial automation."
 - id: "meta_keywords"
   translation: "AI developer, Generative AI, chatbot solutions, AI automation, Explainable AI, Responsible AI, AI ethics, Frankfurt AI expert, AI-driven automation, AI in finance, AI in customer support, industrial automation AI, business process optimization, AI efficiency, AI transparency"
 - id: "meta_author"
@@ -39,7 +39,7 @@
   translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
 
 - id: "head_description"
-  translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions, and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical, and cost-effective AI solutions for industries like finance, customer support, and industrial automation."
+  translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical and cost-effective AI solutions for industries like finance, customer support and industrial automation."
 
 ## Homepage showcase
 - id: "showcase_title"
@@ -63,9 +63,6 @@
 - id: "showcase_button"
   translation: "Contact"
 
-  ## not visible but used for accessibility
-- id: "showcase_image_alt"
-  translation: "A picture of Cool Name"
 
 ## Homepage about
 - id: "about_title"
@@ -104,12 +101,34 @@
 - id: "education_title"
   translation: "Education"
 
+- id: "bachelor_spec"
+  translation: "Software Engineering"
+- id: "bachelor_uni"
+  translation: "Taras Shevchenko National University of Kyiv"
+- id: "bachelor_degree"
+  translation: "Bachelor of Science"
+
+- id: "master_spec"
+  translation: "Computer Science"
+- id: "master_uni"
+  translation: "University of Stuttgart"
+- id: "master_degree"
+  translation: "Master of Science"
+
 - id: "certifications_title"
   translation: "Certifications & Courses"
 
 ## Homepage experience
 - id: "experience_title"
   translation: "Experience"
+- id: "experience_more_1"
+  translation: "And"
+- id: "experience_more_2"
+  translation: "more"
+- id: "experience_extra_1"
+  translation: "See additional"
+- id: "experience_extra_2"
+  translation: "experience items"
 
 - id: "publications_title"
   translation: "Publications"
@@ -126,8 +145,6 @@
 - id: "experience_button_url"
   translation: "https://www.linkedin.com/in/alona-liuzniak/"
 
-- id: "experience_button2"
-  translation: "Download resume"
 
 - id: "experience_button2_url"
   translation: "/img/general/user-smile-fill.svg"
@@ -173,19 +190,6 @@
 
 - id: "contact_address_address"
   translation: "60486 Frankfurt am Main"
-
-- id: "contact_button"
-  translation: "Send Message"
-
-## Blog
-- id: "read_more"
-  translation: "Read more"
-
-- id: "published_on"
-  translation: "Published on "
-
-- id: "continue_reading"
-  translation: "Continue reading"
 
 ## 404 Page
 - id: "404_title"

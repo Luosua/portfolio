@@ -2,7 +2,7 @@
 date: 2019-08-01T00:00:00+01:00
 draft: false
 title: "Software Developer"
-jobTitle: "Java Developer"
+jobTitle: "Software Developer"
 company: "IT Studio Development"
 location: "Kyiv, Ukraine"
 duration: "2019"

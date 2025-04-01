@@ -133,41 +133,50 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         weight = 2
 
 
-  [languages.es]
-    disabled = true
+  [languages.de]
+    disabled = false
     languageCode = 'de'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
     title = ''
     weight = 0
-      [[languages.es.menus.header]]
-        name = 'Sobre mi'
-        URL = '/es/#about'
+
+    [languages.de.menus]
+
+      [[languages.de.menus.header]]
+        name = "Erfahrung"
+        URL = "de/#experience"
         weight = 2
-      [[languages.es.menus.header]]
+      [[languages.de.menus.header]]
         name = 'Portfolio'
-        URL = '/es/#portfolio'
+        URL = 'de/#portfolio'
         weight = 3
 
-      [[languages.es.menus.header]]
-        name = "Contacto"
-        URL = "/es/#contact"
-        weight = 6
-
-      [[languages.es.menus.footer]]
-        name = "Sobre mi"
-        URL = "/es/#about"
-        weight = 2
-
-      [[languages.es.menus.footer]]
-        name = "Portfolio"
-        URL = "/es/#portfolio"
-        weight = 3
-
-      [[languages.es.menus.footer]]
-        name = "Contact"
-        URL = "/es/#contact"
+      [[languages.de.menus.header]]
+        name = 'Bildungsweg'
+        URL = 'de/#education'
         weight = 4
+      [[languages.de.menus.header]]
+        name = 'Publikationen'
+        URL = 'de/#publications'
+        weight = 5
+      [[languages.de.menus.header]]
+        name = 'Empfehlungen'
+        URL = 'de/#testimonial'
+        weight = 6
+      [[languages.de.menus.header]]
+        name = "Kontakt"
+        URL = "de/#contact"
+        weight = 7
+
+      [[languages.de.menus.footer]]
+        name = "Impressum"
+        URL = "/impressum/"
+        weight = 1
+      [[languages.de.menus.footer]]
+        name = "Datenschutz"
+        URL = "/datenschutz/"
+        weight = 2
 
   [languages.fr]
     disabled = true

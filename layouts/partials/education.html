@@ -1,0 +1,27 @@
+{{ if .Site.Data.homepage.education.enable }}
+<section id="education" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ i18n "education_title" }}</h2>
+                <div class="row pt-2 pt-md-4">
+                  <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                    <div class="education">
+                        <div class="education__date">{{ i18n "master_degree" }}</div>
+                        <div class="education__title">{{ i18n "master_spec" }}</div>
+                        <div class="education__degree">{{ i18n "master_uni" }}</div>
+                    </div>
+                  </div>
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">{{ i18n "bachelor_degree" }}</div>
+                            <div class="education__title">{{ i18n "bachelor_spec" }}</div>
+                            <div class="education__degree">{{ i18n "bachelor_uni" }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
