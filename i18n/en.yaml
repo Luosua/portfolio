@@ -20,19 +20,9 @@
 - id: "nav_home"
   translation: "HOME"
 
-## General
-- id: "skipToMainContent"
-  translation: "Skip to main content"
-
-- id: "toggle_navigation"
-  translation: "Toggle navigation"
-
 ## Footer
 - id: "footer_notice"
   translation: "© Alona Liuzniak, 2025"
-
-- id: "toggle_theme"
-  translation: "Toggle theme"
 
 ## Homepage head title
 - id: "head_title"
@@ -70,7 +60,8 @@
 
 - id: "about_content"
   translation:  <p class="lead">
-      As an AI developer with over 5 years of experience, I am fascinated by the transformative potential
+      As an AI developer with over 9 years of programming experience and over 5 years of experience in developing AI solutions,
+       I am fascinated by the transformative potential
       of artificial intelligence to improve lives and drive groundbreaking innovations that shape the future.
       With extensive experience in Generative AI (GenAI) and Natural Language Processing (NLP),
       I specialize in designing scalable, user-centric solutions — from retrieval-augmented chatbots to

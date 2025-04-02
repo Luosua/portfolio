@@ -4,7 +4,7 @@ draft: false
 title: "KI-Entwicklerin"
 jobTitle: "KI-Entwicklerin"
 company: "Qundo"
-location: "Frankfurt am Main, Germany"
+location: "Frankfurt am Main, Deutschland"
 duration: "2021-2022"
 
 ---

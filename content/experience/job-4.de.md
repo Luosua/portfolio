@@ -4,7 +4,7 @@ draft: false
 title: "KI-Entwicklerin"
 jobTitle: "KI-Entwicklerin"
 company: "Robert Bosch GmbH"
-location: "Renningen, Germany"
+location: "Renningen, Deutschland"
 duration: "2019-2021"
 
 ---

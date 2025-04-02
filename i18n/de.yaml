@@ -20,19 +20,9 @@
 - id: "nav_home"
   translation: "HOME"
 
-## General
-- id: "skipToMainContent"
-  translation: "Skip to main content"
-
-- id: "toggle_navigation"
-  translation: "Toggle navigation"
-
 ## Footer
 - id: "footer_notice"
   translation: "© Alona Liuzniak, 2025"
-
-- id: "toggle_theme"
-  translation: "Toggle theme"
 
 ## Homepage head title
 - id: "head_title"
@@ -129,7 +119,8 @@
   translation: "Publikationen"
 
 - id: "experience_description"
-  translation: "Mit über fünf Jahren Erfahrung habe ich KI-gestützte Lösungen in verschiedenen Branchen
+  translation: "Mit über 9 Jahren Programmiererfahrung und mer als 5 Jahren Erfahrung in der Entwicklung von KI-Lösungen
+  habe ich KI-gestützte Lösungen in verschiedenen Branchen
   konzipiert und implementiert, insbesondere in den Bereichen Retrieval-Augmented-Generation (RAG) für
   Chatbots und Responsible AI (RAI). Meine Arbeit reicht von der Optimierung von Betrugspräventionsstrategien
   bis hin zur Entwicklung multimodaler KI-Pipelines – mit dem Ziel, zuverlässige, erklärbare und wirkungsvolle Systeme
