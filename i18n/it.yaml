@@ -1,0 +1,191 @@
+## Meta tags
+- id: "meta_title"
+  translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
+- id: "meta_description"
+  translation: "Alona Liuzniak è un AI developer con sede a Francoforte, specializzata in Generative AI, soluzioni chatbot personalizzate e automazione basata sull’intelligenza artificiale. Con un forte focus su Responsible & Explainable AI, fornisce soluzioni IA efficienti, etiche ed economicamente vantaggiose per settori come la finanza, il supporto clienti e l’automazione industriale."
+- id: "meta_keywords"
+  translation: "Sviluppatrice AI, Generative AI, soluzioni chatbot, automazione IA, IA spiegabile, IA responsabile, etica dell’IA, esperta IA a Francoforte, automazione IA, IA nella finanza, IA per il supporto clienti, IA per l’automazione industriale, ottimizzazione dei processi aziendali, efficienza AI, trasparenza AI"
+- id: "meta_author"
+  translation: "Alona Liuzniak"
+- id: "meta_image"
+  translation: "/img/general/og-image.jpg"
+
+## Header
+- id: "logo_text1"
+  translation: ""
+
+- id: "logo_text2"
+  translation: "Alona Liuzniak"
+
+- id: "nav_home"
+  translation: "HOME"
+
+## Footer
+- id: "footer_notice"
+  translation: "© Alona Liuzniak, 2025"
+
+## Homepage head title
+- id: "head_title"
+  translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
+
+- id: "head_description"
+  translation: "Alona Liuzniak è un AI developer con sede a Francoforte, specializzata in Generative AI, soluzioni chatbot personalizzate e automazione basata sull’intelligenza artificiale. Con un forte focus su Responsible & Explainable AI, fornisce soluzioni IA efficienti, etiche ed economicamente vantaggiose per settori come la finanza, il supporto clienti e l’automazione industriale."
+
+## Homepage showcase
+- id: "showcase_title"
+  translation: "Ciao, sono Alona"
+
+- id: "showcase_subtitle"
+  translation: "AI Developer | Generative AI Solutions | Responsible AI Expert"
+
+- id: "showcase_description"
+  translation: <p class="lead">
+      Basata a Francoforte, sono una AI Developer con una forte passione per la risoluzione di problemi aziendali
+   e l’ottimizzazione dei processi attraverso l’automazione basata sull’intelligenza artificiale.
+   Sono specializzata in Generative AI e soluzioni chatbot personalizzate, che migliorano l’efficienza e riducono i costi.
+   Il mio lavoro si fonda su Responsible & Explainable AI, garantendo un’adozione dell’intelligenza artificiale
+   etica e trasparente.
+      </p>
+      <p class="lead">
+       Prioritizzo l'affidabilità e l'efficienza, offrendo soluzioni di alta qualità e adattabili, perfettamente integrabili
+      nei flussi di lavoro reali. Con un forte focus sulla comunicazione chiara, assicuro una collaborazione fluida,
+      permettendo alle innovazioni AI di generare un impatto duraturo nei settori della finanza, del supporto clienti
+      e dell’automazione industriale.</p>
+- id: "showcase_button"
+  translation: "Contattare"
+
+
+## Homepage about
+- id: "about_title"
+  translation: "Chi sono?"
+
+- id: "about_content"
+  translation:  <p class="lead">
+      Come AI developer con oltre 5 anni di esperienza, sono affascinata dal potenziale trasformativo
+       dell’intelligenza artificiale per migliorare la vita e guidare innovazioni rivoluzionarie che plasmeranno il futuro.
+         Grazie alla mia esperienza in Generative AI (GenAI) e Natural Language Processing (NLP), progetto soluzioni scalabili
+         e user-centriche — dai chatbot con retrieval-augmented generation ai sistemi di prevenzione di frodi.
+           La mia passione è applicare Responsible & Explainable AI (RAI & XAI) per garantire trasparenza,
+             fiducia e un uso etico dell’intelligenza artificiale.
+      </p>
+      <p class="lead">
+      Oltre alle competenze tecniche, mi impegno per una comunicazione chiara, affidabilità e flessibilità — principi
+      che non solo guidano lo sviluppo di sistemi IA di alta qualità, ma creano anche relazioni solide e basate sulla
+      fiducia con i clienti. Affidabilità, per garantire l’eccellenza tecnica delle mie soluzioni e la sicurezza che
+      i clienti possono riporre nel mio lavoro. Comunicazione chiara, per facilitare la collaborazione e accelerare
+      il successo dei progetti IA. Flessibilità, per adattare le soluzioni alle esigenze in continua evoluzione dei clienti
+      e integrare le tecnologie più all’avanguardia, assicurando che ogni sistema IA sia allo stato dell'arte e su misura
+      per il caso d’uso specifico. Il mio approccio unisce sviluppo IA orientato al business e ricerca avanzata,
+      per garantire che ogni soluzione sia tecnologicamente avanzata e con un impatto concreto.</p>
+      <p class="lead">
+    Ciò che trovo più gratificante è vedere le soluzioni IA che sviluppo creare un impatto reale — che si tratti
+    di ottimizzare i processi KYC, migliorare l’automazione del supporto clienti o aumentare l’efficienza nei
+    flussi di lavoro industriali. Credo che l’adattabilità sia fondamentale, rimanendo sempre in ascolto
+    delle esigenze dei clienti e perfezionando continuamente le soluzioni, mi assicuro che ogni progetto IA non sia
+    solo sofisticato dal punto di vista tecnico, ma anche pratico, scalabile e trasformativo. </p>
+
+- id: "about_button"
+  translation: "Chi sono"
+
+## Homepage education
+- id: "education_title"
+  translation: "Formazione"
+
+- id: "bachelor_spec"
+  translation: "Ingegneria informatica"
+- id: "bachelor_uni"
+  translation: "Università nazionale Taras Ševčenko di Kiev"
+- id: "bachelor_degree"
+  translation: "Laurea Triennale"
+
+- id: "master_spec"
+  translation: "Informatica"
+- id: "master_uni"
+  translation: "Università di Stoccarda"
+- id: "master_degree"
+  translation: "Laurea Magistrale"
+
+- id: "certifications_title"
+  translation: "Certificationi & Corsi"
+
+## Homepage experience
+- id: "experience_title"
+  translation: "Esperienza"
+- id: "experience_more_1"
+  translation: "E"
+- id: "experience_more_2"
+  translation: "altri"
+- id: "experience_extra_1"
+  translation: "Visualizzare ulteriori"
+- id: "experience_extra_2"
+  translation: "esperienze"
+
+- id: "publications_title"
+  translation: "Pubblicazioni"
+
+- id: "experience_description"
+  translation: "Con oltre 9 anni di esperienza nella programmazione e più di 5 anni nello
+  sviluppo di soluzioni di intelligenza artificiale, ho progettato e implementato soluzioni AI avanzate in diversi settori,
+  specializzandomi nello sviluppo di chatbot basati su retrieval-augmented generation (RAG) e Responsible AI (RAI).
+  Il mio contributo spazia dal miglioramento delle strategie di prevenzione frodi alla creazione di pipeline AI multimodali,
+  fornendo sistemi affidabili, spiegabili e ad alto impatto."
+
+- id: "experience_button"
+  translation: "LinkedIn"
+
+- id: "experience_button_url"
+  translation: "https://www.linkedin.com/in/alona-liuzniak/"
+
+
+- id: "experience_button2_url"
+  translation: "/img/general/user-smile-fill.svg"
+
+- id: "experience_button3"
+  translation: "Visualizzare tutto"
+
+- id: "experience_button3_url"
+  translation: "/experience"
+
+## Homepage client & work
+- id: "client_work_title"
+  translation: "Progetti"
+
+## Homepage testimonials
+- id: "testimonials_title"
+  translation: "Testimonianze"
+
+## Homepage contact
+- id: "contact_title"
+  translation: "Contatti"
+
+- id: "contact_button"
+  translation: "Invia messaggio"
+
+- id: "contact_form_name"
+  translation: "Nome"
+
+- id: "contact_form_email"
+  translation: "Indirizzo email"
+
+- id: "contact_form_message"
+  translation: "Scrivi qui il tuo messaggio"
+
+- id: "contact_email_title"
+  translation: "Email"
+
+- id: "contact_email_email"
+  translation: '<a href="mailto:mail@example.com">alona.liuzniak@gmail.com</a>'
+
+- id: "contact_address_title"
+  translation: "Indirizzo"
+
+- id: "contact_address_address"
+  translation: "60486 Frankfurt am Main"
+
+## 404 Page
+- id: "404_title"
+  translation: "Pagina non trovata"
+- id: "404_description"
+  translation: "La pagina richiesta non è stata trovata."
+- id: "404_button"
+  translation: "Tornare alla homepage"

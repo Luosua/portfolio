@@ -17,4 +17,4 @@ duration: "2022-2025"
 ##### Technologien & Fähigkeiten
 Python · Microsoft Azure · Java · Docker · OpenSearch · TensorFlow · XGBoost · Spring Boot · PySpark  · MLflow · Pandas · NumPy · Scikit-Network · Pyplot · JUnit · Pytest · FitNesse · HDFS · Apache HBase · Apache Kafka
 
-Generative AI (GenAI)  · Prompt Engineering · LLM (Large Language Models) · RAG (Retrieval Augmented Generation) · Natural Language Processing (NLP) · Responsible AI (RAI) · Explainable AI (XAI) · Continuous Integration (CI) ·  Machine Learning · Graphs · Clustering · Fraud Prevention · AFC (Antifinancial Crime)
+Generative AI (GenAI)  · Prompt Engineering · LLM (Large Language Models) · RAG (Retrieval Augmented Generation) · Natural Language Processing (NLP) · Responsible AI (RAI) · Explainable AI (XAI) · Continuous Integration (CI) ·  Machine Learning · Graphs · Clustering · Fraud Prevention · AFC (Anti Financial Crime)
