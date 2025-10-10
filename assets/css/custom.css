@@ -163,7 +163,20 @@
   background-color: #2c061a;
 }
 .single {
-    padding-top: 0% !important;
+    padding-top: 0 !important;
+}
+
+#experience.single .row {
+    margin-top: 0 !important;
+}
+
+#experience.single .col-12.col-md-5,
+#experience.single .col-12.col-md-7 {
+    margin-top: 0 !important;
+}
+
+section#experience .col-12.cold-md-12.col-sm-6 {
+    margin-top: 0 !important;
 }
 
 #experience h3 {
