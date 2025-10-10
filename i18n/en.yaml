@@ -134,7 +134,7 @@
   translation: "LinkedIn"
 
 - id: "experience_button_url"
-  translation: "https://www.linkedin.com/in/alona-liuzniak/"
+  translation: "https://www.linkedin.com/in/veritasregit-ai/"
 
 
 - id: "experience_button2_url"
@@ -174,7 +174,7 @@
   translation: "Email"
 
 - id: "contact_email_email"
-  translation: '<a href="mailto:mail@example.com">alona.liuzniak@gmail.com</a>'
+  translation: '<a href="mailto:contact@veritasregit.ai">contact@veritasregit.ai</a>'
 
 - id: "contact_address_title"
   translation: "Address"
