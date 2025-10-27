@@ -253,7 +253,7 @@
 }
 .contact__info,
 .experience + .experience {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .contact__info h3 {
     margin-bottom: 0;
@@ -461,27 +461,12 @@ input[type="email"]::placeholder {
 #about{
   margin-top:20px;
 }
-.about__profile-picture {
-    -webkit-box-flex: 0;
-    flex: 0 0 calc(100% + 80px);
-    max-width: calc(100% + 80px);
-    width: calc(100% + 80px);
-    margin-left: -40px;
-    margin-right: -40px;
-    margin-top: 40px;
-}
-.about__profile-picture img {
-    min-width: 200px;
-    min-height: 200px;
-    margin-top: -45%;
-    margin-bottom: -30%;
-}
 html,
 html body {
     min-height: 100%;
 }
 @media (min-width: 768px) {
-    .about__profile-picture {
+    .profile-image {
         margin-top: 0;
         -webkit-box-flex: 0;
         flex: 0 0 50%;
@@ -490,21 +475,150 @@ html body {
         margin-left: 0;
         margin-right: 0;
     }
+
+
 }
-@media (max-width: 576px) { /* Small screens and up */
-  .about__profile-picture img {
+@media (min-width: 991px) and (max-width: 1399px) {
+    /* For larger screens within this range */
+    #showcase .profile-image img {
+        margin-top: -30px !important;
+    }
+
+    #showcase h1 {
+        margin-top: -50px !important;
+    }
+
+    #about .profile-image img {
+      margin-top: -10% !important;
+      margin-bottom: 10px !important;
+    }
+}
+@media (min-width: 1400px){
+    /* For larger screens within this range */
+    #showcase .profile-image img {
+        margin-top: 5px !important;
+    }
+
+    #showcase h1 {
+        margin-top: -5px !important;
+    }
+
+    #about .profile-image img {
+      margin-top: -10% !important;
+      margin-bottom: 10px !important;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  /* For medium screens - more aggressive margins */
+  #showcase .profile-image img {
+      margin-top: -95px !important;
+  }
+
+  #showcase h1 {
+      margin-top: -110px !important;
+  }
+  #about .profile-image img {
+    margin-top: -206% !important;
+    margin-bottom: 10px !important;
+  }
+  #portfolio h2 {
+      margin-bottom: -50px !important;
+  }
+
+  /* Single experience page - first experience after opened experience */
+  #experience.single .experience:first-child {
+      margin-top: -50px !important;
+  }
+  #experience h3 {
+      margin-top: -50px !important;
+  }
+
+}
+@media (max-width: 360px){
+  /* Reduce showcase section top padding */
+  #showcase {
+    padding-top: 80px !important;
+  }
+}
+@media (max-width: 576px) { /* Small screens */
+  .profile-image img {
       min-width: 200px;
       min-height: 200px;
-      margin-top: -125%;
-      margin-bottom: -103%;
+      margin-top: 0%;
+      margin-bottom: 0%;
       padding-left: 9%;
       padding-right: 9%;
     }
-    #showcase img {
-      margin-top: -30%;
+
+    /* First image (showcase) */
+    #showcase .profile-image img {
+      margin-top: -15%;
       margin-bottom: 8%;
     }
+
+    #showcase h1 {
+      margin-top: 20px;
+    }
+
+    /* Second image (about) - less top margin, more bottom margin */
+    #about .profile-image img {
+      margin-top: -10% !important;
+      margin-bottom: 20px !important;
+    }
+
+    /* Fix experience section for small screens */
+    #experience .experience {
+        text-align: center !important;
+        padding-top: 0 !important;
+        margin-top: 20px !important;
+    }
+
+    #experience .experience a {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    #experience .experience:first-child {
+        margin-top: 2% !important;
+    }
+
+    .all-experience-container {
+        text-align: center !important;
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+        margin-bottom: 30px !important;
+    }
+
+    /* Reduce section bottom padding */
+    .section {
+        padding-bottom: 5% !important;
+    }
+
+    #main-content{
+      margin-top: 8%;
+    }
+
 }
+
+/* For screens 361px - 576px, reduce showcase image top margin further */
+@media (min-width: 361px) and (max-width: 576px) {
+    #showcase .profile-image img {
+      margin-top: -10% !important;
+      margin-bottom: 2% !important;
+    }
+}
+
+@media (min-width: 240px) and (max-width: 360px) {
+    #showcase .profile-image img {
+      margin-top: 5% !important;
+      margin-bottom: -5% !important;
+    }
+}
+
 .experience__title {
     position: relative;
     font-size: 20px;
@@ -676,8 +790,8 @@ textarea:focus {
 }
 @media (min-width: 992px) {
     .section {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .section .row.row--padded {
         margin-top: 30px;
@@ -685,6 +799,13 @@ textarea:focus {
     }
     .section div[class*="col-"].rad-col-text h2 {
         text-align: left;
+    }
+    /* Single experience page - first experience after opened experience */
+    #experience.single .experience:first-child {
+        margin-top: -50px !important;
+    }
+    #experience h3 {
+        margin-top: -50px !important;
     }
 }
 .section div[class*="col-"].rad-col-text p {
@@ -1310,9 +1431,6 @@ textarea:focus {
 .profile-image img{
     max-inline-size: 100%;
     block-size: auto;
-}
-
-.profile-image img{
     margin-top: 40px;
 }
 
@@ -1324,6 +1442,83 @@ textarea:focus {
 @media only screen and (min-width : 768px) {
     .rad-showcase__bg img{
         height: 400px;
+    }
+}
+
+/* Fix image margins for tablet screens 577-767px */
+@media only screen and (min-width : 577px) and (max-width : 767px) {
+    #showcase .profile-image img {
+        margin-top: -70px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* Second image (about) - more top margin for 576-766px */
+    #about .profile-image img {
+        margin-top: -10px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* Center and position experience section - force column to full width */
+    #experience .row > div[class*="col-"] {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    #experience .experience {
+        text-align: center !important;
+    }
+
+    /* Homepage - first experience under LinkedIn button */
+    #experience:not(.single) .experience:first-child {
+        margin-top: 50px !important;
+    }
+
+    /* Single experience page - first experience after opened experience */
+    #experience.single .experience:first-child {
+        margin-top: 10px !important;
+    }
+
+    #experience .experience + .experience {
+        margin-top: 15px !important;
+    }
+
+    #experience .experience a {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .all-experience-container {
+        text-align: center !important;
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .section {
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #main-content{
+      margin-top: 8%;
+    }
+      .img-left {
+      float: left;
+      margin-right: auto;
+      margin-left: 0;
+      padding-top: 0px;
+  }
+  .img-right {
+    float: right;
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 0px;
+}
+
+    #portfolio h2 {
+        margin-bottom: -50px !important;
     }
 }
 
@@ -1421,9 +1616,6 @@ li.book-content p{
     line-height: normal;
 }
 
-.about__profile-picture img{
-    object-fit: contain;
-}
 
 .experience__company{
     color: #478079;
@@ -1438,7 +1630,7 @@ li.book-content p{
 }
 
 body.home div.experience{
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .experience a {
@@ -1475,6 +1667,10 @@ body.home div.experience{
 
 .all-experience-container{
     margin-top: 50px;
+}
+.all-experience-container em{
+    margin-bottom: -7px;
+    display: block;
 }
 .footer__copy a{
     color: white;
@@ -1580,7 +1776,7 @@ aside.content-browser{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
     .header .navbar-brand{
         margin-top: 10px;
     }
