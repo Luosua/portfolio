@@ -50,6 +50,10 @@
       integrate into real-world workflows. With a strong focus on clear communication, I ensure smooth collaboration,
       enabling AI-driven innovations to create lasting impact across industries such as finance, customer support
        and industrial automation.</p>
+
+- id: "showcase_toolstack"
+  translation: "Main Toolstack"
+
 - id: "showcase_button"
   translation: "Contact"
 

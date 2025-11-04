@@ -1,0 +1,17 @@
+{{ if .Site.Data.homepage.concept.enable }}
+{{ $conceptPage := .Site.GetPage "/concept" }}
+<section id="concept" class="section rad-animation-group section--border-bottom">
+  <div class="container rad-fade-down">
+    <div class="row">
+      <div class="col-12">
+        {{ with $conceptPage }}
+        <h2>{{ .Title }}</h2>
+        <div class="concept-content">
+          {{ .Content }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -23,6 +23,10 @@ about:
     x: "images/about/222.PNG"
     _2x: "images/about/222.PNG"
 
+# concept
+concept:
+  enable: true
+
 # education
 education:
   enable: true

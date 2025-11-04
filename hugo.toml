@@ -53,7 +53,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
   title = 'Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert'
   description = ''
   images = ['/img/og-img.png']
-  sections = ["showcase", "about", "experience", "client-and-work", "education", "certifications", "publications", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "concept", "experience", "client-and-work", "education", "certifications", "publications", "testimonial", "contact", "newsletter"]
 
   homepageExperienceCount = 2
 

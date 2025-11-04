@@ -50,6 +50,9 @@
       die sich nahtlos in bestehende Arbeitsabläufe integrieren. Durch klare Kommunikation sorge ich für eine reibungslose Zusammenarbeit,
        sodass KI-gestützte Innovationen nachhaltige Wirkung in Branchen wie Finanzen, Kundenservice und industrieller
         Automatisierung entfalten können.</p>
+- id: "showcase_toolstack"
+  translation: "Haupt-Toolstack"
+
 - id: "showcase_button"
   translation: "Kontakt"
 

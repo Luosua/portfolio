@@ -196,3 +196,84 @@
 #about .btn-primary {
     margin-bottom: 10%;
 }
+
+/* Concept section styling */
+#concept {
+    background: linear-gradient(135deg, rgba(71, 128, 121, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#concept h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.concept-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.concept-content p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    margin-bottom: 25px;
+    text-align: justify;
+    color: #333;
+}
+
+.concept-content p:first-of-type {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #478079;
+}
+
+.concept-content p:last-of-type {
+    font-size: 1.55rem;
+    font-style: italic;
+    padding: 25px 30px;
+    margin-top: 30px;
+    background-color: rgba(71, 128, 121, 0.15);
+    border-radius: 20px;
+    border: 1px solid rgba(71, 128, 121, 0.4);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .concept-content p {
+        font-size: 1rem;
+    }
+
+    .concept-content p:first-of-type {
+        font-size: 1.1rem;
+    }
+}
+
+/* Toolstack section styling */
+.toolstack-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.toolstack-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.toolstack-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.toolstack-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgba(71, 128, 121, 0.2);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid rgba(71, 128, 121, 0.4);
+}
