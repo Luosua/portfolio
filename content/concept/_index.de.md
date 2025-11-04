@@ -8,6 +8,6 @@ In einer Welt, in der KI überzeugende, aber ungenaue Ergebnisse liefern kann, g
 
 Deshalb entwerfe ich KI-Lösungen, die erklärbar und auf echten Fakten aufgebaut sind. Ich nehme mir Zeit, die Daten zu verstehen, Ergebnisse zu validieren und sicherzustellen, dass die Technologie den Menschen dient - nicht umgekehrt.
 
-Wahrhaftig zu sein bedeutet auch, ehrlich darüber zu sprechen, was wirklich gebraucht wird. Manchmal ist die beste Lösung gar keine KI. Ich unterstütze meine Kundinnen und Kunden dabei, maßgeschneiderte und kosteneffiziente Ansätze zu finden – sei es eine einfache Automatisierung oder ein vollständig KI-gestütztes System.
+Wahrhaftig zu sein bedeutet auch, ehrlich darüber zu sprechen, was wirklich gebraucht wird. Manchmal ist die beste Lösung gar keine KI. Ich unterstütze meine Kundinnen und Kunden dabei, maßgeschneiderte und kosteneffiziente Ansätze zu finden - sei es eine einfache Automatisierung oder ein vollständig KI-gestütztes System.
 
 Mein Ziel ist es, Technologie zuverlässig und verantwortungsvoll einzusetzen – geleitet von der Überzeugung, dass die Wahrheit immer die KI regieren sollte.
