@@ -1,0 +1,50 @@
+<!-- inject:../components/baseHead/baseHeadStart.html -->
+<!DOCTYPE html>
+<html lang="{{- $.Lang }}">
+  <head>
+    {{ partial "head.html" . }} {{ partial "head_custom.html" . }}
+  </head>
+
+  <body>
+    {{ partial "header.html" . }}
+
+    <section
+      id="case-study"
+      class="section section--border-bottom rad-animation-group flex-grow-1 single"
+    >
+      <div id="main-content" class="container">
+        <div class="row rad-fade-down">
+          <div class="col-12">
+            <h1 class="case-study-single__title">{{ .Title }}</h1>
+
+            {{ $img := resources.Get .Params.image.x }}
+            {{ with $img }}
+            <div class="case-study-single__hero mb-4">
+              {{ $imgWebp := .Resize (printf "%dx%d webp q75 Lanczos picture" .Width .Height) }}
+              <picture>
+                <source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp" />
+                <img
+                  src="{{ .RelPermalink }}"
+                  alt="{{ $.Title }}"
+                  class="img-fluid case-study-single__image"
+                />
+              </picture>
+            </div>
+            {{ end }}
+
+            <div class="case-study-single__content">
+              {{ .Content }}
+            </div>
+
+            <div class="case-study-single__back mt-5">
+              <a href="{{ "/" | relLangURL }}#case-studies" class="btn btn-primary">&larr; {{ i18n "back_to_case_studies" }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {{ partial "footer.html" . }} {{ partial "base-foot.html" . }}
+  </body>
+</html>
+<!-- endinject -->

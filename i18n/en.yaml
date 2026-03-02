@@ -20,6 +20,12 @@
 - id: "nav_home"
   translation: "HOME"
 
+- id: "nav_book_call"
+  translation: "Book a Call"
+
+- id: "back_to_case_studies"
+  translation: "Back to Case Studies"
+
 ## Footer
 - id: "footer_notice"
   translation: "© Alona Liuzniak, 2025"
@@ -152,7 +158,7 @@
 
 ## Homepage client & work
 - id: "client_work_title"
-  translation: "Projects"
+  translation: "Case Studies"
 
 ## Homepage testimonials
 - id: "testimonials_title"

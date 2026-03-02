@@ -19,8 +19,7 @@
     <nav class="navbar bd-navbar navbar-expand-lg navbar-light p-0">
       <div class="container-fluid">
         <a class="navbar-brand mx-auto" href="{{ "/" | relLangURL }}">
-          <span>{{ i18n "logo_text1" }}</span>
-          <span>{{ i18n "logo_text2" }}</span>
+          <img src="{{ "/images/logo.svg" | relURL }}" alt="Logo" class="header-logo" />
         </a>
         <button
           class="navbar-toggler collapsed"
@@ -54,6 +53,9 @@
             {{ partial "selector-language.html" . }}
             </li>
             {{- end }}
+            <li class="nav-item nav-item--cta">
+              <a class="btn btn-primary btn-book-call" href="https://calendly.com/alona-liuzniak/30min" target="_blank" rel="noopener noreferrer">{{ i18n "nav_book_call" }}</a>
+            </li>
           </ul>
         </div>
 

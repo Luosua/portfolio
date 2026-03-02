@@ -53,7 +53,7 @@ path="github.com/zetxek/adritian-free-hugo-theme"
   title = 'Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert'
   description = ''
   images = ['/img/og-img.png']
-  sections = ["showcase", "about", "concept", "experience", "client-and-work", "education", "certifications", "publications", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "services", "about", "concept", "client-and-work", "testimonial", "contact"]
 
   homepageExperienceCount = 2
 
@@ -98,30 +98,21 @@ path="github.com/zetxek/adritian-free-hugo-theme"
     [languages.en.menus]
 
       [[languages.en.menus.header]]
-        name = "Experience"
-        URL = "#experience"
+        name = "Services"
+        URL = "#services"
         weight = 2
       [[languages.en.menus.header]]
-        name = 'Portfolio'
-        URL = '#portfolio'
+        name = "Case Studies"
+        URL = "#case-studies"
         weight = 3
-
       [[languages.en.menus.header]]
-        name = 'Education'
-        URL = '#education'
+        name = "About Me"
+        URL = "#about"
         weight = 4
-      [[languages.en.menus.header]]
-        name = 'Publications'
-        URL = '#publications'
-        weight = 5
-      [[languages.en.menus.header]]
-        name = 'Testimonials'
-        URL = '#testimonial'
-        weight = 6
       [[languages.en.menus.header]]
         name = "Contact"
         URL = "#contact"
-        weight = 7
+        weight = 5
 
       [[languages.en.menus.footer]]
         name = "Impressum"
@@ -144,30 +135,21 @@ path="github.com/zetxek/adritian-free-hugo-theme"
     [languages.de.menus]
 
       [[languages.de.menus.header]]
-        name = "Erfahrung"
-        URL = "de/#experience"
+        name = "Dienstleistungen"
+        URL = "de/#services"
         weight = 2
       [[languages.de.menus.header]]
-        name = 'Portfolio'
-        URL = 'de/#portfolio'
+        name = "Fallstudien"
+        URL = "de/#case-studies"
         weight = 3
-
       [[languages.de.menus.header]]
-        name = 'Bildungsweg'
-        URL = 'de/#education'
+        name = "Über mich"
+        URL = "de/#about"
         weight = 4
-      [[languages.de.menus.header]]
-        name = 'Publikationen'
-        URL = 'de/#publications'
-        weight = 5
-      [[languages.de.menus.header]]
-        name = 'Empfehlungen'
-        URL = 'de/#testimonial'
-        weight = 6
       [[languages.de.menus.header]]
         name = "Kontakt"
         URL = "de/#contact"
-        weight = 7
+        weight = 5
 
       [[languages.de.menus.footer]]
         name = "Impressum"
@@ -188,30 +170,21 @@ path="github.com/zetxek/adritian-free-hugo-theme"
 
     [languages.it.menus]
       [[languages.it.menus.header]]
-        name = "Esperienza"
-        URL = "it/#experience"
+        name = "Servizi"
+        URL = "it/#services"
         weight = 2
       [[languages.it.menus.header]]
-        name = 'Portfolio'
-        URL = 'it/#portfolio'
+        name = "Casi Studio"
+        URL = "it/#case-studies"
         weight = 3
-
       [[languages.it.menus.header]]
-        name = 'Formazione'
-        URL = 'it/#education'
+        name = "Chi sono"
+        URL = "it/#about"
         weight = 4
       [[languages.it.menus.header]]
-        name = 'Pubblicazioni'
-        URL = 'it/#publications'
-        weight = 5
-      [[languages.it.menus.header]]
-        name = 'Testimonianze'
-        URL = 'it/#testimonial'
-        weight = 6
-      [[languages.it.menus.header]]
-        name = "Contattare"
+        name = "Contatto"
         URL = "it/#contact"
-        weight = 7
+        weight = 5
 
       [[languages.it.menus.footer]]
         name = "Impressum"

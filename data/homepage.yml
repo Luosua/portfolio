@@ -23,6 +23,10 @@ about:
     x: "images/about/222.PNG"
     _2x: "images/about/222.PNG"
 
+# services
+services:
+  enable: true
+
 # concept
 concept:
   enable: true
@@ -32,7 +36,7 @@ education:
   enable: true
 
 certifications:
-  enable: true
+  enable: false
   items:
 
     - university: "Databricks Certified Machine Learning Professional"
