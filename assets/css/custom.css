@@ -154,7 +154,7 @@
   color: white;
 }
 #testimonial {
-  background-color: #2c061a;
+  background-color: #ffffff;
 }
 .testimonial__author-info span{
   margin-top:1%;
@@ -197,22 +197,62 @@
     margin-bottom: 10%;
 }
 
-/* Header logo */
+/* Header logo + layout */
+.header {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 70px !important;
+}
+.header .navbar {
+  height: 100%;
+  align-items: center !important;
+}
+.header .navbar-brand {
+  padding: 10px 0;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.header .navbar-brand img {
+  height: 50px !important;
+  width: auto !important;
+  max-height: none !important;
+}
 .header-logo {
-  height: 40px;
+  height: 50px;
   width: auto;
+  display: block;
+}
+.header .navbar-nav {
+  align-items: center !important;
+  align-self: center !important;
 }
 
 /* Book a Call nav button */
 .nav-item--cta {
   display: flex;
   align-items: center;
-  margin-left: 12px;
+  margin-left: 16px;
 }
 .btn-book-call {
   white-space: nowrap;
   font-size: 0.85rem;
-  padding: 6px 16px;
+  font-weight: 600;
+  padding: 9px 22px;
+  border-radius: 50px !important;
+  background-color: #478079 !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 2px 12px rgba(71, 128, 121, 0.35);
+  letter-spacing: 0.4px;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+.btn-book-call:hover {
+  background-color: #3a6b65 !important;
+  box-shadow: 0 4px 18px rgba(71, 128, 121, 0.5);
+  transform: translateY(-1px);
+  color: #ffffff !important;
 }
 
 /* Case Studies section */
@@ -280,10 +320,52 @@
   margin-bottom: 40px;
 }
 
-/* Services section */
-#services {
-  background-color: #2c061a;
+/* =============================================
+   ALTERNATING SECTION COLORS
+   odd  (1,3,5,7) = dark  #2c061a / white text
+   even (2,4,6)   = white #ffffff / dark text
+   ============================================= */
+
+/* --- LIGHT sections: #services, #concept, #testimonial --- */
+/* Must use !important to override the global dark-mode rules in adritian.scss */
+#services,
+#concept,
+#testimonial {
+  background-color: #ffffff !important;
+  color: #2c061a !important;
 }
+#services h1, #services h2, #services h3, #services h4, #services h5, #services h6,
+#concept h1, #concept h2, #concept h3, #concept h4, #concept h5, #concept h6,
+#testimonial h1, #testimonial h2, #testimonial h3, #testimonial h4, #testimonial h5, #testimonial h6 {
+  color: #2c061a !important;
+}
+#services .display-1,
+#concept .display-1,
+#testimonial .display-1 {
+  color: #2c061a !important;
+}
+#services .lead,
+#concept .lead,
+#testimonial .lead {
+  color: #2c061a !important;
+}
+#services p,
+#concept p,
+#testimonial p {
+  color: #333 !important;
+}
+#services a,
+#concept a,
+#testimonial a {
+  color: #478079 !important;
+}
+#services li,
+#concept li,
+#testimonial li {
+  color: #2c061a !important;
+}
+
+/* Services section */
 #services h2 {
   margin-bottom: 40px;
   text-align: center;
@@ -299,13 +381,10 @@
   line-height: 1.9;
   margin-bottom: 25px;
   text-align: justify;
+  color: #2c061a !important;
 }
 
-/* Concept section styling */
-#concept {
-    background: linear-gradient(135deg, rgba(71, 128, 121, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
+/* Concept section */
 #concept h2 {
     margin-bottom: 40px;
     text-align: center;
@@ -323,13 +402,13 @@
     line-height: 1.9;
     margin-bottom: 25px;
     text-align: justify;
-    color: #333;
+    color: #333 !important;
 }
 
 .concept-content p:first-of-type {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #478079;
+    color: #478079 !important;
 }
 
 .concept-content p:last-of-type {
@@ -341,6 +420,7 @@
     border-radius: 20px;
     border: 1px solid rgba(71, 128, 121, 0.4);
     text-align: center;
+    color: #2c061a !important;
 }
 
 @media (max-width: 768px) {
@@ -351,6 +431,14 @@
     .concept-content p:first-of-type {
         font-size: 1.1rem;
     }
+}
+
+/* Testimonial on white background */
+#testimonial .icon-quote-left {
+  color: #478079 !important;
+}
+#testimonial .testimonial__author-info span {
+  color: #555 !important;
 }
 
 /* Toolstack section styling */
