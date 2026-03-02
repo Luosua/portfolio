@@ -26,6 +26,17 @@
 - id: "back_to_case_studies"
   translation: "Zurück zu den Fallstudien"
 
+- id: "case_study_situation"
+  translation: "Ausgangslage"
+- id: "case_study_solution"
+  translation: "Lösung"
+- id: "case_study_tools"
+  translation: "Tools"
+- id: "case_study_prev"
+  translation: "Vorheriges"
+- id: "case_study_next"
+  translation: "Nächstes"
+
 ## Footer
 - id: "footer_notice"
   translation: "© Alona Liuzniak, 2025"

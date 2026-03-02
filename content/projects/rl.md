@@ -4,9 +4,25 @@ title: 'AI-Powered Robotics: Smarter Motion Planning with Reinforcement Learning
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/reinforcement_learning.png"
         _2x: "images/works/reinforcement_learning.png"
+    situation:
+        - "Robotic motion planning relied on manual programming, limiting adaptability"
+        - "Real-world data collection for training was expensive and slow"
+        - "Existing systems could not adapt to dynamic environments in real time"
+    solution:
+        - "Designed synthetic 3D training environments to replace real-world data collection"
+        - "Applied reinforcement learning to train adaptive motion planning policies"
+        - "Deployed real-time inference for object picking in dynamic manufacturing settings"
+    tools:
+        - "Python"
+        - "PyTorch"
+        - "Reinforcement Learning"
+        - "Synthetic Data"
+        - "OpenAI Gym"
+        - "Computer Vision"
+        - "ROS"
 
 
 ## The content is used for the description of the project

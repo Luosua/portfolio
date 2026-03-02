@@ -4,9 +4,25 @@ title: 'Scalable AI for Fraud Prevention in Banking: From 10 Million to 9 Models
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/fraud_prevention.png"
         _2x: "images/works/fraud_prevention.png"
+    situation:
+        - "Fraud detection relied on 10 million models — unmanageable at scale"
+        - "High false positive rate was disrupting legitimate customer transactions"
+        - "Subtle fraud patterns went undetected by existing rule-based approaches"
+    solution:
+        - "Redesigned customer segmentation to reduce models from 10M to just 9"
+        - "Engineered new XGBoost features to improve detection accuracy"
+        - "Implemented an autoencoder-based anomaly detection layer for unsupervised fraud detection"
+    tools:
+        - "Python"
+        - "XGBoost"
+        - "Azure ML"
+        - "Apache Spark"
+        - "Graph Analytics"
+        - "Scikit-learn"
+        - "Autoencoders"
 
 
 ## The content is used for the description of the project

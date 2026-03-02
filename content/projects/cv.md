@@ -4,9 +4,25 @@ title: 'AI-Powered KYC Automation & Fraud Prevention in Financial Services'
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/computer_vision.png"
         _2x: "images/works/computer_vision.png"
+    situation:
+        - "Manual KYC process was slow, error-prone and vulnerable to fraud"
+        - "German ID security feature recognition had low accuracy"
+        - "Slow customer onboarding was impacting user experience and compliance"
+    solution:
+        - "Built an AI-driven KYC pipeline using deep learning and computer vision"
+        - "Improved German ID security feature recognition accuracy by 60%"
+        - "Automated identity verification to accelerate and secure onboarding"
+    tools:
+        - "Python"
+        - "TensorFlow"
+        - "OpenCV"
+        - "Azure"
+        - "Deep Learning"
+        - "Computer Vision"
+        - "Neural Networks"
 
 
 ## The content is used for the description of the project

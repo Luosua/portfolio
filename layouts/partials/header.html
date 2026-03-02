@@ -79,6 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
-{{- if not .IsHome }}
+{{- if and (not .IsHome) (not (eq .Type "projects")) }}
   {{ partial "breadcrumb.html" . }}
 {{- end }}

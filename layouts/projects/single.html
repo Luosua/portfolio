@@ -10,37 +10,89 @@
 
     <section
       id="case-study"
-      class="section section--border-bottom rad-animation-group flex-grow-1 single"
+      class="section rad-animation-group flex-grow-1 single"
     >
       <div id="main-content" class="container">
+
+        <!-- Title -->
         <div class="row rad-fade-down">
           <div class="col-12">
             <h1 class="case-study-single__title">{{ .Title }}</h1>
+          </div>
+        </div>
 
+        <!-- Image (left 40%) + Metadata (right 60%) -->
+        <div class="row rad-fade-down mb-5">
+          <div class="col-12 col-md-5">
             {{ $img := resources.Get .Params.image.x }}
             {{ with $img }}
-            <div class="case-study-single__hero mb-4">
-              {{ $imgWebp := .Resize (printf "%dx%d webp q75 Lanczos picture" .Width .Height) }}
-              <picture>
-                <source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp" />
-                <img
-                  src="{{ .RelPermalink }}"
-                  alt="{{ $.Title }}"
-                  class="img-fluid case-study-single__image"
-                />
-              </picture>
-            </div>
+            <img
+              src="{{ .RelPermalink }}"
+              alt="{{ $.Title }}"
+              class="img-fluid case-study-single__image"
+            />
             {{ end }}
+          </div>
 
+          <div class="col-12 col-md-7 case-study-single__meta">
+
+            <div class="case-study-meta__block">
+              <h4>{{ i18n "case_study_situation" }}</h4>
+              <ul>
+                {{ range .Params.situation }}
+                <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            </div>
+
+            <div class="case-study-meta__block">
+              <h4>{{ i18n "case_study_solution" }}</h4>
+              <ul>
+                {{ range .Params.solution }}
+                <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            </div>
+
+            <div class="case-study-meta__block">
+              <h4>{{ i18n "case_study_tools" }}</h4>
+              <div class="toolstack-items">
+                {{ range .Params.tools }}
+                <span class="toolstack-badge">{{ . }}</span>
+                {{ end }}
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Full-width content -->
+        <div class="row rad-fade-down">
+          <div class="col-12">
             <div class="case-study-single__content">
               {{ .Content }}
             </div>
-
-            <div class="case-study-single__back mt-5">
-              <a href="{{ "/" | relLangURL }}#case-studies" class="btn btn-primary">&larr; {{ i18n "back_to_case_studies" }}</a>
-            </div>
           </div>
         </div>
+
+        <!-- Previous / Next navigation -->
+        <div class="row case-study-nav mt-3 mb-2">
+          <div class="col-6">
+            {{ with .PrevInSection }}
+            <a href="{{ .Permalink }}" class="btn btn-primary case-study-nav__btn">
+              &larr; {{ i18n "case_study_prev" }}
+            </a>
+            {{ end }}
+          </div>
+          <div class="col-6 text-end">
+            {{ with .NextInSection }}
+            <a href="{{ .Permalink }}" class="btn btn-primary case-study-nav__btn">
+              {{ i18n "case_study_next" }} &rarr;
+            </a>
+            {{ end }}
+          </div>
+        </div>
+
       </div>
     </section>
 

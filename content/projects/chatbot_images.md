@@ -4,9 +4,25 @@ title: 'Smart AI Chatbot with Image Understanding & Enterprise Integration'
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/chatbot_images.png"
         _2x: "images/works/chatbot_images.png"
+    situation:
+        - "Enterprise workflows relied on text-only knowledge bases, excluding visual data"
+        - "No integration with existing communication tools like Outlook or Teams"
+        - "Users lacked transparency into how chatbot responses were generated"
+    solution:
+        - "Built an image ingestion pipeline to extend the knowledge base with visual data"
+        - "Developed Outlook and Microsoft Teams connectors for seamless integration"
+        - "Applied Explainable AI (XAI) to trace and verify every chatbot response"
+    tools:
+        - "Python"
+        - "OpenAI"
+        - "LangChain"
+        - "Azure"
+        - "RAG"
+        - "XAI"
+        - "Teams API"
 
 
 ## The content is used for the description of the project
