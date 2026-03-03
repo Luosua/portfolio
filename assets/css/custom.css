@@ -120,10 +120,37 @@
 #showcase {
   background-color: #2c061a;
   text-align: justify;
+  overflow: hidden !important;
+  padding-bottom: 60px !important;
+}
+#showcase .btn-book-call--showcase {
+  font-size: 1.15rem;
+  padding: 14px 44px;
 }
 #about {
   background-color: #2c061a;
   text-align: justify;
+}
+#showcase .profile-image,
+#about .profile-image {
+  flex: 0 0 41.666667% !important;
+  max-width: 41.666667% !important;
+  width: 41.666667% !important;
+}
+html body #showcase .profile-image img {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  max-width: 100% !important;
+  max-height: 600px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain;
+}
+html body #showcase .profile-image {
+  overflow: hidden !important;
+  align-self: stretch;
 }
 #education {
   margin-top: 20px;
