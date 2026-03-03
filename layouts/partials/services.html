@@ -1,17 +1,66 @@
 {{ if .Site.Data.homepage.services.enable }}
-{{ $servicesPage := .Site.GetPage "/services" }}
 <section id="services" class="section rad-animation-group section--border-bottom">
   <div class="container rad-fade-down">
-    <div class="row">
-      <div class="col-12">
-        {{ with $servicesPage }}
-        <h2>{{ .Title }}</h2>
-        <div class="services-content">
-          {{ .Content }}
+
+    <!-- What I Do -->
+    <h2>{{ i18n "services_what_i_do" }}</h2>
+    <div class="row justify-content-center mb-5">
+      {{ range .Site.Data.homepage.services.what_i_do }}
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="service-tile">
+          {{ if strings.HasSuffix .icon ".svg" }}
+            <span class="service-tile__icon service-tile__icon--inline">{{ readFile (printf "static/%s" .icon) | safeHTML }}</span>
+          {{ else }}
+            <img src="{{ .icon | relURL }}" alt="" class="service-tile__icon" />
+          {{ end }}
+          <div class="service-tile__body">
+            <h4 class="service-tile__header">{{ .header }}</h4>
+            {{ if .text }}<p class="service-tile__text">{{ .text }}</p>{{ end }}
+          </div>
         </div>
-        {{ end }}
       </div>
+      {{ end }}
     </div>
+
+    <!-- How We Work Together -->
+    <h2>{{ i18n "services_how_we_work" }}</h2>
+    <div class="row justify-content-center mb-5">
+      {{ range .Site.Data.homepage.services.how_we_work }}
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="service-tile service-tile--dark">
+          <div class="service-tile__body">
+            <h4 class="service-tile__header">{{ .header }}</h4>
+            {{ if .text }}<p class="service-tile__text">{{ .text }}</p>{{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- What You Gain -->
+    <h2>{{ i18n "services_what_you_gain" }}</h2>
+    <div class="row justify-content-center">
+      {{ range .Site.Data.homepage.services.what_you_gain }}
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="service-tile service-tile--icon-top">
+          {{ if strings.HasSuffix .icon ".svg" }}
+            <span class="service-tile__icon">{{ readFile (printf "static/%s" .icon) | safeHTML }}</span>
+          {{ else }}
+            <img src="{{ .icon | relURL }}" alt="" class="service-tile__icon" />
+          {{ end }}
+          <div class="service-tile__body">
+            <h4 class="service-tile__header">{{ .header }}</h4>
+            {{ if .bullets }}
+            <ul class="service-tile__bullets">
+              {{ range .bullets }}<li>{{ . }}</li>{{ end }}
+            </ul>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
   </div>
 </section>
 {{ end }}

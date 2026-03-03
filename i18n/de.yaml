@@ -162,6 +162,14 @@
 - id: "experience_button3_url"
   translation: "/experience"
 
+## Homepage services
+- id: "services_what_i_do"
+  translation: "Was ich tue"
+- id: "services_how_we_work"
+  translation: "Wie wir zusammenarbeiten"
+- id: "services_what_you_gain"
+  translation: "Was Sie gewinnen"
+
 ## Homepage client & work
 - id: "client_work_title"
   translation: "Fallstudien"

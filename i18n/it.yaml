@@ -166,6 +166,14 @@
 - id: "experience_button3_url"
   translation: "/experience"
 
+## Homepage services
+- id: "services_what_i_do"
+  translation: "Cosa faccio"
+- id: "services_how_we_work"
+  translation: "Come lavoriamo insieme"
+- id: "services_what_you_gain"
+  translation: "Cosa ottieni"
+
 ## Homepage client & work
 - id: "client_work_title"
   translation: "Casi Studio"

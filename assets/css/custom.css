@@ -449,21 +449,120 @@ html body #showcase .profile-image {
 
 /* Services section */
 #services h2 {
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   text-align: center;
   font-weight: 600;
 }
-.services-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
+#services .row + h2 {
+  margin-top: 56px;
 }
-.services-content p {
-  font-size: 1.1rem;
-  line-height: 1.9;
-  margin-bottom: 25px;
-  text-align: justify;
+
+/* Service tiles */
+.service-tile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 24px;
+  border-radius: 12px;
+  height: 100%;
+  background-color: #fff;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.service-tile__icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.service-tile--icon-top {
+  flex-direction: column;
+}
+.service-tile--icon-top .service-tile__icon {
+  margin-top: 0;
+  margin-bottom: 12px;
+  width: 72px !important;
+  height: 72px !important;
+  display: block;
+}
+.service-tile__icon--inline {
+  width: 60px !important;
+  height: 60px !important;
+}
+.service-tile__icon--inline svg,
+.service-tile--icon-top .service-tile__icon svg {
+  width: 60px !important;
+  height: 60px !important;
+  max-width: 100%;
+  overflow: visible;
+}
+.service-tile--icon-top .service-tile__icon svg {
+  width: 72px !important;
+  height: 72px !important;
+}
+.service-tile--icon-top .service-tile__icon svg path {
+  stroke: #2c061a;
+  stroke-width: 10;
+  paint-order: stroke fill;
+}
+.service-tile--dark {
+  background-color: #2c061a;
+  text-align: center;
+}
+#services .service-tile--dark .service-tile__header {
+  color: #fff !important;
+}
+#services .service-tile--dark p {
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-align: center !important;
+}
+#services .service-tile__bullets {
+  list-style: none !important;
+  padding-left: 0;
+}
+#services .service-tile__bullets li {
+  display: block !important;
+  position: relative !important;
+  padding-left: 1.1em;
   color: #2c061a !important;
+}
+#services .service-tile__bullets li::before {
+  content: "•";
+  color: #2c061a;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: inherit;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.service-tile__body {
+  flex: 1;
+}
+.service-tile__header {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #2c061a;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.service-tile__text {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: #555 !important;
+  margin-bottom: 0;
+  text-align: justify;
+}
+.service-tile__bullets {
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+.service-tile__bullets li {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: #555 !important;
+  margin-bottom: 4px;
 }
 
 /* Concept section */

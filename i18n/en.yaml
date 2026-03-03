@@ -74,6 +74,13 @@
 - id: "showcase_button"
   translation: "Contact"
 
+## Homepage services
+- id: "services_what_i_do"
+  translation: "What I Do"
+- id: "services_how_we_work"
+  translation: "How We Work Together"
+- id: "services_what_you_gain"
+  translation: "What You Gain"
 
 ## Homepage about
 - id: "about_title"
