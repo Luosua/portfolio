@@ -37,29 +37,38 @@
           <div class="col-12 col-md-7 case-study-single__meta">
 
             <div class="case-study-meta__block">
-              <h4>{{ i18n "case_study_situation" }}</h4>
-              <ul>
-                {{ range .Params.situation }}
-                <li>{{ . }}</li>
-                {{ end }}
-              </ul>
+              <img src="{{ "/images/stack.svg" | relURL }}" alt="" class="case-study-meta__icon" style="width:40px;height:40px;object-fit:contain;flex-shrink:0;" />
+              <div class="case-study-meta__body">
+                <h4>{{ i18n "case_study_situation" }}</h4>
+                <ul>
+                  {{ range .Params.situation }}
+                  <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
             </div>
 
             <div class="case-study-meta__block">
-              <h4>{{ i18n "case_study_solution" }}</h4>
-              <ul>
-                {{ range .Params.solution }}
-                <li>{{ . }}</li>
-                {{ end }}
-              </ul>
+              <img src="{{ "/images/lamp.svg" | relURL }}" alt="" class="case-study-meta__icon" style="width:35px;height:35px;object-fit:contain;flex-shrink:0;" />
+              <div class="case-study-meta__body">
+                <h4>{{ i18n "case_study_solution" }}</h4>
+                <ul>
+                  {{ range .Params.solution }}
+                  <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
             </div>
 
             <div class="case-study-meta__block">
-              <h4>{{ i18n "case_study_tools" }}</h4>
-              <div class="toolstack-items">
-                {{ range .Params.tools }}
-                <span class="toolstack-badge">{{ . }}</span>
-                {{ end }}
+              <img src="{{ "/images/tools.svg" | relURL }}" alt="" class="case-study-meta__icon" style="width:35px;height:35px;object-fit:contain;flex-shrink:0;" />
+              <div class="case-study-meta__body">
+                <h4>{{ i18n "case_study_tools" }}</h4>
+                <div class="toolstack-items">
+                  {{ range .Params.tools }}
+                  <span class="toolstack-badge">{{ . }}</span>
+                  {{ end }}
+                </div>
               </div>
             </div>
 

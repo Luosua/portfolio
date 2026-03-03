@@ -6,7 +6,7 @@
     <h2 class="rad-animation-group rad-fade-down">
       {{ i18n "client_work_title" }}
     </h2>
-    <div class="row rad-animation-group rad-fade-down">
+    <div class="row rad-animation-group rad-fade-down justify-content-center">
       {{ $baseLangSite := .Sites.Default }}
       {{ $projects := (where .Site.RegularPages.ByDate.Reverse "Type" "projects" | lang.Merge (where $baseLangSite.RegularPages.ByDate.Reverse "Type" "projects")) }}
       {{ range $projects }}
