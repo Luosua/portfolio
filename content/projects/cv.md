@@ -8,21 +8,22 @@ params:
         x: "images/works/computer_vision.png"
         _2x: "images/works/computer_vision.png"
     situation:
-        - "Manual KYC process was slow, error-prone and vulnerable to fraud"
-        - "German ID security feature recognition had low accuracy"
-        - "Slow customer onboarding was impacting user experience and compliance"
+        - "Banks must perform strict identity verification during account opening to comply with legal regulations"
+        - "Manual verification processes are slow, resource-intensive and vulnerable to fraud attempts"
+        - "Customers expect a fast and smooth onboarding experience despite strict compliance requirements"
     solution:
-        - "Built an AI-driven KYC pipeline using deep learning and computer vision"
-        - "Improved German ID security feature recognition accuracy by 60%"
-        - "Automated identity verification to accelerate and secure onboarding"
+        - "AI-driven KYC verification system that automates identity validation during digital account onboarding"
+        - "Significantly improved recognition accuracy of ID security elements, increasing fraud resistance and verification reliability"
+        - "Automated onboarding workflow that accelerates customer verification while maintaining regulatory compliance"
     tools:
         - "Python"
         - "TensorFlow"
         - "OpenCV"
-        - "Azure"
-        - "Deep Learning"
-        - "Computer Vision"
-        - "Neural Networks"
+        - "NumPy"
+        - "Pytesseract"
+        - "Pandas"
+        - "Scikit-Learn"
+        - "JUnit"
 
 
 ## The content is used for the description of the project

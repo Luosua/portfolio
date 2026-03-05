@@ -8,21 +8,24 @@ params:
         x: "images/works/chatbot_images.png"
         _2x: "images/works/chatbot_images.png"
     situation:
-        - "Enterprise workflows relied on text-only knowledge bases, excluding visual data"
-        - "No integration with existing communication tools like Outlook or Teams"
-        - "Users lacked transparency into how chatbot responses were generated"
+        - "Teams increasingly relied on both text documents and visual materials when searching for information"
+        - "Traditional chatbot solutions could only process textual content, leaving valuable information stored in images inaccessible"
+        - "Users also had to switch tools to interact with the chatbot, creating friction in everyday communication workflows"
     solution:
-        - "Built an image ingestion pipeline to extend the knowledge base with visual data"
-        - "Developed Outlook and Microsoft Teams connectors for seamless integration"
-        - "Applied Explainable AI (XAI) to trace and verify every chatbot response"
+        - "Multimodal chatbot with image ingestion pipeline that extracts and integrates visual information into the knowledge base"
+        - "Outlook and Microsoft Teams connectors allowing direct interaction with the chatbot inside existing communication tools"
+        - "Explainable AI mechanisms providing transparency into how visual information is processed and retrieved"
     tools:
         - "Python"
-        - "OpenAI"
-        - "LangChain"
-        - "Azure"
+        - "OpenSearch"
+        - "Docker"
+        - "CI"
+        - "Prompt Engineering"
+        - "LLM"
         - "RAG"
+        - "NLP"
+        - "GenAI"
         - "XAI"
-        - "Teams API"
 
 
 ## The content is used for the description of the project

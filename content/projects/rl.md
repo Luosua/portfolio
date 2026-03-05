@@ -8,21 +8,23 @@ params:
         x: "images/works/reinforcement_learning.png"
         _2x: "images/works/reinforcement_learning.png"
     situation:
-        - "Robotic motion planning relied on manual programming, limiting adaptability"
-        - "Real-world data collection for training was expensive and slow"
-        - "Existing systems could not adapt to dynamic environments in real time"
+        - "Industrial automation requires robots to handle objects reliably in dynamic environments"
+        - "Training robotic systems with real-world data is expensive, time-consuming, and difficult to scale"
+        - "Efficient motion planning is critical for robots to pick objects accurately and adapt to changing conditions"
     solution:
-        - "Designed synthetic 3D training environments to replace real-world data collection"
-        - "Applied reinforcement learning to train adaptive motion planning policies"
-        - "Deployed real-time inference for object picking in dynamic manufacturing settings"
+        - "AI-driven robotic picking system enabling robots to perceive objects and perform autonomous pick-and-place tasks"
+        - "Synthetic training data generation using simulated 3D environments to train models without costly real-world data collection"
+        - "Reinforcement learning–based motion optimization allowing the robot to improve movement strategies through feedback"
     tools:
         - "Python"
-        - "PyTorch"
-        - "Reinforcement Learning"
-        - "Synthetic Data"
-        - "OpenAI Gym"
-        - "Computer Vision"
-        - "ROS"
+        - "TensorFlow"
+        - "NumPy"
+        - "OpenCV"
+        - "Pytesseract"
+        - "Pandas"
+        - "Scikit-Learn"
+        - "Pytest"
+        - "Blender"
 
 
 ## The content is used for the description of the project

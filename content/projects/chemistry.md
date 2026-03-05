@@ -8,21 +8,26 @@ params:
         x: "images/works/chemistry_project.png"
         _2x: "images/works/chemistry_project.png"
     situation:
-        - "Large product catalog with complex, multi-hop customer queries"
-        - "Manual customer support was slow and unable to scale"
-        - "No AI-driven solution existed for chemistry-specific product recommendations"
+        - "Customers frequently contacted the company with product and application questions"
+        - "Most answers were already available on the company’s website, but difficult to find due to the large number of products and technical documents"
+        - "As a result, sales teams spent significant time answering repetitive information requests instead of focusing on actual sales conversations"
     solution:
-        - "Delivered a full RAG-based chatbot in 3 months, end-to-end"
-        - "Built a two-layer search combining product name filtering with relation matching"
-        - "Integrated Responsible AI mechanisms for transparent product recommendations"
+        - "AI-powered customer support chatbot that answers product and application questions using information from the company’s website and internal documents"
+        - "Transparent recommendation and explanation mechanisms that justify suggested products and increase user trust through Responsible AI methods"
+        - "Automated handling of information requests, forwarding only genuine sales-related inquiries to the sales team and reducing repetitive workload"
     tools:
         - "Python"
-        - "OpenAI"
-        - "LangChain"
-        - "RAG"
-        - "Azure"
-        - "NLP"
+        - "Microsoft Azure"
+        - "MLflow"
+        - "Docker"
+        - "CI"
         - "Prompt Engineering"
+        - "LLM"
+        - "RAG"
+        - "NLP"
+        - "GenAI"
+        - "XAI"
+        - "RAI"
 
 
 ## The content is used for the description of the project

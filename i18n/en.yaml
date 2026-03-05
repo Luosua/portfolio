@@ -53,20 +53,12 @@
   translation: "Hello, I am Alona"
 
 - id: "showcase_subtitle"
-  translation: "AI Developer | Generative AI Solutions | Responsible AI Expert"
+  translation: "Strong systems start with clear thinking"
 
 - id: "showcase_description"
   translation: <p class="lead">
-      Based in Frankfurt, I am an AI developer driven by a passion for solving business challenges and
-      optimizing processes through AI-driven automation, with a strong specialization in Generative AI
-      and tailored chatbot solutions, that enhance efficiency and reduce costs.
-      My work is built upon Responsible and Explainable AI, ensuring ethical and transparent AI adoption.
+      I design and implement AI solutions where architecture is deliberate, logic is consistent and usability is built in.
       </p>
-      <p class="lead">
-      I prioritize reliability and efficiency, delivering high-quality, adaptable solutions that seamlessly
-      integrate into real-world workflows. With a strong focus on clear communication, I ensure smooth collaboration,
-      enabling AI-driven innovations to create lasting impact across industries such as finance, customer support
-       and industrial automation.</p>
 
 - id: "showcase_toolstack"
   translation: "Main Toolstack"
@@ -87,31 +79,23 @@
   translation: "Who am I?"
 
 - id: "about_content"
-  translation:  <p class="lead">
-      As an AI developer with over 9 years of programming experience and over 5 years of experience in developing AI solutions,
-       I am fascinated by the transformative potential
-      of artificial intelligence to improve lives and drive groundbreaking innovations that shape the future.
-      With extensive experience in Generative AI (GenAI) and Natural Language Processing (NLP),
-      I specialize in designing scalable, user-centric solutions — from retrieval-augmented chatbots to
-      fraud prevention systems. My passion lies in applying Responsible and Explainable AI (RAI & XAI)
-       to ensure transparency, trust and ethical AI deployment.
-      </p>
-      <p class="lead">
-      Beyond technical expertise, I am committed to clear communication, reliability and flexibility—principles
-       that not only drive the development of high-quality AI systems but also foster strong, trust-based
-       relationships with clients. Reliability ensures both the technical excellence of my solutions and the
-       trust that clients can place in my work. Clear communication streamlines collaboration, saving time for
-        all parties and accelerating the creation of successful AI products. Flexibility allows me to adapt
-        solutions to evolving client needs while continuously learning and integrating cutting-edge technologies
-         to ensure that every AI system I build is both state-of-the-art and tailored to its specific use case.
-          My approach combines business-driven AI development with cutting-edge research, ensuring that
-           each solution is both technologically advanced and impactful in the real world.</p>
+  translation: |
+    <p class="lead"> I am an AI developer with over ten years of programming experience and more than six years designing
+    and implementing AI systems in business-critical contexts. I have contributed to intelligent solutions across domains such as finance, industrial workflows
+    and customer-facing platforms — from retrieval-augmented chatbots and multimodal assistants to fraud detection and decision-support systems.
+    </p>
     <p class="lead">
-    What I find most rewarding is seeing AI solutions I develop drive real impact—whether by streamlining
-    KYC processes, improving customer support automation or enhancing efficiency in industrial workflows.
-    I believe adaptability is key; by staying receptive to client needs and continuously refining solutions,
-     I ensure that every AI project I undertake is not just technically sophisticated, but also practical,
-     scalable and transformative.</p>
+    I approach every project with a strong architectural mindset and a clear focus on usability.
+    I develop solutions with the end user in mind — ensuring that complexity stays in the architecture, not in the experience.
+    Too often, technically impressive tools create friction because logic is inconsistent or workflows are poorly thought through.
+    I translate complex requirements into structured system designs, question inconsistencies early
+    and shape solutions that feel intuitive because they are built on clear principles.</p>
+    <p class="lead">
+    At the core of my work is a commitment to clarity and structure.
+    Sustainable systems are not driven by trends but by clear thinking and transparent design choices.
+    My goal is to build intelligent solutions that are not only technically sound,
+    but intuitive, coherent and practical in real-world use. I value precision, reliability and open communication — because trust,
+    in technology as in collaboration, starts with clarity.</p>
 
 - id: "about_button"
   translation: "About Me"
