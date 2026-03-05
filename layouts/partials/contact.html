@@ -1,10 +1,11 @@
 {{ if .Site.Data.homepage.contact.enable }}
 <section id="contact" class="section section--contact pt-0">
-    <div class="container">
+    <div style="width:100%; display:flex; justify-content:center;">
+        <div style="width:100%; max-width:1200px;">
         <div class="contact">
             <h2>{{ i18n "contact_title" }}</h2>
             <div class="row pt-2">
-                <div class="col-12 col-lg-7">
+                <div class="col-12 col-lg-7 offset-lg-2">
                     <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
                         <div class="row">
                             <div class="col-12 col-sm-6">
@@ -32,7 +33,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-lg-5 contact__info">
+                <div class="col-12 col-lg-3 contact__info">
                     {{ if i18n "contact_email_email" }}
                     <h3>{{ i18n "contact_email_title" }}</h3>
                     <span>{{ i18n "contact_email_email" | safeHTML }}</span>
@@ -44,6 +45,7 @@
                     {{ end }}
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </section>

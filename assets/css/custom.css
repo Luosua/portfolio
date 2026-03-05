@@ -689,9 +689,13 @@ html body #showcase .profile-image {
 #contact {
     background-image: none !important;
 }
-#contact .container {
+#contact .container,
+#contact > div {
     background-color: transparent !important;
     box-shadow: none !important;
+}
+#contact .contact__info {
+    padding: 0 15px !important;
 }
 #contact .contact__info h3,
 #contact .contact__info span {
@@ -715,24 +719,7 @@ html body #showcase .profile-image {
 #contact button[type="submit"] {
     border-radius: 50px !important;
 }
-#contact .contact {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-@media (min-width: 992px) {
-    #contact .col-lg-7,
-    #contact .col-lg-5.contact__info {
-        flex: 0 0 100% !important;
-        width: 100% !important;
-        max-width: 100% !important;
-    }
-    #contact .col-lg-5.contact__info {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        padding-top: 24px !important;
-    }
-}
 #contact .contact h2 {
     margin-bottom: 40px !important;
+    text-align: center;
 }
