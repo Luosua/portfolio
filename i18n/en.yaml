@@ -21,7 +21,7 @@
   translation: "HOME"
 
 - id: "nav_book_call"
-  translation: "Book a Call"
+  translation: "Book a call"
 
 - id: "back_to_case_studies"
   translation: "Back to Case Studies"
@@ -39,7 +39,7 @@
 
 ## Footer
 - id: "footer_notice"
-  translation: "© Alona Liuzniak, 2025"
+  translation: "© Alona Liuzniak, 2026"
 
 ## Homepage head title
 - id: "head_title"
@@ -53,11 +53,11 @@
   translation: "Hello, I am Alona"
 
 - id: "showcase_subtitle"
-  translation: "Strong systems start with clear thinking"
+  translation: "Strong systems<br>start with clear thinking"
 
 - id: "showcase_description"
   translation: <p class="lead">
-      I design and implement AI solutions where architecture is deliberate, logic is consistent and usability is built in.
+      I am Alona Liuzniak, an AI developer who designs and builds intelligent systems where architecture is deliberate, logic is consistent and usability is built in.
       </p>
 
 - id: "showcase_toolstack"
@@ -98,7 +98,7 @@
     in technology as in collaboration, starts with clarity.</p>
 
 - id: "about_button"
-  translation: "About Me"
+  translation: "LinkedIn"
 
 ## Homepage education
 - id: "education_title"

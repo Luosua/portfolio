@@ -5,8 +5,8 @@ draft: false # set to "true" if you want to hide the content
 
 params:
     image:
-        x: "images/works/chemistry_project.png"
-        _2x: "images/works/chemistry_project.png"
+        x: "images/works/ux.png"
+        _2x: "images/works/ux.png"
     situation:
         - "UX design reviews across teams were manual, time-consuming and inconsistent, slowing down product development"
         - "Designers lacked an easy way to check their work against internal UX guidelines or quickly clarify design standards"

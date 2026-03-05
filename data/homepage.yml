@@ -37,10 +37,10 @@ services:
       icon: "images/automation.svg"
       text: "I build AI-powered tools that reduce manual effort while increasing consistency and quality."
     - header: "Human-Centered AI"
-      icon: "images/loupe.svg"
+      icon: "images/target.svg"
       text: "I design intelligent systems with clear logic and intuitive interaction, ensuring they are structured, predictable and easy to use."
     - header: "Transparent AI System Design"
-      icon: "images/generative.svg"
+      icon: "images/smile.svg"
       text: "I embed transparency, explainability and responsible AI mechanisms into intelligent systems to ensure traceability and trust."
   how_we_work:
     - header: "One-Time Consultation"
@@ -63,7 +63,7 @@ services:
         - "Consistent decision logic across your system"
         - "Lean structures that improve performance"
     - header: "AI That Makes Sense"
-      icon: "images/target.svg"
+      icon: "images/trusted.svg"
       bullets:
         - "Reliable AI outputs designed for real-world use"
         - "Stable RAG and decision architectures"

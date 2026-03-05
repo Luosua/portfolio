@@ -10,7 +10,7 @@
       {{ $baseLangSite := .Sites.Default }}
       {{ $projects := (where .Site.RegularPages.ByDate.Reverse "Type" "projects" | lang.Merge (where $baseLangSite.RegularPages.ByDate.Reverse "Type" "projects")) }}
       {{ range $projects }}
-      <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-12 col-md-6 col-lg-4 mb-4 project-{{ .File.ContentBaseName }}">
         <a href="{{ .Permalink }}" class="case-study-card">
           {{ $img := resources.Get .Params.image.x }}
           {{ with $img }}

@@ -123,6 +123,15 @@
   overflow: hidden !important;
   padding-bottom: 60px !important;
 }
+#showcase h1 {
+  text-align: center;
+}
+#showcase .col-md-7 {
+  padding-top: 60px;
+}
+#showcase .lead {
+  font-size: 1.5rem;
+}
 #showcase .btn-book-call--showcase {
   font-size: 1.15rem;
   padding: 14px 44px;
@@ -202,10 +211,6 @@ html body #showcase .profile-image {
   margin-top: 25px;
 }
 
-.section--contact .container {
-    border: solid 2px white;
-    border-radius: 5px;
-}
 
 .datenschutz-content ul li {
   text-align: justify;
@@ -222,6 +227,7 @@ html body #showcase .profile-image {
 
 #about .btn-primary {
     margin-bottom: 10%;
+    border-radius: 50px !important;
 }
 
 /* Header logo + layout */
@@ -229,6 +235,13 @@ html body #showcase .profile-image {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   height: 70px !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+.header .navbar,
+.header nav {
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 .header .navbar {
   height: 100%;
@@ -316,20 +329,20 @@ html body #showcase .profile-image {
   object-fit: cover;
   transition: transform 0.3s ease;
 }
-#case-studies .row > div:nth-child(1) .case-study-card__image img {
+#case-studies .project-chemistry .case-study-card__image img {
   object-position: center calc(50% + 40px);
 }
-#case-studies .row > div:nth-child(2) .case-study-card__image img {
+#case-studies .project-chatbot_images .case-study-card__image img {
   object-position: center calc(50% + 60px);
 }
-#case-studies .row > div:last-child .case-study-card__image img {
+#case-studies .project-rl .case-study-card__image img {
   object-position: center calc(50% + 55px);
 }
 .case-study-card:hover .case-study-card__image img {
   transform: scale(1.04);
 }
 .case-study-card__body {
-  padding: 16px 20px;
+  padding: 0px 20px 16px;
 }
 .case-study-card__title {
   font-size: 1rem;
@@ -670,4 +683,56 @@ html body #showcase .profile-image {
     font-size: 0.9rem;
     font-weight: 500;
     border: 1px solid rgba(255, 180, 200, 0.4);
+}
+
+/* Contact section */
+#contact {
+    background-image: none !important;
+}
+#contact .container {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+#contact .contact__info h3,
+#contact .contact__info span {
+    color: #ffffff !important;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    background-color: #ffffff !important;
+    color: #2c061a !important;
+    border: none !important;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-weight: 700 !important;
+}
+#contact input[type="text"]::placeholder,
+#contact input[type="email"]::placeholder,
+#contact textarea::placeholder {
+    color: rgba(44, 6, 26, 0.5) !important;
+}
+#contact button[type="submit"] {
+    border-radius: 50px !important;
+}
+#contact .contact {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 992px) {
+    #contact .col-lg-7,
+    #contact .col-lg-5.contact__info {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    #contact .col-lg-5.contact__info {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 24px !important;
+    }
+}
+#contact .contact h2 {
+    margin-bottom: 40px !important;
 }

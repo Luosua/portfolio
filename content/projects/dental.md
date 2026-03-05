@@ -5,8 +5,8 @@ draft: false # set to "true" if you want to hide the content
 
 params:
     image:
-        x: "images/works/chemistry_project.png"
-        _2x: "images/works/chemistry_project.png"
+        x: "images/works/dental.png"
+        _2x: "images/works/dental.png"
     situation:
         - "Dentists must produce complete and billable treatment documentation but their primary focus is patient care rather than administrative work"
         - "As a result, documentation is often written under time pressure, which can lead to missing details or incomplete billing records"
