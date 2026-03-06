@@ -35,8 +35,8 @@ params:
 
 Many design teams rely on time-consuming manual checks to ensure that their work follows internal UX guidelines. I developed an AI-powered platform that automatically evaluates designs against these standards directly during the design process.
 
-The solution combines an automated evaluation engine with a Figma plugin and a web interface. Designers can run guideline-based tests directly on their designs, allowing the system to identify inconsistencies, missing elements, or potential usability issues early in the process. This significantly reduces the number of manual review cycles and helps teams maintain consistent design standards across products.
+The solution combines an automated evaluation engine with a Figma plugin and a web interface. Designers can run guideline-based tests directly on their designs, allowing the system to identify inconsistencies, missing elements or potential usability issues early in the process. This reduces the need for repeated manual reviews and helps teams maintain consistent design standards across products.
 
 To further support designers, I built an interactive AI assistant that can answer questions about both the current design file and the organization’s UX guidelines. By using a knowledge-based AI approach, the assistant provides contextual guidance and helps designers quickly understand how to apply internal standards in practice.
 
-The result is a practical tool that integrates seamlessly into designers’ daily workflow—helping teams work faster, maintain higher design quality, and scale UX governance across the organization.
+The result is a tool that integrates directly into designers’ workflows—helping teams work faster, maintain high design quality, and scale UX governance across the organization.

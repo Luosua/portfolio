@@ -1,0 +1,68 @@
+showcase:
+  subtitle: "Starke Systeme<br>beginnen mit klarem Denken"
+  description: |
+    <p class="lead">
+    Ich bin Alona Liuzniak, KI-Entwicklerin. Ich konzipiere und entwickle intelligente Systeme, bei denen die Architektur bewusst gestaltet ist, die Logik konsistent bleibt und Benutzerfreundlichkeit von Anfang an mitgedacht wird.
+    </p>
+
+about:
+  content: |
+    <p class="lead"> Ich bin KI-Entwicklerin mit über zehn Jahren Programmiererfahrung und mehr als sechs Jahren Erfahrung in der Konzeption und Umsetzung von KI-Systemen in geschäftskritischen Anwendungen.
+    Ich habe intelligente Lösungen in verschiedenen Bereichen entwickelt – darunter Finanzsysteme, industrielle Workflows und kundennahe Plattformen.
+    Dazu gehören unter anderem Retrieval-Augmented-Chatbots, multimodale Assistenten, Lösungen zur Betrugserkennung und Systeme zur Entscheidungsunterstützung.
+    </p>
+    <p class="lead">
+    Bei meiner Arbeit lege ich großen Wert auf eine saubere Architektur und Benutzerfreundlichkeit.
+    Ich entwickle Lösungen konsequent aus der Perspektive der Endnutzer, sodass die Komplexität in der Architektur bleibt und nicht in der Anwendung.
+    Zu oft entstehen technisch beeindruckende Tools, die im Alltag trotzdem schwer zu nutzen sind, weil Logik und Workflows nicht ausreichend durchdacht sind. 
+    Deshalb übersetze ich komplexe Anforderungen in klare Systemstrukturen, spreche Inkonsistenzen frühzeitig an und entwickle Lösungen,
+    die sich intuitiv anfühlen, weil sie auf klaren Prinzipien basieren.</p>
+    <p class="lead">
+    Im Mittelpunkt meiner Arbeit stehen Klarheit und Struktur. Starke Systeme entstehen nicht aus Trends, sondern aus durchdachten Entscheidungen.
+    Mein Ziel ist es, intelligente Lösungen zu entwickeln, die technisch solide, verständlich, konsistent und praxistauglich sind.
+     Präzision, Zuverlässigkeit und offene Kommunikation sind mir dabei besonders wichtig – denn Vertrauen, in Technologie wie in der Zusammenarbeit, beginnt mit Klarheit.</p>
+
+services:
+  enable: true
+  what_i_do:
+    - header: "KI-Systemarchitektur & Pipeline-Design"
+      icon: "images/diagram.svg"
+      text: "Ich entwerfe modulare und skalierbare KI-Systeme — von der Datenaufnahme bis zu Inferenz und Bereitstellung — mit klarer Struktur, Wartbarkeit und Integration in bestehende Systeme."
+    - header: "Retrieval-Augmented Generation (RAG) & Wissenssysteme"
+      icon: "images/book.svg"
+      text: "Ich konzipiere und optimiere RAG-Pipelines, Sucharchitekturen und Strategien zur Wissensintegration, um Antwortqualität, Kontextbezug und Konsistenz deutlich zu verbessern."
+    - header: "Workflow-Automatisierung & intelligente Tools"
+      icon: "images/automation.svg"
+      text: "Ich entwickle KI-gestützte Tools, die manuelle Arbeit reduzieren und gleichzeitig Konsistenz und Qualität erhöhen."
+    - header: "Nutzerzentrierte KI"
+      icon: "images/target.svg"
+      text: "Ich gestalte intelligente Systeme mit klarer Logik und intuitiver Interaktion, sodass sie strukturiert, vorhersehbar und einfach zu nutzen sind."
+    - header: "Transparentes KI-Systemdesign"
+      icon: "images/smile.svg"
+      text: "Ich integriere Transparenz-, Explainability- und Responsible-AI-Mechanismen in intelligente Systeme, um Nachvollziehbarkeit und Vertrauen sicherzustellen."
+  how_we_work:
+    - header: "Einmalige Beratung"
+      text: "Erhalten Sie eine klare, fundierte Perspektive auf Ihre Herausforderung. In einer fokussierten Session analysieren wir Ihr System, identifizieren verborgene Probleme und definieren konkrete nächste Schritte."
+    - header: "Fokussierter Problem-Sprint"
+      text: "Gehen Sie eine konkrete Herausforderung schnell und präzise an. In einer kurzen, intensiven Zusammenarbeit zerlegen wir das Problem, entwickeln eine klare Lösung und definieren einen umsetzbaren Implementierungsplan."
+    - header: "Langfristige Produktbegleitung"
+      text: "Stärken Sie Ihr Produkt, während es sich weiterentwickelt. Ich arbeite eng mit Ihrem Team zusammen, um Architektur zu verfeinern, Systemlogik zu verbessern und sicherzustellen, dass Ihr KI- oder Digitalprodukt klar, robust und skalierbar bleibt."
+  what_you_gain:
+    - header: "Klarheit in Ihren Ideen"
+      icon: "images/visibility.svg"
+      bullets:
+        - "Klare Produktkonzepte mit Fokus auf Umsetzung"
+        - "Architekturen mit konsistenter Logik"
+        - "Anforderungen übersetzt in umsetzbare Strukturen"
+    - header: "Einfachere, stärkere Workflows"
+      icon: "images/workflow.svg"
+      bullets:
+        - "Intuitive Abläufe, die Nutzer sofort verstehen"
+        - "Konsistente Entscheidungslogik im gesamten System"
+        - "Schlanke Strukturen für bessere Performance"
+    - header: "KI, die Sinn ergibt"
+      icon: "images/trusted.svg"
+      bullets:
+        - "Zuverlässige KI-Ergebnisse für reale Anwendungen"
+        - "Stabile RAG- und Entscheidungsarchitekturen"
+        - "Intelligente Funktionen, die Vertrauen schaffen"

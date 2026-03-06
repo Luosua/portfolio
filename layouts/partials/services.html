@@ -1,11 +1,15 @@
-{{ if .Site.Data.homepage.services.enable }}
+{{- $hp := .Site.Data.homepage -}}
+{{- with index .Site.Data .Site.Language.Lang -}}
+  {{- with .homepage -}}{{- $hp = merge $hp . -}}{{- end -}}
+{{- end -}}
+{{ if $hp.services.enable }}
 <section id="services" class="section rad-animation-group section--border-bottom">
   <div class="container rad-fade-down">
 
     <!-- What I Do -->
     <h2>{{ i18n "services_what_i_do" }}</h2>
     <div class="row justify-content-center mb-5">
-      {{ range .Site.Data.homepage.services.what_i_do }}
+      {{ range $hp.services.what_i_do }}
       <div class="col-12 col-md-6 col-lg-4 mb-4">
         <div class="service-tile">
           {{ if strings.HasSuffix .icon ".svg" }}
@@ -25,7 +29,7 @@
     <!-- How We Work Together -->
     <h2>{{ i18n "services_how_we_work" }}</h2>
     <div class="row justify-content-center mb-5">
-      {{ range .Site.Data.homepage.services.how_we_work }}
+      {{ range $hp.services.how_we_work }}
       <div class="col-12 col-md-6 col-lg-4 mb-4">
         <div class="service-tile service-tile--dark">
           <div class="service-tile__body">
@@ -40,7 +44,7 @@
     <!-- What You Gain -->
     <h2>{{ i18n "services_what_you_gain" }}</h2>
     <div class="row justify-content-center">
-      {{ range .Site.Data.homepage.services.what_you_gain }}
+      {{ range $hp.services.what_you_gain }}
       <div class="col-12 col-md-6 col-lg-4 mb-4">
         <div class="service-tile service-tile--icon-top">
           {{ if strings.HasSuffix .icon ".svg" }}

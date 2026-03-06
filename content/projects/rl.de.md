@@ -4,9 +4,27 @@ title: 'KI-gestützte Robotik: Effiziente Bewegungsplanung mit Reinforcement Lea
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/reinforcement_learning.png"
         _2x: "images/works/reinforcement_learning.png"
+    situation:
+        - "In der industriellen Automatisierung müssen Roboter Objekte auch in dynamischen Umgebungen zuverlässig handhaben"
+        - "Das Training robotischer Systeme mit realen Daten ist teuer, zeitaufwendig und nur schwer zu skalieren"
+        - "Effiziente Bewegungsplanung ist entscheidend, damit Roboter Objekte präzise greifen und sich an veränderte Bedingungen anpassen können"
+    solution:
+        - "KI-gestütztes Robotiksystem, das Robotern ermöglicht, Objekte zu erkennen und Pick-and-Place-Aufgaben autonom auszuführen"
+        - "Generierung synthetischer Trainingsdaten in simulierten 3D-Umgebungen, um Modelle ohne aufwendige reale Datenerhebung zu trainieren"
+        - "Bewegungsoptimierung auf Basis von Reinforcement Learning, bei der der Roboter seine Bewegungsstrategien kontinuierlich verbessert"
+    tools:
+        - "Python"
+        - "TensorFlow"
+        - "NumPy"
+        - "OpenCV"
+        - "Pytesseract"
+        - "Pandas"
+        - "Scikit-Learn"
+        - "Pytest"
+        - "Blender"
 
 
 ## The content is used for the description of the project

@@ -9,10 +9,10 @@ params:
         _2x: "images/works/reinforcement_learning.png"
     situation:
         - "Industrial automation requires robots to handle objects reliably in dynamic environments"
-        - "Training robotic systems with real-world data is expensive, time-consuming, and difficult to scale"
+        - "Training robotic systems with real-world data is expensive, time-consuming and difficult to scale"
         - "Efficient motion planning is critical for robots to pick objects accurately and adapt to changing conditions"
     solution:
-        - "AI-driven robotic picking system enabling robots to perceive objects and perform autonomous pick-and-place tasks"
+        - "AI-driven robotic system enabling robots to perceive objects and perform autonomous pick-and-place tasks"
         - "Synthetic training data generation using simulated 3D environments to train models without costly real-world data collection"
         - "Reinforcement learning–based motion optimization allowing the robot to improve movement strategies through feedback"
     tools:

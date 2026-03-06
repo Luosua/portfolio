@@ -1,10 +1,14 @@
-{{ if .Site.Data.homepage.about.enable }}
+{{- $hp := .Site.Data.homepage -}}
+{{- with index .Site.Data .Site.Language.Lang -}}
+  {{- with .homepage -}}{{- $hp = merge $hp . -}}{{- end -}}
+{{- end -}}
+{{ if $hp.about.enable }}
 <section id="about" class="section rad-animation-group pb-0 section--border-bottom" >
   <div class="container rad-fade-down">
     <div class="row d-flex flex-md-row align-items-center">
       <div class="profile-image col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-        {{ $img := resources.Get .Site.Data.homepage.about.image.x }}
-        {{ $img2x := resources.Get .Site.Data.homepage.about.image._2x }}
+        {{ $img := resources.Get $hp.about.image.x }}
+        {{ $img2x := resources.Get $hp.about.image._2x }}
 
         {{ with $img }}
         {{ with $img2x}}
@@ -32,13 +36,13 @@
       </div>
       <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 my-auto my-auto">
         <h2>{{ i18n "about_title" }}</h2>
-        {{ i18n "about_content" | safeHTML }}
+        {{ $hp.about.content | safeHTML }}
         <a
-          href="{{ .Site.Data.homepage.about.button.URL | absURL }}"
+          href="{{ $hp.about.button.URL | absURL }}"
           target="_blank"
           class="btn btn-primary"
         >
-          <i class="{{ .Site.Data.homepage.about.button.icon }}"></i>
+          <i class="{{ $hp.about.button.icon }}"></i>
           {{ i18n "about_button" }}
         </a>
       </div>

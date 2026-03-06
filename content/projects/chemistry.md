@@ -9,11 +9,11 @@ params:
         _2x: "images/works/chemistry_project.png"
     situation:
         - "Customers frequently contacted the company with product and application questions"
-        - "Most answers were already available on the company’s website, but difficult to find due to the large number of products and technical documents"
+        - "Most answers were already available on the company’s website but difficult to find due to the large number of products and technical documents"
         - "As a result, sales teams spent significant time answering repetitive information requests instead of focusing on actual sales conversations"
     solution:
         - "AI-powered customer support chatbot that answers product and application questions using information from the company’s website and internal documents"
-        - "Transparent recommendation and explanation mechanisms that justify suggested products and increase user trust through Responsible AI methods"
+        - "Transparent recommendation mechanisms that justify suggested products and increase user trust through Responsible AI methods"
         - "Automated handling of information requests, forwarding only genuine sales-related inquiries to the sales team and reducing repetitive workload"
     tools:
         - "Python"

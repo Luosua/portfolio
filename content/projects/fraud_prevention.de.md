@@ -4,9 +4,34 @@ title: 'Skalierbare KI für Betrugsprävention im Bankwesen: Von 10 Millionen au
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/fraud_prevention.png"
         _2x: "images/works/fraud_prevention.png"
+    situation:
+        - "Banken müssen betrügerische Transaktionen in Echtzeit erkennen und gleichzeitig unnötige Störungen für legitime Kunden vermeiden"
+        - "Das große Volumen an Transaktionsdaten macht Betrugserkennungssysteme äußerst komplex in Design und Betrieb"
+        - "Ohne eine effiziente Strategie kann die Anzahl benötigter Modelle schnell so groß werden, dass das System schwer zu betreiben ist"
+    solution:
+        - "Kunden-Segmentierungsstrategie, die die Architektur der Betrugserkennung deutlich vereinfacht und gleichzeitig die Erkennungsqualität erhält"
+        - "Verbesserte Fraud-Detection-Modelle durch gezielte Datenanalyse und Feature-Optimierung"
+        - "Zusätzliche Anomalieerkennungsschicht, die subtile und zuvor verborgene Betrugsmuster aufdeckt"
+    tools:
+        - "Python"
+        - "Java"
+        - "Pandas"
+        - "NumPy"
+        - "Scikit-Network"
+        - "Pyplot"
+        - "JUnit"
+        - "FitNesse"
+        - "HDFS"
+        - "Apache HBase"
+        - "Spring Boot"
+        - "Apache Kafka"
+        - "PySpark"
+        - "Docker"
+        - "Machine Learning"
+        - "XGBoost"
 
 
 ## The content is used for the description of the project

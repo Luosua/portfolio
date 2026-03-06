@@ -4,9 +4,28 @@ title: 'Intelligenter KI-Chatbot mit Bildverarbeitung & Unternehmensintegration'
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/chatbot_images.png"
         _2x: "images/works/chatbot_images.png"
+    situation:
+        - "Teams nutzten zunehmend sowohl Textdokumente als auch visuelle Materialien, um Informationen zu finden"
+        - "Herkömmliche Chatbot-Lösungen konnten jedoch nur Text verarbeiten, wodurch wertvolle Informationen aus Bildern nicht zugänglich waren"
+        - "Zudem mussten Nutzer das Tool wechseln, um mit dem Chatbot zu interagieren, was den Kommunikationsfluss im Arbeitsalltag unterbrach"
+    solution:
+        - "Multimodaler Chatbot mit einer Bildverarbeitungs-Pipeline, die visuelle Informationen extrahiert und in die Wissensbasis integriert"
+        - "Outlook- und Microsoft-Teams-Connectoren, die eine direkte Interaktion mit dem Chatbot innerhalb der bestehenden Kommunikationstools ermöglichen"
+        - "Explainable-AI-Mechanismen, die nachvollziehbar machen, wie visuelle Informationen verarbeitet und genutzt werden"
+    tools:
+        - "Python"
+        - "OpenSearch"
+        - "Docker"
+        - "CI"
+        - "Prompt Engineering"
+        - "LLM"
+        - "RAG"
+        - "NLP"
+        - "GenAI"
+        - "XAI"
 
 
 ## The content is used for the description of the project

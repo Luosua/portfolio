@@ -4,9 +4,26 @@ title: 'KI-gestützte KYC-Automatisierung & Betrugsprävention im Finanzsektor'
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/computer_vision.png"
         _2x: "images/works/computer_vision.png"
+    situation:
+        - "Banken müssen bei der Kontoeröffnung eine strenge Identitätsprüfung durchführen, um gesetzliche Vorgaben einzuhalten"
+        - "Manuelle Prüfprozesse sind langsam, ressourcenintensiv und anfällig für Betrugsversuche"
+        - "Gleichzeitig erwarten Kunden trotz strenger Compliance-Anforderungen einen schnellen und reibungslosen Onboarding-Prozess"
+    solution:
+        - "KI-gestütztes KYC-Verifikationssystem, das die Identitätsprüfung beim digitalen Konto-Onboarding automatisiert"
+        - "Deutlich verbesserte Erkennung von Sicherheitsmerkmalen auf Ausweisdokumenten, wodurch Betrugsresistenz und Zuverlässigkeit der Verifikation erhöht werden"
+        - "Automatisierter Onboarding-Workflow, der die Kundenverifikation beschleunigt und gleichzeitig die Einhaltung regulatorischer Anforderungen sicherstellt"
+    tools:
+        - "Python"
+        - "TensorFlow"
+        - "OpenCV"
+        - "NumPy"
+        - "Pytesseract"
+        - "Pandas"
+        - "Scikit-Learn"
+        - "JUnit"
 
 
 ## The content is used for the description of the project
