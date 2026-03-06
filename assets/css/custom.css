@@ -483,6 +483,7 @@ html body #showcase .profile-image {
 /* Project single page */
 .case-study-single__title {
   margin-bottom: 50px;
+  text-align: center;
 }
 .case-study-single__image {
   border-radius: 12px;
@@ -534,10 +535,24 @@ html body #showcase .profile-image {
   padding: 8px 20px;
   border-radius: 50px !important;
 }
-@media (max-width: 767px) {
+.case-study-image-row {
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 1400px) {
+  .case-study-image-row {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 767.98px) {
   .case-study-single__meta {
     padding-left: 0;
     margin-top: 24px;
+  }
+  #case-study .case-study-single__title {
+    margin-top: 60px;
+  }
+  #case-study .col-md-5 {
+    margin-bottom: 60px;
   }
 }
 

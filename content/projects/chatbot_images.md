@@ -27,7 +27,6 @@ params:
         - "GenAI"
         - "XAI"
 
-
 ## The content is used for the description of the project
 ---
 
