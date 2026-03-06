@@ -102,12 +102,12 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         URL = "#services"
         weight = 2
       [[languages.en.menus.header]]
-        name = "Case Studies"
-        URL = "#case-studies"
-        weight = 3
-      [[languages.en.menus.header]]
         name = "About Me"
         URL = "#about"
+        weight = 3
+      [[languages.en.menus.header]]
+        name = "Case Studies"
+        URL = "#case-studies"
         weight = 4
       [[languages.en.menus.header]]
         name = "Contact"
@@ -139,12 +139,12 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         URL = "de/#services"
         weight = 2
       [[languages.de.menus.header]]
-        name = "Fallstudien"
-        URL = "de/#case-studies"
-        weight = 3
-      [[languages.de.menus.header]]
         name = "Über mich"
         URL = "de/#about"
+        weight = 3
+      [[languages.de.menus.header]]
+        name = "Fallstudien"
+        URL = "de/#case-studies"
         weight = 4
       [[languages.de.menus.header]]
         name = "Kontakt"
@@ -174,12 +174,12 @@ path="github.com/zetxek/adritian-free-hugo-theme"
         URL = "it/#services"
         weight = 2
       [[languages.it.menus.header]]
-        name = "Casi Studio"
-        URL = "it/#case-studies"
-        weight = 3
-      [[languages.it.menus.header]]
         name = "Chi sono"
         URL = "it/#about"
+        weight = 3
+      [[languages.it.menus.header]]
+        name = "Casi Studio"
+        URL = "it/#case-studies"
         weight = 4
       [[languages.it.menus.header]]
         name = "Contatto"
