@@ -123,11 +123,21 @@
   overflow: hidden !important;
   padding-bottom: 60px !important;
 }
+@media (min-width: 968px) and (max-width: 1999px) {
+  #showcase {
+    min-height: unset !important;
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+  #showcase #main-content {
+    margin-top: 60px !important;
+  }
+}
 #showcase h1 {
   text-align: center;
 }
 #showcase .col-md-7 {
-  padding-top: 60px;
+  padding-top: 84px;
 }
 #showcase .lead {
   font-size: 1.5rem;
@@ -146,6 +156,91 @@
   max-width: 41.666667% !important;
   width: 41.666667% !important;
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #about .container {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #about .profile-image {
+    flex: 0 0 60% !important;
+    max-width: 60% !important;
+    width: 60% !important;
+    padding-left: 4% !important;
+    padding-right: 0 !important;
+    padding-bottom: 8% !important;
+  }
+  #about .profile-image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  #about .col-md-7 {
+    flex: 0 0 40% !important;
+    max-width: 40% !important;
+    padding-left: 12px !important;
+    padding-right: 4% !important;
+  }
+  #showcase #main-content {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #showcase .profile-image {
+    align-self: stretch !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 0 !important;
+    padding-right: 4% !important;
+  }
+  #showcase .profile-image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #showcase .col-md-7 {
+    padding-left: 4% !important;
+    padding-right: 12px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  #about .profile-image,
+  #showcase .profile-image {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  #about .profile-image img,
+  #showcase .profile-image img {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1399px) {
+  #about .profile-image {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}
+@media (min-width: 1400px) {
+  #about .profile-image {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}
+@media (min-width: 1200px) {
+  #showcase .profile-image {
+    padding-bottom: 60px !important;
+  }
+}
 html body #showcase .profile-image img {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -160,6 +255,39 @@ html body #showcase .profile-image img {
 html body #showcase .profile-image {
   overflow: hidden !important;
   align-self: stretch;
+}
+@media (min-width: 768px) and (max-width: 967.98px) {
+  html body #showcase .profile-image {
+    overflow: visible !important;
+  }
+  html body #showcase .profile-image img {
+    margin-top: -80px !important;
+  }
+}
+@media (min-width: 968px) and (max-width: 991.98px) {
+  #showcase {
+    padding-top: 160px !important;
+  }
+  #showcase .col-md-7 {
+    padding-top: 80px !important;
+  }
+  html body #showcase .profile-image {
+    overflow: visible !important;
+  }
+  html body #showcase .profile-image img {
+    margin-top: -80px !important;
+  }
+}
+@media (max-width: 967.98px) {
+  #showcase h1 {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  #showcase {
+    padding-top: clamp(90px, 15vw, 120px) !important;
+    padding-bottom: 6vw !important;
+  }
 }
 #education {
   margin-top: 20px;
@@ -722,4 +850,19 @@ html body #showcase .profile-image {
 #contact .contact h2 {
     margin-bottom: 40px !important;
     text-align: center;
+}
+@media (max-width: 575px) {
+    #contact .col-12.col-sm-6:last-child {
+        margin-top: 16px;
+    }
+}
+@media (max-width: 991px) {
+    #contact .contact__info {
+        padding-top: 40px !important;
+        text-align: center;
+    }
+    #contact button[type="submit"] {
+        display: block;
+        margin: 0 auto;
+    }
 }
