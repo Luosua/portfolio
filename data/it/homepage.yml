@@ -1,0 +1,74 @@
+showcase:
+  subtitle: "Sistemi solidi<br>nascono da un pensiero chiaro"
+  description: |
+    <p class="lead">
+    Sono Alona Liuzniak, sviluppatrice AI che progetta e realizza sistemi intelligenti in cui l’architettura è deliberata, la logica è coerente e l’usabilità è parte integrante del design.
+    </p>
+
+about:
+  content: |
+    <p class="lead">
+    Sono una sviluppatrice AI con oltre dieci anni di esperienza nella programmazione e più di sei anni
+    nella progettazione e implementazione di sistemi di intelligenza artificiale in contesti aziendali critici.
+    Ho contribuito allo sviluppo di soluzioni intelligenti in diversi settori, tra cui finanza, processi industriali
+    e piattaforme rivolte ai clienti — dai chatbot basati su retrieval-augmented generation e assistenti multimodali
+    fino a sistemi di rilevamento delle frodi e di supporto alle decisioni.
+    </p>
+    <p class="lead">
+    Affronto ogni progetto con una forte attenzione all’architettura e con un chiaro orientamento all’usabilità.
+    Sviluppo soluzioni pensando sempre all’utente finale — assicurandomi che la complessità rimanga nell’architettura,
+    non nell’esperienza d’uso. Troppo spesso strumenti tecnicamente impressionanti creano difficoltà nell’uso quotidiano
+    perché la logica è incoerente o i flussi di lavoro non sono progettati con sufficiente attenzione.
+    Traduco requisiti complessi in architetture di sistema strutturate,
+    individuo tempestivamente eventuali incoerenze e progetto soluzioni che risultano intuitive perché basate su principi chiari.</p>
+    <p class="lead">
+    Al centro del mio lavoro c’è l’impegno per chiarezza e struttura. I sistemi sostenibili non sono guidati dalle tendenze,
+    ma da un pensiero chiaro e da scelte di progettazione trasparenti. Il mio obiettivo è creare soluzioni intelligenti
+    che non siano solo solide dal punto di vista tecnico, ma anche intuitive, coerenti e realmente utili nell’uso quotidiano.
+    Valorizzo precisione, affidabilità e comunicazione aperta — perché la fiducia, nella tecnologia come nella collaborazione,
+    nasce dalla chiarezza.</p>
+
+services:
+  enable: true
+  what_i_do:
+    - header: "Architettura di sistemi AI e progettazione di pipeline"
+      icon: "images/diagram.svg"
+      text: "Progetto sistemi AI modulari e scalabili — dall’ingestione dei dati fino all’inferenza e al deployment — con una struttura chiara, facile manutenzione e integrazione negli ambienti esistenti."
+    - header: "Retrieval-Augmented Generation (RAG) e sistemi di conoscenza"
+      icon: "images/book.svg"
+      text: "Progetto e ottimizzo pipeline RAG, architetture di ricerca e strategie di integrazione della conoscenza per migliorare qualità delle risposte, contesto e coerenza."
+    - header: "Automazione dei workflow e strumenti intelligenti"
+      icon: "images/automation.svg"
+      text: "Sviluppo strumenti basati su AI che riducono il lavoro manuale aumentando al contempo coerenza e qualità."
+    - header: "AI orientata all’esperienza utente"
+      icon: "images/target.svg"
+      text: "Progetto sistemi intelligenti con logiche chiare e interazioni intuitive, affinché risultino strutturati, prevedibili e semplici da utilizzare."
+    - header: "Progettazione di sistemi AI trasparenti"
+      icon: "images/smile.svg"
+      text: "Integro meccanismi di trasparenza, spiegabilità e principi di Responsible AI per garantire tracciabilità e fiducia nei sistemi intelligenti."
+  how_we_work:
+    - header: "Consulenza mirata"
+      text: "Ottenga una prospettiva chiara e competente sulla sua sfida. In una sessione mirata analizziamo il suo sistema, individuiamo eventuali criticità nascoste e definiamo passi concreti per procedere con sicurezza."
+    - header: "Sprint di progettazione"
+      text: "Affronti una sfida specifica con rapidità e precisione. In una collaborazione breve ma intensa analizziamo il problema, progettiamo una soluzione chiara e definiamo un percorso concreto verso l’implementazione."
+    - header: "Supporto continuativo al prodotto"
+      text: "Rafforzi il suo prodotto mentre evolve. Lavoro insieme al suo team per affinare l’architettura, migliorare la logica del sistema e garantire che il suo prodotto AI o digitale rimanga chiaro, robusto e scalabile."
+  what_you_gain:
+    - header: "Chiarezza nelle decisioni di prodotto"
+      icon: "images/visibility.svg"
+      bullets:
+        - "Concetti di prodotto chiari e pronti per l’esecuzione"
+        - "Architetture fondate su una logica coerente"
+        - "Requisiti tradotti in strutture operative concrete"
+    - header: "Workflow più semplici e solidi"
+      icon: "images/workflow.svg"
+      bullets:
+        - "Flussi intuitivi che gli utenti adottano naturalmente"
+        - "Logiche decisionali coerenti in tutto il sistema"
+        - "Strutture snelle che migliorano le prestazioni"
+    - header: "AI che funziona davvero"
+      icon: "images/trusted.svg"
+      bullets:
+        - "Output AI affidabili progettati per l’uso reale"
+        - "Architetture RAG e sistemi decisionali affidabili"
+        - "Funzionalità intelligenti di cui gli utenti si fidano"

@@ -4,9 +4,26 @@ title: 'Automazione KYC e Prevenzione delle Frodi basata su IA nei Servizi Finan
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/computer_vision.png"
         _2x: "images/works/computer_vision.png"
+    situation:
+        - "Le banche devono effettuare rigorose verifiche di identità durante l’apertura di un conto per rispettare i requisiti normativi"
+        - "I processi di verifica manuale sono lenti, costosi in termini di risorse e vulnerabili a tentativi di frode"
+        - "I clienti si aspettano comunque un’esperienza di onboarding rapida e fluida, nonostante i requisiti di conformità"
+    solution:
+        - "Sistema di verifica KYC basato su AI che automatizza la validazione dell’identità durante l’onboarding digitale dei clienti"
+        - "Miglioramento significativo dell’accuratezza nel riconoscimento degli elementi di sicurezza dei documenti, aumentando la resistenza alle frodi e l’affidabilità della verifica"
+        - "Workflow di onboarding automatizzato che accelera la verifica dei clienti mantenendo la conformità normativa"
+    tools:
+        - "Python"
+        - "TensorFlow"
+        - "OpenCV"
+        - "NumPy"
+        - "Pytesseract"
+        - "Pandas"
+        - "Scikit-Learn"
+        - "JUnit"
 
 
 ## The content is used for the description of the project

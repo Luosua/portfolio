@@ -78,7 +78,7 @@ services:
         - "Clear product concepts shaped for execution"
         - "Architectures grounded in logical consistency"
         - "Requirements translated into actionable structure"
-    - header: "Simpler, Stronger Workflows"
+    - header: "Simpler and Stronger Workflows"
       icon: "images/workflow.svg"
       bullets:
         - "Intuitive flows users adopt naturally"

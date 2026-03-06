@@ -1,12 +1,37 @@
 ---
 date: '2022-10-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
-title: 'IA Scalabile per la Prevenzione delle Frodi Bancarie: da 10 Milioni a 9 Modelli'
+title: 'IA Scalabile per la Prevenzione delle Frodi Bancarie'
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/fraud_prevention.png"
         _2x: "images/works/fraud_prevention.png"
+    situation:
+        - "Le banche devono individuare transazioni fraudolente in tempo reale, riducendo al minimo l’impatto sui clienti legittimi"
+        - "La quantità di dati transazionali rende i sistemi di rilevamento delle frodi estremamente complessi da progettare e mantenere"
+        - "Senza una strategia efficiente, il numero di modelli necessari rischia di rendere il sistema difficile da gestire operativamente"
+    solution:
+        - "Strategia di segmentazione dei clienti che ha semplificato in modo significativo l’architettura del sistema di rilevamento delle frodi mantenendo un’elevata qualità di individuazione"
+        - "Miglioramento dei modelli di rilevamento delle frodi attraverso analisi mirate dei dati e ottimizzazione delle feature"
+        - "Ulteriore livello di rilevamento delle anomalie per individuare schemi di frode più sottili e precedentemente nascosti"
+    tools:
+        - "Python"
+        - "Java"
+        - "Pandas"
+        - "NumPy"
+        - "Scikit-Network"
+        - "Pyplot"
+        - "JUnit"
+        - "FitNesse"
+        - "HDFS"
+        - "Apache HBase"
+        - "Spring Boot"
+        - "Apache Kafka"
+        - "PySpark"
+        - "Docker"
+        - "Machine Learning"
+        - "XGBoost"
 
 
 ## The content is used for the description of the project

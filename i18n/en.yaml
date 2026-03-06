@@ -21,7 +21,7 @@
   translation: "HOME"
 
 - id: "nav_book_call"
-  translation: "Book a call"
+  translation: "Schedule a call"
 
 - id: "case_study_situation"
   translation: "Situation"

@@ -14,7 +14,7 @@ about:
     <p class="lead">
     Bei meiner Arbeit lege ich großen Wert auf eine saubere Architektur und Benutzerfreundlichkeit.
     Ich entwickle Lösungen konsequent aus der Perspektive der Endnutzer, sodass die Komplexität in der Architektur bleibt und nicht in der Anwendung.
-    Zu oft entstehen technisch beeindruckende Tools, die im Alltag trotzdem schwer zu nutzen sind, weil Logik und Workflows nicht ausreichend durchdacht sind. 
+    Zu oft entstehen technisch beeindruckende Tools, die im Alltag trotzdem schwer zu nutzen sind, weil Logik und Workflows nicht ausreichend durchdacht sind.
     Deshalb übersetze ich komplexe Anforderungen in klare Systemstrukturen, spreche Inkonsistenzen frühzeitig an und entwickle Lösungen,
     die sich intuitiv anfühlen, weil sie auf klaren Prinzipien basieren.</p>
     <p class="lead">
@@ -54,7 +54,7 @@ services:
         - "Klare Produktkonzepte mit Fokus auf Umsetzung"
         - "Architekturen mit konsistenter Logik"
         - "Anforderungen übersetzt in umsetzbare Strukturen"
-    - header: "Einfachere, stärkere Workflows"
+    - header: "Einfachere und stärkere Workflows"
       icon: "images/workflow.svg"
       bullets:
         - "Intuitive Abläufe, die Nutzer sofort verstehen"

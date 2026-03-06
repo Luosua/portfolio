@@ -4,9 +4,27 @@ title: 'Robotica IA: Pianificazione del Movimento Ottimizzata con Reinforcement 
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/reinforcement_learning.png"
         _2x: "images/works/reinforcement_learning.png"
+    situation:
+        - "L’automazione industriale richiede che i robot manipolino oggetti in modo affidabile in ambienti dinamici"
+        - "L’addestramento dei sistemi robotici con dati reali è costoso, richiede molto tempo ed è difficile da scalare"
+        - "Una pianificazione efficiente dei movimenti è fondamentale affinché i robot possano afferrare oggetti con precisione e adattarsi a condizioni variabili"
+    solution:
+        - "Sistema robotico basato su AI che consente ai robot di percepire gli oggetti ed eseguire autonomamente operazioni di pick-and-place"
+        - "Generazione di dati sintetici di addestramento tramite ambienti 3D simulati, evitando costose raccolte di dati nel mondo reale"
+        - "Ottimizzazione dei movimenti basata su reinforcement learning, che permette al robot di migliorare progressivamente le proprie strategie di movimento"
+    tools:
+        - "Python"
+        - "TensorFlow"
+        - "NumPy"
+        - "OpenCV"
+        - "Pytesseract"
+        - "Pandas"
+        - "Scikit-Learn"
+        - "Pytest"
+        - "Blender"
 
 
 ## The content is used for the description of the project

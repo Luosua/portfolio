@@ -4,9 +4,30 @@ title: "Chatbot per il Supporto Clienti nell'Industria Chimica"
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/chemistry_project.png"
         _2x: "images/works/chemistry_project.png"
+    situation:
+        - "I clienti contattavano spesso l’azienda con domande sui prodotti e sulle loro possibili applicazioni"
+        - "La maggior parte delle risposte era già disponibile sul sito aziendale, ma difficile da trovare a causa dell’elevato numero di prodotti e documenti tecnici"
+        - "Di conseguenza, i team commerciali dedicavano molto tempo a rispondere a richieste ripetitive, invece di concentrarsi sulle vere attività di vendita"
+    solution:
+        - "Chatbot di assistenza clienti basato su AI che risponde a domande su prodotti e applicazioni utilizzando informazioni dal sito aziendale e da documenti interni"
+        - "Meccanismi di raccomandazione trasparenti che spiegano i prodotti suggeriti e aumentano la fiducia degli utenti grazie a metodi di Responsible AI"
+        - "Gestione automatizzata delle richieste informative, con inoltro al team commerciale solo delle richieste realmente legate alla vendita, riducendo il lavoro ripetitivo"
+    tools:
+        - "Python"
+        - "Microsoft Azure"
+        - "MLflow"
+        - "Docker"
+        - "CI"
+        - "Prompt Engineering"
+        - "LLM"
+        - "RAG"
+        - "NLP"
+        - "GenAI"
+        - "XAI"
+        - "RAI"
 
 
 ## The content is used for the description of the project

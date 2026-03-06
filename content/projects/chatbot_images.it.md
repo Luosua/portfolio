@@ -4,9 +4,28 @@ title: 'Chatbot AI Intelligente con Comprensione delle Immagini e Integrazione A
 draft: false # set to "true" if you want to hide the content
 
 params:
-    image:  
+    image:
         x: "images/works/chatbot_images.png"
         _2x: "images/works/chatbot_images.png"
+    situation:
+        - "Nella ricerca di informazioni, i team si basavano sempre più su documenti testuali e materiali visivi"
+        - "Le soluzioni chatbot tradizionali erano in grado di elaborare solo contenuti testuali, lasciando inaccessibili informazioni importanti contenute nelle immagini"
+        - "Gli utenti dovevano inoltre passare ad altri strumenti per interagire con il chatbot, interrompendo i normali flussi di comunicazione quotidiana"
+    solution:
+        - "Chatbot multimodale con pipeline di ingestione delle immagini che estrae e integra informazioni visive nella base di conoscenza"
+        - "Connettori per Outlook e Microsoft Teams che consentono di interagire con il chatbot direttamente all’interno degli strumenti di comunicazione già utilizzati"
+        - "Meccanismi di Explainable AI che rendono trasparente il modo in cui le informazioni visive vengono elaborate e recuperate"
+    tools:
+        - "Python"
+        - "OpenSearch"
+        - "Docker"
+        - "CI"
+        - "Prompt Engineering"
+        - "LLM"
+        - "RAG"
+        - "NLP"
+        - "GenAI"
+        - "XAI"
 
 
 ## The content is used for the description of the project
