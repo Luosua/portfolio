@@ -23,9 +23,6 @@
 - id: "nav_book_call"
   translation: "Book a call"
 
-- id: "back_to_case_studies"
-  translation: "Back to Case Studies"
-
 - id: "case_study_situation"
   translation: "Situation"
 - id: "case_study_solution"
@@ -48,24 +45,6 @@
 - id: "head_description"
   translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical and cost-effective AI solutions for industries like finance, customer support and industrial automation."
 
-## Homepage showcase
-- id: "showcase_title"
-  translation: "Hello, I am Alona"
-
-- id: "showcase_subtitle"
-  translation: "Strong systems<br>start with clear thinking"
-
-- id: "showcase_description"
-  translation: <p class="lead">
-      I am Alona Liuzniak, an AI developer who designs and builds intelligent systems where architecture is deliberate, logic is consistent and usability is built in.
-      </p>
-
-- id: "showcase_toolstack"
-  translation: "Main Toolstack"
-
-- id: "showcase_button"
-  translation: "Contact"
-
 ## Homepage services
 - id: "services_what_i_do"
   translation: "What I Do"
@@ -78,69 +57,10 @@
 - id: "about_title"
   translation: "Who am I?"
 
-- id: "about_content"
-  translation: |
-    <p class="lead"> I am an AI developer with over ten years of programming experience and more than six years designing
-    and implementing AI systems in business-critical contexts. I have contributed to intelligent solutions across domains such as finance, industrial workflows
-    and customer-facing platforms — from retrieval-augmented chatbots and multimodal assistants to fraud detection and decision-support systems.
-    </p>
-    <p class="lead">
-    I approach every project with a strong architectural mindset and a clear focus on usability.
-    I develop solutions with the end user in mind — ensuring that complexity stays in the architecture, not in the experience.
-    Too often, technically impressive tools create friction because logic is inconsistent or workflows are poorly thought through.
-    I translate complex requirements into structured system designs, question inconsistencies early
-    and shape solutions that feel intuitive because they are built on clear principles.</p>
-    <p class="lead">
-    At the core of my work is a commitment to clarity and structure.
-    Sustainable systems are not driven by trends but by clear thinking and transparent design choices.
-    My goal is to build intelligent solutions that are not only technically sound,
-    but intuitive, coherent and practical in real-world use. I value precision, reliability and open communication — because trust,
-    in technology as in collaboration, starts with clarity.</p>
-
 - id: "about_button"
   translation: "LinkedIn"
 
-## Homepage education
-- id: "education_title"
-  translation: "Education"
-
-- id: "bachelor_spec"
-  translation: "Software Engineering"
-- id: "bachelor_uni"
-  translation: "Taras Shevchenko National University of Kyiv"
-- id: "bachelor_degree"
-  translation: "Bachelor of Science"
-
-- id: "master_spec"
-  translation: "Computer Science"
-- id: "master_uni"
-  translation: "University of Stuttgart"
-- id: "master_degree"
-  translation: "Master of Science"
-
-- id: "certifications_title"
-  translation: "Certifications & Courses"
-
 ## Homepage experience
-- id: "experience_title"
-  translation: "Experience"
-- id: "experience_more_1"
-  translation: "And"
-- id: "experience_more_2"
-  translation: "more"
-- id: "experience_extra_1"
-  translation: "See additional"
-- id: "experience_extra_2"
-  translation: "experience items"
-
-- id: "publications_title"
-  translation: "Publications"
-
-- id: "experience_description"
-  translation: "With over five years of experience, I have designed and implemented AI-powered solutions
-  across industries, specializing in retrieval-augmented generation (RAG) chatbot development and Responsible
-   AI (RAI). My contributions range from improving fraud prevention strategies to creating multimodal AI
-   pipelines, delivering reliable, explainable and impactful systems."
 
 - id: "experience_button"
   translation: "LinkedIn"
@@ -151,12 +71,6 @@
 
 - id: "experience_button2_url"
   translation: "/img/general/user-smile-fill.svg"
-
-- id: "experience_button3"
-  translation: "View all"
-
-- id: "experience_button3_url"
-  translation: "/experience"
 
 ## Homepage client & work
 - id: "client_work_title"

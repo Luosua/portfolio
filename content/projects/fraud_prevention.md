@@ -1,6 +1,6 @@
 ---
 date: '2022-10-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
-title: 'Scalable AI for Fraud Prevention in Banking: From 10 Million to 9 Models'
+title: 'Scalable AI for Fraud Prevention in Banking'
 draft: false # set to "true" if you want to hide the content
 
 params:

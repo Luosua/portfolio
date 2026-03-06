@@ -1,6 +1,6 @@
 ---
 date: '2022-10-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
-title: 'Skalierbare KI für Betrugsprävention im Bankwesen: Von 10 Millionen auf 9 Modelle'
+title: 'Skalierbare KI für Betrugsprävention im Bankwesen'
 draft: false # set to "true" if you want to hide the content
 
 params:

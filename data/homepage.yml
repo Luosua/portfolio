@@ -3,6 +3,11 @@
 # showcase
 showcase:
   enable: true
+  subtitle: "Strong systems<br>start with clear thinking"
+  description: |
+    <p class="lead">
+    I am Alona Liuzniak, an AI developer who designs and builds intelligent systems where architecture is deliberate, logic is consistent and usability is built in.
+    </p>
   image:
     x: "images/about/11.png"
     _2x: "images/about/11.png"
@@ -16,6 +21,23 @@ showcase:
 # about
 about:
   enable: true
+  content: |
+    <p class="lead"> I am an AI developer with over ten years of programming experience and more than six years designing
+    and implementing AI systems in business-critical contexts. I have contributed to intelligent solutions across domains such as finance, industrial workflows
+    and customer-facing platforms — from retrieval-augmented chatbots and multimodal assistants to fraud detection and decision-support systems.
+    </p>
+    <p class="lead">
+    I approach every project with a strong architectural mindset and a clear focus on usability.
+    I develop solutions with the end user in mind — ensuring that complexity stays in the architecture, not in the experience.
+    Too often, technically impressive tools create friction because logic is inconsistent or workflows are poorly thought through.
+    I translate complex requirements into structured system designs, question inconsistencies early
+    and shape solutions that feel intuitive because they are built on clear principles.</p>
+    <p class="lead">
+    At the core of my work is a commitment to clarity and structure.
+    Sustainable systems are not driven by trends but by clear thinking and transparent design choices.
+    My goal is to build intelligent solutions that are not only technically sound,
+    but intuitive, coherent and practical in real-world use. I value precision, reliability and open communication — because trust,
+    in technology as in collaboration, starts with clarity.</p>
   button:
     icon: "icon-user"
     URL: "https://www.linkedin.com/in/alona-liuzniak/"
@@ -73,49 +95,6 @@ services:
 concept:
   enable: true
 
-# education
-education:
-  enable: true
-
-certifications:
-  enable: false
-  items:
-
-    - university: "Databricks Certified Machine Learning Professional"
-      year: 2024
-      degree: "Databricks"
-      link: "https://credentials.databricks.com/cb61aff1-4532-42a6-ad67-a29ab08119e3#acc.Sj1gaQ3T"
-
-    - university: "Databricks Certified Machine Learning Associate"
-      year: 2024
-      degree: "Databricks"
-      link: "https://credentials.databricks.com/9bfb78e6-d604-471f-b936-11b5b88c5f55#acc.migZc53z"
-
-    - university: "Academy Accreditation - Databricks Lakehouse Fundamentals"
-      year: 2024
-      degree: "Databricks"
-      link: "https://credentials.databricks.com/511b1072-8899-4035-96b1-d5b0f7b0ede0#acc.95eAXgxn"
-
-    - university: "Microsoft Certified: Azure AI Fundamentals"
-      year: 2023
-      degree: "Microsoft"
-      link: "https://learn.microsoft.com/en-us/users/alonaliuzniak-7290/credentials/40d8948292f4baad?ref=https%3A%2F%2Fwww.linkedin.com%2F"
-
-    - university: "Data Visualization with Python"
-      year: 2023
-      degree: "Coursera"
-      link: "https://www.credly.com/badges/947bb599-1653-4db7-b4c4-105cdac02e02/linked_in_profile"
-
-    - university: "Microsoft Certified: Azure Data Scientist Associate"
-      year: 2023
-      degree: "Microsoft"
-      link: "https://learn.microsoft.com/en-us/users/alonaliuzniak-7290/credentials/de3952de397d3c9?ref=https%3A%2F%2Fwww.linkedin.com%2F"
-
-    - university: "Databricks Certified Associate Developer for Apache Spark 3.0"
-      year: 2022
-      degree: "Databricks"
-      link: "https://credentials.databricks.com/58ca573d-e786-4403-aa5b-ced63b1fbf35#acc.7JTekFs3"
-
 # experience
 ## to hiden a button, set the icon to an empty string
 experience:
@@ -128,9 +107,6 @@ experience:
 
 # Client & Work
 client_and_work:
-  enable: true
-
-publications:
   enable: true
 
 # testimonial
