@@ -21,6 +21,8 @@ params:
         - "NLP"
         - "LLM"
         - "SLM"
+        - "Pydantic"
+        - "Pydantic AI"
         - "Docker"
         - "Prompt Engineering"
         - "GenAI"
