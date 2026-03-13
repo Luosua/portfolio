@@ -1,10 +1,10 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
+  translation: "Alona Liuzniak | Sviluppatrice AI per automazione intelligente e sistemi RAG"
 - id: "meta_description"
-  translation: "Alona Liuzniak è un AI developer con sede a Francoforte, specializzata in Generative AI, soluzioni chatbot personalizzate e automazione basata sull’intelligenza artificiale. Con un forte focus su Responsible & Explainable AI, fornisce soluzioni IA efficienti, etiche ed economicamente vantaggiose per settori come la finanza, il supporto clienti e l’automazione industriale."
+  translation: "Sviluppatrice di intelligenza artificiale con sede a Francoforte, specializzata in Generative AI, sistemi RAG e automazione intelligente. Realizzo soluzioni AI robuste e orientate all’utente per applicazioni reali."
 - id: "meta_keywords"
-  translation: "Sviluppatrice AI, Generative AI, soluzioni chatbot, automazione IA, IA spiegabile, IA responsabile, etica dell’IA, esperta IA a Francoforte, automazione IA, IA nella finanza, IA per il supporto clienti, IA per l’automazione industriale, ottimizzazione dei processi aziendali, efficienza AI, trasparenza AI"
+  translation: "sviluppatrice AI, Generative AI, RAG, sviluppo chatbot, automazione AI, NLP, Francoforte, consulenza AI"
 - id: "meta_author"
   translation: "Alona Liuzniak"
 - id: "meta_image"
@@ -40,10 +40,10 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
+  translation: "Alona Liuzniak | Sviluppatrice AI per automazione intelligente e sistemi RAG"
 
 - id: "head_description"
-  translation: "Alona Liuzniak è un AI developer con sede a Francoforte, specializzata in Generative AI, soluzioni chatbot personalizzate e automazione basata sull’intelligenza artificiale. Con un forte focus su Responsible & Explainable AI, fornisce soluzioni IA efficienti, etiche ed economicamente vantaggiose per settori come la finanza, il supporto clienti e l’automazione industriale."
+  translation: "Sviluppatrice di intelligenza artificiale con sede a Francoforte, specializzata in Generative AI, sistemi RAG e automazione intelligente. Realizzo soluzioni AI robuste e orientate all’utente per applicazioni reali."
 
 ## Homepage showcase
 

@@ -1,10 +1,10 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
+  translation: "Alona Liuzniak | AI Developer for Intelligent Automation & RAG Systems"
 - id: "meta_description"
-  translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical and cost-effective AI solutions for industries like finance, customer support and industrial automation."
+  translation: "AI developer based in Frankfurt specializing in Generative AI, RAG systems and intelligent automation. Building robust, user-centered AI solutions for real-world applications."
 - id: "meta_keywords"
-  translation: "AI developer, Generative AI, chatbot solutions, AI automation, Explainable AI, Responsible AI, AI ethics, Frankfurt AI expert, AI-driven automation, AI in finance, AI in customer support, industrial automation AI, business process optimization, AI efficiency, AI transparency"
+  translation: "AI developer, Generative AI, RAG, chatbot development, AI automation, NLP, Frankfurt, AI consulting"
 - id: "meta_author"
   translation: "Alona Liuzniak"
 - id: "meta_image"
@@ -40,10 +40,10 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert"
+  translation: "Alona Liuzniak | AI Developer for Intelligent Automation & RAG Systems"
 
 - id: "head_description"
-  translation: "Alona Liuzniak is an AI developer based in Frankfurt, specializing in Generative AI, custom chatbot solutions and AI-driven automation. With a strong focus on Responsible & Explainable AI, she delivers efficient, ethical and cost-effective AI solutions for industries like finance, customer support and industrial automation."
+  translation: "AI developer based in Frankfurt specializing in Generative AI, RAG systems and intelligent automation. Building robust, user-centered AI solutions for real-world applications."
 
 ## Homepage services
 - id: "services_what_i_do"

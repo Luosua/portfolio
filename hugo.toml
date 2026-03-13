@@ -48,6 +48,11 @@ path="github.com/zetxek/adritian-free-hugo-theme"
   target = "assets/js/vendor/bootstrap.bundle.min.js"
 
 
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params]
 
   title = 'Alona Liuzniak | AI Developer | Generative AI & Chatbot Solutions | Responsible AI Expert'

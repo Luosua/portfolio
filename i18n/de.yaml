@@ -1,10 +1,10 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Alona Liuzniak | KI-Entwicklerin | Generative KI & Chatbot-Lösungen | Expertin für Explainable KI"
+  translation: "Alona Liuzniak | KI-Entwicklerin für intelligente Automatisierung & RAG-Systeme"
 - id: "meta_description"
-  translation: "Alona Liuzniak ist eine KI-Entwicklerin mit Sitz in Frankfurt spezialisiert auf Generative KI, maßgeschneiderte Chatbot-Lösungen und KI-gestützte Automatisierung. Mit einem starken Fokus auf Responsible & Explainable AI entwickelt sie effiziente, ethische und kosteneffektive KI-Lösungen für Branchen wie Finanzen, Kundenservice und industrielle Automatisierung."
+  translation: "KI-Entwicklerin in Frankfurt mit Fokus auf Generative KI, RAG-Systeme und intelligente Automatisierung. Entwicklung robuster, nutzerzentrierter KI-Lösungen für reale Anwendungen."
 - id: "meta_keywords"
-  translation: "KI-Entwicklerin, Generative KI, Chatbot-Lösungen, KI-Automatisierung, Explainable AI, Responsible AI, KI-Ethik, Frankfurt KI-Expertin, KI-gestützte Automatisierung, KI in der Finanzbranche, KI im Kundenservice, industrielle Automatisierung mit KI, Geschäftsprozessoptimierung, KI-Effizienz, KI-Transparenz"
+  translation: "KI-Entwicklerin, Generative KI, RAG, Chatbot-Entwicklung, KI-Automatisierung, NLP, Frankfurt, KI-Beratung"
 - id: "meta_author"
   translation: "Alona Liuzniak"
 - id: "meta_image"
@@ -40,10 +40,10 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Alona Liuzniak | KI-Entwicklerin | Generative KI & Chatbot-Lösungen | Expertin für Explainable KI"
+  translation: "Alona Liuzniak | KI-Entwicklerin für intelligente Automatisierung & RAG-Systeme"
 
 - id: "head_description"
-  translation: "Alona Liuzniak ist eine KI-Entwicklerin mit Sitz in Frankfurt spezialisiert auf Generative KI, maßgeschneiderte Chatbot-Lösungen und KI-gestützte Automatisierung. Mit einem starken Fokus auf Responsible & Explainable AI entwickelt sie effiziente, ethische und kosteneffektive KI-Lösungen für Branchen wie Finanzen, Kundenservice und industrielle Automatisierung."
+  translation: "KI-Entwicklerin in Frankfurt mit Fokus auf Generative KI, RAG-Systeme und intelligente Automatisierung. Entwicklung robuster, nutzerzentrierter KI-Lösungen für reale Anwendungen."
 
 ## Homepage services
 - id: "services_what_i_do"

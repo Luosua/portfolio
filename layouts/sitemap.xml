@@ -1,0 +1,29 @@
+{{- $pages := where .Site.Pages "Kind" "not in" (slice "sitemap") -}}
+{{- $pages = where $pages ".Sitemap.Disable" "ne" true -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{- range $pages }}
+  {{- $section := .Section }}
+  {{- $skip := or (eq $section "experience") (eq $section "publications") (eq $section "testimonial") (eq $section "categories") (eq $section "tags") }}
+  {{- if not $skip }}
+  {{- if and .IsTranslated (gt (len .AllTranslations) 1) }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- with .Sitemap.ChangeFreq }}<changefreq>{{ . }}</changefreq>{{ end }}
+    {{- if ge .Sitemap.Priority 0.0 }}<priority>{{ .Sitemap.Priority }}</priority>{{ end }}
+    {{- range .AllTranslations }}
+    <xhtml:link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
+    {{- end }}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ (index (where .AllTranslations "Language.Lang" "en") 0).Permalink }}"/>
+  </url>
+  {{- else }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- with .Sitemap.ChangeFreq }}<changefreq>{{ . }}</changefreq>{{ end }}
+    {{- if ge .Sitemap.Priority 0.0 }}<priority>{{ .Sitemap.Priority }}</priority>{{ end }}
+  </url>
+  {{- end }}
+  {{- end }}
+  {{- end }}
+</urlset>
