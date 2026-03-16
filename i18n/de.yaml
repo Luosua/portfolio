@@ -1,8 +1,8 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Alona Liuzniak | KI-Entwicklerin für intelligente Automatisierung & RAG-Systeme"
+  translation: "Alona Liuzniak | KI-Entwicklerin | RAG & Automatisierung"
 - id: "meta_description"
-  translation: "KI-Entwicklerin in Frankfurt mit Fokus auf Generative KI, RAG-Systeme und intelligente Automatisierung. Entwicklung robuster, nutzerzentrierter KI-Lösungen für reale Anwendungen."
+  translation: "KI-Entwicklerin in Frankfurt spezialisiert auf Generative KI, RAG-Systeme und intelligente Automatisierung für nutzerzentrierte Geschäftslösungen."
 - id: "meta_keywords"
   translation: "KI-Entwicklerin, Generative KI, RAG, Chatbot-Entwicklung, KI-Automatisierung, NLP, Frankfurt, KI-Beratung"
 - id: "meta_author"
@@ -40,10 +40,10 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Alona Liuzniak | KI-Entwicklerin für intelligente Automatisierung & RAG-Systeme"
+  translation: "Alona Liuzniak | KI-Entwicklerin | RAG & Automatisierung"
 
 - id: "head_description"
-  translation: "KI-Entwicklerin in Frankfurt mit Fokus auf Generative KI, RAG-Systeme und intelligente Automatisierung. Entwicklung robuster, nutzerzentrierter KI-Lösungen für reale Anwendungen."
+  translation: "KI-Entwicklerin in Frankfurt spezialisiert auf Generative KI, RAG-Systeme und intelligente Automatisierung für nutzerzentrierte Geschäftslösungen."
 
 ## Homepage services
 - id: "services_what_i_do"

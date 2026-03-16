@@ -1,8 +1,8 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Alona Liuzniak | AI Developer for Intelligent Automation & RAG Systems"
+  translation: "Alona Liuzniak | AI Developer | RAG & Automation"
 - id: "meta_description"
-  translation: "AI developer based in Frankfurt specializing in Generative AI, RAG systems and intelligent automation. Building robust, user-centered AI solutions for real-world applications."
+  translation: "Frankfurt-based AI developer specializing in Generative AI, RAG systems and intelligent automation for real-world user-centered business solutions."
 - id: "meta_keywords"
   translation: "AI developer, Generative AI, RAG, chatbot development, AI automation, NLP, Frankfurt, AI consulting"
 - id: "meta_author"
@@ -40,10 +40,10 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Alona Liuzniak | AI Developer for Intelligent Automation & RAG Systems"
+  translation: "Alona Liuzniak | AI Developer | RAG & Automation"
 
 - id: "head_description"
-  translation: "AI developer based in Frankfurt specializing in Generative AI, RAG systems and intelligent automation. Building robust, user-centered AI solutions for real-world applications."
+  translation: "Frankfurt-based AI developer specializing in Generative AI, RAG systems and intelligent automation for real-world user-centered business solutions."
 
 ## Homepage services
 - id: "services_what_i_do"

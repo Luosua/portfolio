@@ -1,8 +1,8 @@
 ## Meta tags
 - id: "meta_title"
-  translation: "Alona Liuzniak | Sviluppatrice AI per automazione intelligente e sistemi RAG"
+  translation: "Alona Liuzniak | Sviluppatrice AI | RAG & Automazione"
 - id: "meta_description"
-  translation: "Sviluppatrice di intelligenza artificiale con sede a Francoforte, specializzata in Generative AI, sistemi RAG e automazione intelligente. Realizzo soluzioni AI robuste e orientate all’utente per applicazioni reali."
+  translation: "Sviluppatrice AI con sede a Francoforte specializzata in Generative AI, sistemi RAG e automazione intelligente per soluzioni aziendali centrate sull’utente."
 - id: "meta_keywords"
   translation: "sviluppatrice AI, Generative AI, RAG, sviluppo chatbot, automazione AI, NLP, Francoforte, consulenza AI"
 - id: "meta_author"
@@ -40,10 +40,10 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Alona Liuzniak | Sviluppatrice AI per automazione intelligente e sistemi RAG"
+  translation: "Alona Liuzniak | Sviluppatrice AI | RAG & Automazione"
 
 - id: "head_description"
-  translation: "Sviluppatrice di intelligenza artificiale con sede a Francoforte, specializzata in Generative AI, sistemi RAG e automazione intelligente. Realizzo soluzioni AI robuste e orientate all’utente per applicazioni reali."
+  translation: "Sviluppatrice AI con sede a Francoforte specializzata in Generative AI, sistemi RAG e automazione intelligente per soluzioni aziendali centrate sull’utente."
 
 ## Homepage showcase
 
