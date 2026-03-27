@@ -8,9 +8,9 @@ location: "Francoforte sul Meno, Germania"
 duration: "2022-2025"
 
 ---
-### Soluzioni alimentate dall'IA: Migliorare Finanza, Chimica e Supporto Clienti
+### Soluzioni alimentate dall'AI: Migliorare Finanza, Chimica e Supporto Clienti
 
-- Progettazione e implementazione di avanzate soluzioni IA in diversi settori, tra cui servizi finanziari, chimica e supporto clienti, promuovendo l'innovazione e migliorando l'efficienza operativa.
+- Progettazione e implementazione di avanzate soluzioni AI in diversi settori, tra cui servizi finanziari, chimica e supporto clienti, promuovendo l'innovazione e migliorando l'efficienza operativa.
 - Sviluppo di chatbot intelligenti per il supporto clienti, implementando pipeline di Retrieval-Augmented Generation (RAG), tecniche di prompt engineering e meccanismi di Responsible AI per garantire trasparenza e raccomandazioni di alta qualità.
 - Ottimizzazione delle strategie di prevenzione delle frodi semplificando le pipeline di modelli, riducendo il numero di modelli necessari attraverso una segmentazione efficace dei clienti e migliorando le prestazioni con tecniche avanzate di feature engineering.
 

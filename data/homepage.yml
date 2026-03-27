@@ -22,7 +22,7 @@ showcase:
 about:
   enable: true
   content: |
-    <p class="lead"> I am an AI developer with over ten years of programming experience and more than six years designing
+    <p class="lead"> Based in Frankfurt am Main, I am an AI developer with over ten years of programming experience and more than six years designing
     and implementing AI systems in business-critical contexts. I have contributed to intelligent solutions across domains such as finance, industrial workflows
     and customer-facing platforms — from retrieval-augmented chatbots and multimodal assistants to fraud detection and decision-support systems.
     </p>

@@ -1,6 +1,6 @@
 ---
 date: '2022-10-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
-title: 'IA Scalabile per la Prevenzione delle Frodi Bancarie'
+title: 'AI Scalabile per la Prevenzione delle Frodi Bancarie'
 draft: false # set to "true" if you want to hide the content
 
 params:
@@ -43,4 +43,4 @@ La svolta è arrivata con una strategia ottimizzata di segmentazione dei clienti
 
 Oltre alla segmentazione, ho migliorato le prestazioni del modello XGBoost esistente progettando nuove feature altamente predittive, aumentando la precisione della rilevazione delle frodi e riducendo al minimo le transazioni negate non necessarie. Per rafforzare ulteriormente l'individuazione delle anomalie, ho implementato una strategia basata su autoencoder per la valutazione delle transazioni, introducendo un ulteriore livello di rilevazione delle frodi non supervisionato, capace di identificare pattern di frodi sofisticati e precedentemente non rilevati.
 
-Attraverso l'uso di machine learning, clustering e approcci basati su grafi, ho sviluppato un sistema di prevenzione delle frodi potente, efficiente e pronto per la produzione, di cui le banche si possano fidare. Il risultato? Una soluzione IA per la prevenzione delle frodi più intelligente, veloce e scalabile, dimostrando come l'ottimizzazione strategica del ML possa trasformare un problema complesso in una soluzione elegante e ad alto impatto.
+Attraverso l'uso di machine learning, clustering e approcci basati su grafi, ho sviluppato un sistema di prevenzione delle frodi potente, efficiente e pronto per la produzione, di cui le banche si possano fidare. Il risultato? Una soluzione AI per la prevenzione delle frodi più intelligente, veloce e scalabile, dimostrando come l'ottimizzazione strategica del ML possa trasformare un problema complesso in una soluzione elegante e ad alto impatto.

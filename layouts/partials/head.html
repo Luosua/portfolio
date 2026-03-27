@@ -23,6 +23,27 @@
 {{- end }}
 
 <link rel="canonical" href="{{ .Permalink }}"/>
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alona Liuzniak",
+  "url": "https://veritasregit.ai/",
+  "jobTitle": "AI Developer",
+  "description": "Frankfurt-based AI developer specializing in Generative AI, RAG systems and intelligent automation for real-world user-centered business solutions.",
+  "email": "contact@veritasregit.ai",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Frankfurt",
+    "addressCountry": "DE"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/veritasregit-ai/"
+  ]
+}
+</script>
+{{ end }}
 <title>{{ i18n "head_title" }}</title>
 <meta name="description" content='{{ i18n "head_description" }}'>
 <meta name="generator-mode" content='{{ hugo.Environment }}'>

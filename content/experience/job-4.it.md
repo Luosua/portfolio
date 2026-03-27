@@ -8,7 +8,7 @@ location: "Renningen, Germania"
 duration: "2019-2021"
 
 ---
-### Automazione IA  e Robotica
+### Automazione AI  e Robotica
 
 - Progettazione e sviluppo di dati sintetici per l'addestramento di modelli di machine learning utilizzando Blender, creando ambienti 3D artificiali per simulare compiti di pick-and-place.
 - Applicazione di tecniche di reinforcement learning per ottimizzare la pianificazione del movimento robotico, migliorando l'efficienza e l'adattabilità in ambienti dinamici.
