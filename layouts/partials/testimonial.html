@@ -12,7 +12,7 @@
                 {{ range $i, $t := $testimonials }}
                 <div class="tcarousel__slide{{ if eq $i 0 }} is-active{{ end }}">
                     <blockquote class="tcarousel__quote">
-                        <p>{{ $t.Content }}</p>
+                        {{ $t.Content }}
                         <footer class="tcarousel__author">
                             <strong>{{ $t.Params.name }}</strong>
                             <span>{{ $t.Params.position }}</span>
@@ -35,6 +35,13 @@
     </div>
 </section>
 
+<noscript>
+<style>
+.tcarousel__slide { display: block !important; }
+.tcarousel__nav { display: none; }
+</style>
+</noscript>
+
 <script>
 (function () {
     document.querySelectorAll('.tcarousel').forEach(function (carousel) {
@@ -44,11 +51,13 @@
         var busy    = false;
 
         function goTo(n, dir) {
+            if (slides.length <= 1) return;
+            n = (n + slides.length) % slides.length;
             if (busy || n === current) return;
             busy = true;
 
             var prev = current;
-            current  = (n + slides.length) % slides.length;
+            current  = n;
             dir      = dir !== undefined ? dir : (current > prev ? 1 : -1);
 
             var outClass = dir > 0 ? 'slide-out-left'  : 'slide-out-right';
@@ -57,14 +66,24 @@
             dots[prev].classList.remove('is-active');
             dots[current].classList.add('is-active');
 
-            slides[current].classList.add(inClass, 'is-active');
+            slides[current].classList.add('is-active');
+            void slides[current].offsetWidth; // force reflow so animation starts from initial state
+            slides[current].classList.add(inClass);
             slides[prev].classList.add(outClass);
 
-            setTimeout(function () {
+            var done = false;
+            function finish() {
+                if (done) return;
+                done = true;
                 slides[prev].classList.remove('is-active', outClass);
                 slides[current].classList.remove(inClass);
                 busy = false;
-            }, 420);
+            }
+            slides[current].addEventListener('animationend', function h() {
+                slides[current].removeEventListener('animationend', h);
+                finish();
+            });
+            setTimeout(finish, 500);
         }
 
         carousel.querySelector('.tcarousel__btn--prev').addEventListener('click', function () { goTo(current - 1, -1); });

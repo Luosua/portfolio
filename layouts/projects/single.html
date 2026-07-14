@@ -31,6 +31,8 @@
               alt="{{ $.Title }}"
               class="img-fluid case-study-single__image"
             />
+            {{ end }}
+            {{ with .Params.image.x }}
             <p class="ai-image-caption text-end mb-0">{{ i18n "ai_generated_image" }}</p>
             {{ end }}
           </div>

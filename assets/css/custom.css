@@ -496,11 +496,6 @@ html body #showcase .profile-image {
   margin: 0;
   line-height: 1.4;
 }
-.case-study-card__client {
-  font-size: 0.78rem;
-  color: rgba(255,255,255,0.55);
-  margin: 4px 0 0;
-}
 
 /* Project single page */
 .case-study-single__title {
@@ -572,15 +567,18 @@ html body #showcase .profile-image {
   }
 }
 @media (max-width: 767.98px) {
+  .case-study-card__body {
+    padding: 16px 20px 16px;
+  }
   .case-study-single__meta {
     padding-left: 0;
-    margin-top: 16px;
+    margin-top: 24px;
   }
   #case-study .case-study-single__title {
     margin-top: 60px;
   }
   #case-study .col-md-5 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 }
 
