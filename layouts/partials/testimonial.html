@@ -4,8 +4,8 @@
         <h2 class="rad-fade-down">{{ i18n "testimonials_title" }}</h2>
 
         {{ $baseLangSite := .Sites.Default }}
-        {{ $testimonials := (where .Site.RegularPages.ByDate "Type" "testimonial") }}
-        {{ $testimonials = $testimonials | lang.Merge (where $baseLangSite.RegularPages.ByDate "Type" "testimonial") }}
+        {{ $testimonials := (where .Site.RegularPages.ByDate.Reverse "Type" "testimonial") }}
+        {{ $testimonials = $testimonials | lang.Merge (where $baseLangSite.RegularPages.ByDate.Reverse "Type" "testimonial") }}
 
         <div class="tcarousel rad-fade-down">
             <div class="tcarousel__track">
