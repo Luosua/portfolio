@@ -126,3 +126,5 @@
   translation: "La pagina richiesta non è stata trovata."
 - id: "404_button"
   translation: "Tornare alla homepage"
+- id: "ai_generated_image"
+  translation: "Contenuto generato dall'IA"

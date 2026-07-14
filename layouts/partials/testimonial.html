@@ -2,28 +2,80 @@
 <section id="testimonial" class="section rad-animation-group">
     <div class="container">
         <h2 class="rad-fade-down">{{ i18n "testimonials_title" }}</h2>
-        <div class="row row--padded mb-0 rad-fade-down">
 
-            {{ $baseLangSite := .Sites.Default }}
-            {{ $testimonials := (where .Site.RegularPages.ByDate "Type" "testimonial") }}
-            {{ $testimonials = $testimonials | lang.Merge (where $baseLangSite.RegularPages.ByDate "Type" "testimonial") }}
-            {{ range $testimonials }}
+        {{ $baseLangSite := .Sites.Default }}
+        {{ $testimonials := (where .Site.RegularPages.ByDate "Type" "testimonial") }}
+        {{ $testimonials = $testimonials | lang.Merge (where $baseLangSite.RegularPages.ByDate "Type" "testimonial") }}
 
-            <div class="col-12 col-md-6 mb-5 mb-md-0 testimonial container">
-                <i class="icon-quote-left"></i>
-                <p>
-                    {{ .Content }}
-                </p>
-                <div class="testimonial__author row gx-0">
-
-                         <div class="testimonial__author-info col-10">
-                        <h3>{{ .Params.name }}</h3>
-                        <span>{{ .Params.position }}</span>
-                    </div>
+        <div class="tcarousel rad-fade-down">
+            <div class="tcarousel__track">
+                {{ range $i, $t := $testimonials }}
+                <div class="tcarousel__slide{{ if eq $i 0 }} is-active{{ end }}">
+                    <blockquote class="tcarousel__quote">
+                        <p>{{ $t.Content }}</p>
+                        <footer class="tcarousel__author">
+                            <strong>{{ $t.Params.name }}</strong>
+                            <span>{{ $t.Params.position }}</span>
+                        </footer>
+                    </blockquote>
                 </div>
+                {{ end }}
             </div>
-            {{ end }}
+
+            <div class="tcarousel__nav">
+                <button class="tcarousel__btn tcarousel__btn--prev" aria-label="Previous">&#8592;</button>
+                <div class="tcarousel__dots">
+                    {{ range $i, $t := $testimonials }}
+                    <button class="tcarousel__dot{{ if eq $i 0 }} is-active{{ end }}" data-index="{{ $i }}" aria-label="{{ $t.Params.name }}"></button>
+                    {{ end }}
+                </div>
+                <button class="tcarousel__btn tcarousel__btn--next" aria-label="Next">&#8594;</button>
+            </div>
         </div>
     </div>
 </section>
+
+<script>
+(function () {
+    document.querySelectorAll('.tcarousel').forEach(function (carousel) {
+        var slides  = carousel.querySelectorAll('.tcarousel__slide');
+        var dots    = carousel.querySelectorAll('.tcarousel__dot');
+        var current = 0;
+        var busy    = false;
+
+        function goTo(n, dir) {
+            if (busy || n === current) return;
+            busy = true;
+
+            var prev = current;
+            current  = (n + slides.length) % slides.length;
+            dir      = dir !== undefined ? dir : (current > prev ? 1 : -1);
+
+            var outClass = dir > 0 ? 'slide-out-left'  : 'slide-out-right';
+            var inClass  = dir > 0 ? 'slide-in-right'  : 'slide-in-left';
+
+            dots[prev].classList.remove('is-active');
+            dots[current].classList.add('is-active');
+
+            slides[current].classList.add(inClass, 'is-active');
+            slides[prev].classList.add(outClass);
+
+            setTimeout(function () {
+                slides[prev].classList.remove('is-active', outClass);
+                slides[current].classList.remove(inClass);
+                busy = false;
+            }, 420);
+        }
+
+        carousel.querySelector('.tcarousel__btn--prev').addEventListener('click', function () { goTo(current - 1, -1); });
+        carousel.querySelector('.tcarousel__btn--next').addEventListener('click', function () { goTo(current + 1,  1); });
+        dots.forEach(function (dot) {
+            dot.addEventListener('click', function () {
+                var idx = parseInt(dot.dataset.index);
+                goTo(idx, idx > current ? 1 : -1);
+            });
+        });
+    });
+})();
+</script>
 {{ end }}

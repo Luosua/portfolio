@@ -115,3 +115,5 @@
   translation: "Sorry, but the page you were looking for could not be found."
 - id: "404_button"
   translation: "Back to homepage"
+- id: "ai_generated_image"
+  translation: "AI-generated content"

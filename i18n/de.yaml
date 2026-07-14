@@ -115,3 +115,5 @@
   translation: "Die gesuchte Seite konnte leider nicht gefunden werden."
 - id: "404_button"
   translation: "Zurück zur Startseite"
+- id: "ai_generated_image"
+  translation: "Inhalt KI-generiert"
