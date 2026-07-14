@@ -496,6 +496,11 @@ html body #showcase .profile-image {
   margin: 0;
   line-height: 1.4;
 }
+.case-study-card__client {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.55);
+  margin: 4px 0 0;
+}
 
 /* Project single page */
 .case-study-single__title {

@@ -117,3 +117,5 @@
   translation: "Zurück zur Startseite"
 - id: "ai_generated_image"
   translation: "Inhalt KI-generiert"
+- id: "case_study_company"
+  translation: "Unternehmen"

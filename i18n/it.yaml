@@ -128,3 +128,5 @@
   translation: "Tornare alla homepage"
 - id: "ai_generated_image"
   translation: "Contenuto generato dall'IA"
+- id: "case_study_company"
+  translation: "Azienda"

@@ -37,6 +37,16 @@
 
           <div class="col-12 col-md-7 case-study-single__meta">
 
+            {{ with .Params.company }}
+            <div class="case-study-meta__block">
+              <img src="{{ "/images/group.svg" | relURL }}" alt="" class="case-study-meta__icon" style="width:40px;height:40px;object-fit:contain;flex-shrink:0;" />
+              <div class="case-study-meta__body">
+                <h4>{{ i18n "case_study_company" }}</h4>
+                <p class="mb-0">{{ . }}</p>
+              </div>
+            </div>
+            {{ end }}
+
             <div class="case-study-meta__block">
               <img src="{{ "/images/stack.svg" | relURL }}" alt="" class="case-study-meta__icon" style="width:40px;height:40px;object-fit:contain;flex-shrink:0;" />
               <div class="case-study-meta__body">

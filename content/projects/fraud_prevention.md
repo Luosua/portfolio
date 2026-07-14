@@ -4,6 +4,7 @@ title: 'Scalable AI for Fraud Prevention in Banking'
 draft: false # set to "true" if you want to hide the content
 
 params:
+    company: "CBTW"
     image:
         x: "images/works/fraud_prevention.png"
         _2x: "images/works/fraud_prevention.png"

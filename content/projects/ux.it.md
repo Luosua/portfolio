@@ -4,6 +4,7 @@ title: 'Piattaforma di valutazione UX basata su AI'
 draft: false # set to "true" if you want to hide the content
 
 params:
+    company: "Atruvia"
     image:
         x: "images/works/ux.png"
         _2x: "images/works/ux.png"

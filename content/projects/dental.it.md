@@ -4,6 +4,7 @@ title: 'Assistente AI per la documentazione odontoiatrica'
 draft: false # set to "true" if you want to hide the content
 
 params:
+    company: "dentiscribe"
     image:
         x: "images/works/dental.png"
         _2x: "images/works/dental.png"

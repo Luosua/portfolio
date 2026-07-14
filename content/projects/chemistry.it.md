@@ -4,6 +4,7 @@ title: "Chatbot per il Supporto Clienti nell'Industria Chimica"
 draft: false # set to "true" if you want to hide the content
 
 params:
+    company: "CBTW"
     image:
         x: "images/works/chemistry_project.png"
         _2x: "images/works/chemistry_project.png"

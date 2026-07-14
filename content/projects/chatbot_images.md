@@ -4,6 +4,7 @@ title: 'Smart AI Chatbot with Image Understanding & Enterprise Integration'
 draft: false # set to "true" if you want to hide the content
 
 params:
+    company: "CBTW"
     image:
         x: "images/works/chatbot_images.png"
         _2x: "images/works/chatbot_images.png"

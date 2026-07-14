@@ -4,6 +4,7 @@ title: 'AI-Powered Robotics: Smarter Motion Planning with Reinforcement Learning
 draft: false # set to "true" if you want to hide the content
 
 params:
+    company: "Robert Bosch GmbH"
     image:
         x: "images/works/reinforcement_learning.png"
         _2x: "images/works/reinforcement_learning.png"

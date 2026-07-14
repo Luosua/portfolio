@@ -4,6 +4,7 @@ title: 'KI-gestützte Robotik: Effiziente Bewegungsplanung mit Reinforcement Lea
 draft: false # set to "true" if you want to hide the content
 
 params:
+    company: "Robert Bosch GmbH"
     image:
         x: "images/works/reinforcement_learning.png"
         _2x: "images/works/reinforcement_learning.png"

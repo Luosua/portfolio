@@ -4,6 +4,7 @@ title: 'AI-Powered KYC Automation & Fraud Prevention in Financial Services'
 draft: false # set to "true" if you want to hide the content
 
 params:
+    company: "Qundo"
     image:
         x: "images/works/computer_vision.png"
         _2x: "images/works/computer_vision.png"
